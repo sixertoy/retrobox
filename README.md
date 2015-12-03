@@ -65,7 +65,8 @@ sudo reboot
 9. Configure Wifi
 9. Reboot
 10. Install Roms
-11. Reboot
+11. Install BIOS
+12. Reboot
 
 ### Install LCD Overlays
 
