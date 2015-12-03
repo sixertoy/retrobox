@@ -1,6 +1,19 @@
 # Retrobox
 RPI + Retropie + Waveshare TFT 3.5 Screen
 
+
+
+sudo apt-get update
+
+## Tools
+
+```bash
+df -h
+sudo apt-get install lsb-release
+lsb_release
+```
+
+
 ## Mirroring HDMI to LCD
 
 ```bash
