@@ -68,6 +68,12 @@ emulationstation
 
 ## Tools
 
+### Boot Log
+
+```bash
+dmesg
+```
+
 ### Free Disk Space
 
 ```bash
