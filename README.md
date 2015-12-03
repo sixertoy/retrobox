@@ -11,7 +11,7 @@ sudo raspi-config
 boot options > console autologin
 expand filesystem
 ```bash
-reboot
+sudo reboot
 ```
 
 ### 2. [INSTALL RETROPIE](https://github.com/RetroPie/RetroPie-Setup/wiki/Manual-Installation)
@@ -31,7 +31,7 @@ sudo reboot
 
 ```bash
 sudo rpi-update
-reboot
+sudo reboot
 sudo vi /boot/config.txt
 > hdmi_force_hotplug=1
 
@@ -41,7 +41,7 @@ sudo mv /usr/share/X11/xorg.conf.d/99-fbturbo.conf ~
 con2fbmap 1 1
 ```
 
-### 4. Mirroring HDMI to LCD
+### 4. [MIRRORING HDMI TO LCD](http://blog.petrockblock.com/forums/topic/swap-emulationstation-from-hdmi-to-lcd/#post-107972)
 
 ```bash
 sudo apt-get install cmake
@@ -75,5 +75,3 @@ sudo su
 apt-get install lsb-release 
 lsb_release
 ```
-
-[source](http://blog.petrockblock.com/forums/topic/swap-emulationstation-from-hdmi-to-lcd/#post-107972)
