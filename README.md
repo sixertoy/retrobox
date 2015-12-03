@@ -132,3 +132,9 @@ sudo su
 apt-get install lsb-release 
 lsb_release
 ```
+
+### Disbale Overclocking
+
+```bash
+hold shift at startup
+```
