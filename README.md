@@ -3,9 +3,8 @@ RPI + Retropie + Waveshare TFT 3.5 Screen
 
 ## Install
 
-### Init
+### 1. [INSTALL RASPBIAN - Wheezy](https://www.raspberrypi.org/downloads/raspbian/)
 
-### [INSTALL RASPBIAN - Wheezy](https://www.raspberrypi.org/downloads/raspbian/)
 ```bash
 sudo raspi-config
 ```
@@ -15,7 +14,7 @@ expand filesystem
 reboot
 ```
 
-### [INSTALL RETROPIE](https://github.com/RetroPie/RetroPie-Setup/wiki/Manual-Installation)
+### 2. [INSTALL RETROPIE](https://github.com/RetroPie/RetroPie-Setup/wiki/Manual-Installation)
 
 ```bash
 sudo apt-get update && sudo apt-get upgrade
@@ -28,7 +27,8 @@ sudo ./retropie_setup.sh
 sudo reboot
 ```
 
-### CONFIG SCREEN
+### 3. CONFIG SCREEN
+
 ```bash
 sudo rpi-update
 reboot
@@ -41,24 +41,7 @@ sudo mv /usr/share/X11/xorg.conf.d/99-fbturbo.conf ~
 con2fbmap 1 1
 ```
 
-## Tools
-
-### Free Disk Space
-
-```bash
-df -h
-```
-
-### Show distrib
-
-```bash
-sudo su
-apt-get install lsb-release 
-lsb_release
-```
-
-
-## Mirroring HDMI to LCD
+### 4. Mirroring HDMI to LCD
 
 ```bash
 sudo apt-get install cmake
@@ -75,6 +58,22 @@ fbcp &
 
 #now you can run emulation station:
 emulationstation
+```
+
+## Tools
+
+### Free Disk Space
+
+```bash
+df -h
+```
+
+### Show distrib
+
+```bash
+sudo su
+apt-get install lsb-release 
+lsb_release
 ```
 
 [source](http://blog.petrockblock.com/forums/topic/swap-emulationstation-from-hdmi-to-lcd/#post-107972)
