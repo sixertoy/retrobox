@@ -31,6 +31,7 @@ reboot
 
 ```bash
 sudo su
+apt-get install rpi-update
 rpi-update
 reboot
 ```
