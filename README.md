@@ -39,7 +39,7 @@ reboot
 sudo su
 vi /boot/config.txt
 > hdmi_force_hotplug=1
-modprobe fbtft_device name=waveshare
+modprobe fbtft_device name=waveshare35a
 FRAMEBUFFER=/dev/fb1 startx
 mv /usr/share/X11/xorg.conf.d/99-fbturbo.conf ~
 con2fbmap 1 1
