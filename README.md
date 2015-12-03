@@ -44,15 +44,39 @@ sudo reboot
 1. Install EmulationStation
 2. Install Retroarch
 3. Install Emulators
-  - **iMame4all** libretro-imame4all
-  - **Playstation** libretro-pcsx-rearmed
-  - 
+  - iMame4all : libretro-imame4all
+  - Playstation : libretro-pcsx-rearmed
+  - Super Nintendo : libretro-pocketsnes
+  - Game Boy Advance : libretro-gpsp
+  - NES : libretro-fceumm
+  - Master System : libretro-picodrive
+  - PCEngine : libretro-mednafen-pce-fast
+  - N64 : MUPEN64Plus
 4. Reboot
-5. Configure Wifi
-6. Autoload EmulationStation
-7. Enable Samba shares
-8. Install Themes (simple, simple-dark, nbba, clean-look, simplebigart)
+5. Autoload EmulationStation
+6. Bash Welcome Tweak
+7. Install Themes
+  - simple
+  - simple-dark
+  - nbba
+  - simplebigart
+  - clean-look
+8. Enable Samba shares
+9. Configure Wifi
 9. Reboot
+10. Install Roms
+11. Reboot
+
+### Install LCD Overlays
+
+```bash
+git clone https://github.com/swkim01/waveshare-dtoverlays.git
+sudo cp waveshare-dtoverlays/waveshare35a-overlay.dtb /boot/overlays/
+sudo nano /boot/config.txt
+dtparam=spi=on
+dtoverlay=waveshare35a
+#dtoverlay=waveshare35a:swapxy=1
+```
 
 ### 3. [MIRRORING HDMI TO LCD](http://blog.petrockblock.com/forums/topic/swap-emulationstation-from-hdmi-to-lcd/#post-107972)
 
