@@ -1,15 +1,59 @@
 # Retrobox
 RPI + Retropie + Waveshare TFT 3.5 Screen
 
+## Install
 
+### Init
 
-sudo apt-get update
+### [INSTALL RASPBIAN - Wheezy](https://www.raspberrypi.org/downloads/raspbian/)
+```bash
+sudo raspi-config
+```
+boot options > console autologin
+expand filesystem
+```bash
+reboot
+```
+
+### [INSTALL RETROPIE](https://github.com/RetroPie/RetroPie-Setup/wiki/Manual-Installation)
+
+```bash
+sudo apt-get update && sudo apt-get upgrade
+sudo apt-get install -y git dialog
+cd
+git clone --depth=1 https://github.com/RetroPie/RetroPie-Setup.git
+cd RetroPie-Setup
+chmod +x retropie_setup.sh
+sudo ./retropie-setup
+reboot
+```
+
+### CONFIG SCREEN
+```bash
+sudo rpi-update
+reboot
+sudo vi /boot/config.txt
+> hdmi_force_hotplug=1
+
+sudo modprobe fbtft_device name=waveshare
+FRAMEBUFFER=/dev/fb1 startx
+sudo mv /usr/share/X11/xorg.conf.d/99-fbturbo.conf ~
+con2fbmap 1 1
+```
 
 ## Tools
 
+### Free Disk Space
+
 ```bash
 df -h
-sudo apt-get install lsb-release
+```
+
+### Show distrib
+
+```bash
+sudo su
+apt-get install lsb-release 
 lsb_release
 ```
 
