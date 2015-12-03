@@ -42,13 +42,17 @@ sudo reboot
 ```
 
 1. Install EmulationStation
-2. Autoload EmulationStation
-3. Install Themes (simple, simple-dark, nbba, clean-look, simplebigart)
-4. Enable Samba shares
+2. Install Retroarch
+3. Install Emulators
+  - **iMame4all** libretro-imame4all
+  - **Playstation** libretro-pcsx-rearmed
+  - 
+4. Reboot
 5. Configure Wifi
-6. Install Retroarch
-7. Install Emulators
-8. Reboot
+6. Autoload EmulationStation
+7. Enable Samba shares
+8. Install Themes (simple, simple-dark, nbba, clean-look, simplebigart)
+9. Reboot
 
 ### 3. [MIRRORING HDMI TO LCD](http://blog.petrockblock.com/forums/topic/swap-emulationstation-from-hdmi-to-lcd/#post-107972)
 
