@@ -16,15 +16,14 @@ reboot
 ### 2. [INSTALL RETROPIE](https://github.com/RetroPie/RetroPie-Setup/wiki/Manual-Installation)
 
 ```bash
-sudo su
-apt-get update && apt-get upgrade
-apt-get install -y git dialog
+sudo apt-get update && sudo apt-get upgrade
+sudo apt-get install -y git dialog
 cd
 git clone --depth=1 https://github.com/RetroPie/RetroPie-Setup.git
 cd RetroPie-Setup
 chmod +x retropie_setup.sh
-./retropie_setup.sh
-reboot
+sudo ./retropie_setup.sh
+sudo reboot
 ```
 
 ### 3. CONFIG SCREEN
