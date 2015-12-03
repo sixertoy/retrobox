@@ -1,7 +1,7 @@
 # Retrobox
 RPI + Retropie + Waveshare TFT 3.5 Screen
 
-## Mirroring HDMI to LCD
+## [Mirroring HDMI to LCD](http://blog.petrockblock.com/forums/topic/swap-emulationstation-from-hdmi-to-lcd/#post-107972)
 
 ```bash
 sudo apt-get install cmake
