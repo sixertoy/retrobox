@@ -23,9 +23,9 @@ sudo apt-get install -y git dialog
 cd
 git clone --depth=1 https://github.com/RetroPie/RetroPie-Setup.git
 cd RetroPie-Setup
-chmod +x retropie_setup.sh
-sudo ./retropie-setup
-reboot
+sudo chmod +x retropie_setup.sh
+sudo ./retropie_setup.sh
+sudo reboot
 ```
 
 ### CONFIG SCREEN
