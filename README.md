@@ -7,10 +7,8 @@ RPI + Retropie + Waveshare TFT 3.5 Screen
 
 ```bash
 sudo raspi-config
-```
-boot options > console autologin
-expand filesystem
-```bash
+> boot options - console autologin
+> expand filesystem
 sudo reboot
 ```
 
@@ -32,9 +30,11 @@ sudo reboot
 ```bash
 sudo rpi-update
 sudo reboot
+```
+
+```bash
 sudo vi /boot/config.txt
 > hdmi_force_hotplug=1
-
 sudo modprobe fbtft_device name=waveshare
 FRAMEBUFFER=/dev/fb1 startx
 sudo mv /usr/share/X11/xorg.conf.d/99-fbturbo.conf ~
