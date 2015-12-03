@@ -72,10 +72,13 @@ emulationstation
 ### 5. SET FBCP AT STARTUP
 
 ```bash
+sudo nano /etc/init.d/rc.local
+function do_start()
+  /usr/local/bin/fbcp &
+  ...
 ```
 
-
-### 5. CONFIG SCREEN
+### 6. CONFIG SCREEN
 
 ```bash
 ```
