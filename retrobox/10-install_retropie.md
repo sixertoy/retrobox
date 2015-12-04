@@ -32,3 +32,5 @@ sudo ./retropie_setup.sh
 - nbba
 - simplebigart
 - clean-look
+- 
+[BIOS](https://github.com/RetroPie/RetroPie-Setup/wiki/BIOS-setup-for-RetroPie)
