@@ -1,4 +1,4 @@
-# 3. Install Retropie
+# 4. Install Retropie
 
 ```bash
 cd
@@ -13,6 +13,7 @@ sudo ./retropie_setup.sh
 » Install Retroarch (5 | 124) [Binary]
 » Install Emulators
 reboot
+
 cd ~/RetroPie-Setup
 sudo ./retropie_setup.sh
 » Configure Samba shares (3 | 323) [Install]
