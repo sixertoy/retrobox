@@ -28,8 +28,8 @@
 
 1. [Install Raspbian](./retrobox/01-install_raspbian.md)
 2. [Install LCD](./retrobox/02-config_lcd.md)
-4. [Install Retropie](./retrobox/04-install_retropie.md)
-3. [Install Wifi](./retrobox/03-install_wifi.md)
+3. [Install Retropie](./retrobox/03-install_retropie.md)
+4. [Install Wifi](./retrobox/04-install_wifi.md)
 5. [Create Alisases](./retrobox/05-create_aliases.md)
 
 ## Tweaks & Helps
