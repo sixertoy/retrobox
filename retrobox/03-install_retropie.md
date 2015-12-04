@@ -1,6 +1,11 @@
 # 3. Install Retropie
 
 ```bash
+sudo nano /boot/config.txt
+gpu_mem=320
+```
+
+```bash
 cd
 wget https://github.com/RetroPie/RetroPie-Setup/archive/3.2.1.tar.gz
 tar -zxvf 3.2.1.tar.gz
