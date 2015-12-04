@@ -95,6 +95,11 @@ sudo nano /boot/config.txt
 sudo reboot
 ```
 
+### 6. Install Wifi with edimax key
+
+```bash
+```
+
 [source](https://github.com/swkim01/waveshare-dtoverlays)
 
 ### 10. Tweaks & Helps
