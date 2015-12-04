@@ -1,4 +1,4 @@
-# 7. Install FBCP
+# 4. Install FBCP
 
 > Install fbcp
 
