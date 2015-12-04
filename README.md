@@ -111,6 +111,8 @@ sudo nano /boot/config.txt
 sudo reboot
 ```
 
+[source](https://github.com/swkim01/waveshare-dtoverlays)
+
 #### 6. Install Wifi
 
 > Checkup
