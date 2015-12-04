@@ -42,3 +42,19 @@ sudo raspi-config
 » Set Time zone : Paris
 sudo reboot
 ```
+
+## 3. Update Packages
+```bash
+sudo apt-get update
+sudo apt-get upgrade
+sudo rpi-update
+sudo reboot
+```
+
+## 4. Install tweaks
+```bash
+sudo apt-get install lsb-release
+» lbs_release -a
+```
+
+
