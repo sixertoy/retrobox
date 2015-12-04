@@ -47,6 +47,8 @@ sudo raspi-config
 sudo reboot
 ```
 
+[source](http://www.tropfacile.net/doku.php/raspberry-pi/comment-passer-votre-raspberry-en-francais)
+
 ## 3. Update Packages
 ```bash
 sudo apt-get update
