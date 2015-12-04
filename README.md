@@ -55,6 +55,18 @@ sudo rpi-update
 sudo reboot
 ```
 
+## 4. Install Overlay
+
+```bash
+git clone https://github.com/swkim01/waveshare-dtoverlays.git
+sudo cp waveshare-dtoverlays/waveshare35a-overlay.dtb /boot/overlays/
+sudo nano /boot/config.txt
+» dtparam=spi=on
+» dtoverlay=waveshare35a
+```
+
+[source](https://github.com/swkim01/waveshare-dtoverlays)
+
 ## 4. Install tweaks
 
 > Show Wheezy version
