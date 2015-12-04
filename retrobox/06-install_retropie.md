@@ -1,4 +1,4 @@
-# 10. Install Retropie
+# 7. Install Retropie
 
 ```bash
 cd
