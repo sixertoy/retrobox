@@ -1,4 +1,4 @@
-# 8. Overclocking & Config LCD
+# 5. Overclocking & Config LCD
 
 > See sudo nano /etc/modules for FPS and Frequency
 
