@@ -109,4 +109,10 @@ sudo nano /usr/share/X11/xorg.conf.d/99fbturbo.conf
 Option "fbdev" "/dev/fb0"
 ```
 
+> Install Chromium
+
+```bash
+sudo apt-get install chromium
+```
+
 
