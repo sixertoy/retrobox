@@ -10,8 +10,13 @@ cd RetroPie-Setup
 chmod +x retropie_setup.sh
 sudo ./retropie_setup.sh
 » Install Emulationstation (5 | 307) [Binary]
+» Install Retroarch (5 | 124) [Binary]
+» Install Emulators
+reboot
+sudo ./retropie_setup.sh
 ```
 
 #### Emulators
 
-- 
+- Snes9x (5 | 128) [Binary]
+- pisnes  (5 | 121) [Binary]
