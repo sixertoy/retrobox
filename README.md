@@ -163,7 +163,11 @@ wget https://github.com/RetroPie/RetroPie-Setup/archive/v3.0.tar.gz
 tar -zxvf v3.0.tar.gz
 rm v3.0.tar.gz
 mv RetroPie-Setup-3.0/ RetroPie-Setup
+```
+
+```bash
 sudo ./retropie_setup.sh
+» Install Emulationstation (5 | 307) [Binary]
 ```
 
 ## Tweaks & Helps
@@ -186,7 +190,7 @@ Copy bash_welcome_script inside ~/.bashrc
 ```bash
 sudo nano /usr/share/X11/xorg.conf.d/99fbturbo.conf
 Option "fbdev" "/dev/fb0" # HDMI
-Option "fbdev" "/dev/fb0" # LCD
+Option "fbdev" "/dev/fb1" # LCD
 ```
 
 > Install Chromium
