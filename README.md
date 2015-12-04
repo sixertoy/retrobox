@@ -11,11 +11,17 @@
 
 ## Software
 
-### Windows
+##### Windows
 
 - [SDFormater](https://www.sdcard.org/downloads/formatter_4/)
 - [WinSCP](https://winscp.net/eng/docs/lang:fr)
 - [Win32DiskImage](http://sourceforge.net/projects/win32diskimager/)
+- [SuperPutty](https://github.com/jimradford/superputty)
+
+##### Raspbian
+
+- [Raspbian Wheezy](https://www.raspberrypi.org/downloads/raspbian/)
+- [RetroPie 3.0](https://github.com/RetroPie/RetroPie-Setup/releases/tag/v3.0)
 
 ## Install
 
