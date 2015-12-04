@@ -66,6 +66,8 @@ sudo nano /etc/inittab
 sudo reboot
 ```
 
+[source](http://www.opentechguides.com/how-to/article/raspberry-pi/5/raspberry-pi-auto-start.html)
+
 ## 4. Install Overlay
 
 ```bash
