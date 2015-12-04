@@ -76,3 +76,12 @@ lsusb
 # show installed modules
 lsmod
 ```
+
+> Console Font Size
+
+```bash
+sudo nano /etc/default/console-setup
+» FONTFACE="Terminus"
+» FONTSIZE="16x32"
+sudo /etc/init.d/console-setup restart
+```
