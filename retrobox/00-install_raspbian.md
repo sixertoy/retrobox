@@ -66,3 +66,7 @@ sudo reboot
 [source](http://www.opentechguides.com/how-to/article/raspberry-pi/5/raspberry-pi-auto-start.html)
 
 
+2 - Install LCD
+3 - Install
+
+
