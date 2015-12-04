@@ -15,5 +15,7 @@ sdtv_mode=2 pal
 ```
 
 [source](https://github.com/notro/fbtft/wiki/Performance#mz61581-pi-ext)
+
 [source](http://elinux.org/RPiconfig#Video_mode_options)
+
 [source](https://plomteuxkevin.wordpress.com/2013/02/24/configuration-avancee-du-raspberry/)
