@@ -1,4 +1,4 @@
-# 6. Install Wifi
+# 3. Install Wifi
 
 > Checkup
 
