@@ -137,7 +137,7 @@ sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
 » }
 ```
 
-> Init
+> Init only if checkuo was KO
 
 ```bash
 sudo nano /etc/network/interfaces
