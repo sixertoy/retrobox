@@ -17,6 +17,7 @@
 - [WinSCP](https://winscp.net/eng/docs/lang:fr)
 - [Win32DiskImage](http://sourceforge.net/projects/win32diskimager/)
 - [SuperPutty](https://github.com/jimradford/superputty)
+- [MiniTool Partition Manager](http://www.partitionwizard.com)
 
 ##### Raspbian
 
