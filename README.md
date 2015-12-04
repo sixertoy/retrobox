@@ -75,8 +75,8 @@ lsmod
 
 ```bash
 sudo nano /etc/default/console-setup
-» FONTFACE="Terminus"
-» FONTSIZE="6x12"
+» FONTFACE="TerminusBold"
+» FONTSIZE="10x20"
 sudo /etc/init.d/console-setup restart
 ```
 
