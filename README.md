@@ -126,12 +126,6 @@ iwconfig
 > Config
 
 ```bash
-sudo nano /etc/network/interfaces
-» auto wlan0
-» allow-hotplug wlan0
-» iface wlan0 inet manual
-» wpa-roam /etc/wpa_supplicant/wpa_supplicant.conf
-
 sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
 » network={
 » ssid="_SSID_" # replace with box id
@@ -141,17 +135,24 @@ sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
 » group=CCMP TKIP
 » psk="_WPA_SHARED_KEY_" # replace with secret key
 » }
+```
 
+> Init
+
+```bash
+sudo nano /etc/network/interfaces
+» auto wlan0
+» allow-hotplug wlan0
+» iface wlan0 inet manual
+» wpa-roam /etc/wpa_supplicant/wpa_supplicant.conf
 # restart adpater
 sudo ifup wlan0
-
 # show ip
 ifconfig wlan0
-
 sudo reboot
 ```
 
-[source](https://github.com/swkim01/waveshare-dtoverlays)
+[source](http://www.savagehomeautomation.com/projects/raspberry-pi-installing-the-edimax-ew-7811un-usb-wifi-adapte.html)
 
 ### 10. Tweaks & Helps
 
