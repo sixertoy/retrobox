@@ -1,4 +1,4 @@
-# 1. Install Raspbian
+# 2. Install Raspbian
 
 > Expand FS
 
