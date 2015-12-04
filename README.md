@@ -68,7 +68,7 @@ sudo reboot
 
 [source](http://www.opentechguides.com/how-to/article/raspberry-pi/5/raspberry-pi-auto-start.html)
 
-## 4. Install Overlay
+## 5. Install Overlay
 
 ```bash
 sudo raspi-config
@@ -87,7 +87,7 @@ sudo reboot
 
 [source](https://github.com/swkim01/waveshare-dtoverlays)
 
-## 4. Install tweaks
+## 6. Install tweaks
 
 > Show Wheezy version
 
