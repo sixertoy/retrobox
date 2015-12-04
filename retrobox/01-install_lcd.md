@@ -9,6 +9,13 @@ sudo raspi-config
 sudo reboot
 ```
 
+> Install Overlay
+
+```bash
+git clone https://github.com/swkim01/waveshare-dtoverlays.git
+sudo cp waveshare-dtoverlays/waveshare35a-overlay.dtb /boot/overlays/
+```
+
 > Changes config.txt
 
 ```bash
@@ -19,12 +26,17 @@ sudo nano /boot/config.txt
 » gpu_mem1025=256
 
 » overscan_scale=1
+» overscan_top=-18
+» overscan_left=-18
+» overscan_right=-18
+» overscan_bottom=-18
 
 » dtparam=spi=on
 » dtparam=i2c_arm=on
 
 » dtoverlay=w1-gpio-pullup,gpiopin=4,extpullup=1
 » dtoverlay=ads7846,cs=1,penirq=17,penirq_pull=2,speed=1000000,keep_vref_on=1,swapxy=1,pmax=255,xohms=60,xmin=200,xmax=3900,ymin=200,ymax=3900
+» dtoverlay=waveshare35a
 ```
 
 > Load drivers and FBCP
