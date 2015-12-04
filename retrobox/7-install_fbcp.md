@@ -33,4 +33,7 @@ sudo chmod +x /etc/init.d/fbcp
 sudo update-rc.d fbcp defaults
 ```
 
+For a manual start of fbcp run: fbcp &
+For a manual stop of fbcp run: killall fbcp
+
 [source](https://github.com/watterott/RPi-Display/blob/master/docu/FAQ.md)
