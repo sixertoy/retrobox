@@ -8,15 +8,8 @@
 # See the LICENSE.md file at the top-level directory of this distribution and 
 # at https://raw.githubusercontent.com/RetroPie/RetroPie-Setup/master/LICENSE.md
 #
+# Copy inside "$home/.bashrc"
 
-rp_module_id="bashwelcometweak"
-rp_module_desc="Bash Welcome Tweak (shows additional system info on login)"
-rp_module_menus="3+configure"
-rp_module_flags="nobin"
-
-function install_bashwelcometweak() {
-    remove_bashwelcometweak
-    cat >> "$home/.bashrc" <<\_EOF_
 # RETROPIE PROFILE START
 # Thanks to http://blog.petrockblock.com/forums/topic/retropie-mushroom-motd/#post-3965
 
@@ -69,32 +62,3 @@ $(tput sgr0)"
 }
 
 retropie_welcome
-
-# RETROPIE PROFILE END
-_EOF_
-}
-
-function remove_bashwelcometweak() {
-    sed -i '/RETROPIE PROFILE START/,/RETROPIE PROFILE END/d' "$home/.bashrc"
-}
-
-function configure_bashwelcometweak() {
-    cmd=(dialog --backtitle "$__backtitle" --menu "Bash Welcome Tweak Configuration" 22 86 16)
-    options=(
-        1 "Install Bash Welcome Tweak"
-        2 "Remove Bash Welcome Tweak"
-    )
-    choices=$("${cmd[@]}" "${options[@]}" 2>&1 >/dev/tty)
-    if [[ -n "$choices" ]]; then
-        case $choices in
-            1)
-                install_bashwelcometweak
-                printMsgs "dialog" "Installed Bash Welcome Tweak."
-                ;;
-            2)
-                remove_bashwelcometweak
-                printMsgs "dialog" "Removed Bash Welcome Tweak."
-                ;;
-        esac
-    fi
-}
