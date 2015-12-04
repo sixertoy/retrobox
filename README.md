@@ -49,9 +49,18 @@ sudo reboot
 ```
 
 ## 4. Install tweaks
+
+> Show Wheezy version
+
 ```bash
 sudo apt-get install lsb-release
-» lbs_release -a
+» lsb_release -a
+```
+
+> Welcome Script
+
+```bash
+Copy bash_welcome_script inside ~/.bashrc
 ```
 
 
