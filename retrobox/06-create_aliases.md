@@ -1,4 +1,4 @@
-# 6. Create aliases
+# 7. Create aliases
 
 ```bash
 sudo nano ~/.bash_aliases
