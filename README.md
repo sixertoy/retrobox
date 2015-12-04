@@ -186,7 +186,13 @@ sudo nano /etc/modules
 
 > Init FBCP & Startup
 
+```bash
+sudo wget -O /etc/init.d/fbcp https://github.com/watterott/RPi-Display/raw/master/docu/fbcp
+sudo chmod +x /etc/init.d/fbcp
+sudo update-rc.d fbcp defaults
+```
 
+[source](https://github.com/watterott/RPi-Display/blob/master/docu/FAQ.md)
 
 #### 8. Install Retropie
 
