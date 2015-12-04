@@ -1,4 +1,4 @@
-# 5. Complete Installation
+# 5. Setup Aliases & Wifi
 
 > Create Aliases
 
