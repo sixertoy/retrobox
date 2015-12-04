@@ -35,8 +35,8 @@
 6. [Install Wifi](./retrobox/6-install_wifi.md)
 7. [Install FBCP](./retrobox/7-install_fbcp.md)
 8. [Config LCD](./retrobox/8-config_lcd.md)
-9. [Create Alisases](./retrobox/9-create_aliases.md)
-10. [Install Retropie](./retrobox/10-install_retropie.md)
+9. [Install Retropie](./retrobox/9-install_retropie.md)
+10. [Create Alisases](./retrobox/10-create_aliases.md)
 
 ## Tweaks & Helps
 
