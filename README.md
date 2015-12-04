@@ -97,7 +97,7 @@ sudo reboot
 
 [source](https://github.com/swkim01/waveshare-dtoverlays)
 
-### 6. Install tweaks
+### 10. Tweaks & Helps
 
 > Show Wheezy version
 
@@ -116,13 +116,24 @@ Copy bash_welcome_script inside ~/.bashrc
 
 ```bash
 sudo nano /usr/share/X11/xorg.conf.d/99fbturbo.conf
-Option "fbdev" "/dev/fb0"
+Option "fbdev" "/dev/fb0" # HDMI
+Option "fbdev" "/dev/fb0" # LCD
 ```
 
 > Install Chromium
 
 ```bash
 sudo apt-get install chromium
+```
+
+> Command line
+
+```bash
+# show usb devices
+lsusb
+
+# show installed modules
+lsmod
 ```
 
 
