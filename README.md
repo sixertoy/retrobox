@@ -102,4 +102,11 @@ sudo apt-get install lsb-release
 Copy bash_welcome_script inside ~/.bashrc
 ```
 
+> Switch between HDMI/LCD
+
+```bash
+sudo nano /usr/share/X11/xorg.conf.d/99fbturbo.conf
+Option "fbdev" "/dev/fb0"
+```
+
 
