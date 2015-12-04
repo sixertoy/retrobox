@@ -30,7 +30,7 @@
 2. [Install LCD](./retrobox/02-config_lcd.md)
 3. [Install Retropie](./retrobox/03-install_retropie.md)
 4. [Install Wifi](./retrobox/04-install_wifi.md)
-5. [Create Alisases](./retrobox/05-create_aliases.md)
+5. [Setup Wifi & Alisases](./retrobox/05-setup_aliases_wifi.md)
 
 ## Tweaks & Helps
 
