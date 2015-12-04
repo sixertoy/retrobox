@@ -11,7 +11,7 @@ hdmi_force_hotplug=1
 hdmi_group=2
 hdmi_mode=87
 hdmi_cvt=320 240 60 1 0 0 0
-sdtv_mode=2 pal
+sdtv_mode=2
 ```
 
 [source](https://github.com/notro/fbtft/wiki/Performance#mz61581-pi-ext)
