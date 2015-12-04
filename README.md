@@ -57,6 +57,15 @@ sudo rpi-update
 sudo reboot
 ```
 
+## 4. Auto Login
+
+```bash
+sudo nano /etc/inittab
+» #1:2345:respawn:/sbin/getty 115200 tty1
+» 1:2345:respawn:/bin/login -f pi tty1 </dev/tty1 >/dev/tty1 2>&1
+sudo reboot
+```
+
 ## 4. Install Overlay
 
 ```bash
