@@ -26,16 +26,16 @@
 
 ## Install
 
-0. [Install Raspbian](./retrobox/0-install_raspbian.md)
-1. [Expand FS](./retrobox/1-expand_fs.md)
-2. [Change locales](./retrobox/2-change_locales.md)
-3. [Update Packages](./retrobox/3-update_packages.md)
-4. [Auto Login](./retrobox/4-auto_login.md)
-5. [Install Overlay](./retrobox/5-install_overlay.md)
-6. [Install Wifi](./retrobox/6-install_wifi.md)
-7. [Install FBCP](./retrobox/7-install_fbcp.md)
-8. [Config LCD](./retrobox/8-config_lcd.md)
-9. [Install Retropie](./retrobox/9-install_retropie.md)
+0. [Install Raspbian](./retrobox/00-install_raspbian.md)
+1. [Expand FS](./retrobox/01-expand_fs.md)
+2. [Change locales](./retrobox/02-change_locales.md)
+3. [Update Packages](./retrobox/03-update_packages.md)
+4. [Auto Login](./retrobox/04-auto_login.md)
+5. [Install Overlay](./retrobox/05-install_overlay.md)
+6. [Install Wifi](./retrobox/06-install_wifi.md)
+7. [Install FBCP](./retrobox/07-install_fbcp.md)
+8. [Config LCD](./retrobox/08-config_lcd.md)
+9. [Install Retropie](./retrobox/09-install_retropie.md)
 10. [Create Alisases](./retrobox/10-create_aliases.md)
 
 ## Tweaks & Helps
