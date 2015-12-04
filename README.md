@@ -22,7 +22,7 @@
 ##### Raspbian
 
 - [Raspbian Wheezy](https://www.raspberrypi.org/downloads/raspbian/)
-- [RetroPie 3.0](https://github.com/RetroPie/RetroPie-Setup/releases/tag/v3.0)
+- [RetroPie-Setup 3.2.1](https://github.com/RetroPie/RetroPie-Setup/archive/3.2.1.tar.gz)
 
 ## Install
 
