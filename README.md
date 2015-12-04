@@ -1,4 +1,4 @@
-# Raspberry PI2 B Wheezy blank image
+# Raspberry PI2 B / Waveshare 3.5" LCD / Wheezy
 
 ## Hardware
 
