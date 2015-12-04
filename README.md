@@ -85,3 +85,11 @@ sudo nano /etc/default/console-setup
 » FONTSIZE="6x12"
 sudo /etc/init.d/console-setup restart
 ```
+
+> Setup Wifi
+
+```bash
+sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
+» ssid="_SSID_"
+» psk="_WPA_SHARED_KEY_"
+```
