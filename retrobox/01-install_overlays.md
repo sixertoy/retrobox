@@ -1,4 +1,4 @@
-# 5. Install Overlay
+# 2. Install Overlay
 
 ```bash
 sudo raspi-config
