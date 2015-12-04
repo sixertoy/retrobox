@@ -1,4 +1,5 @@
-# Raspberry PI2 B / Waveshare 3.5" LCD / Wheezy (on windows)
+# Retrobox
+> Raspberry PI2 B / Waveshare 3.5" LCD / Wheezy (on windows)
 
 ## Hardware
 
