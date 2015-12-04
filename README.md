@@ -1,13 +1,21 @@
 # Install from a Wheezy blank image
 
-## 1. Expand FS
+## Hardware
+
+- [Raspberry Pi 2 Type B](http://www.amazon.fr/dp/B00T2U7R7I)
+- [Edimax EW-7811UN Nano Adaptateur clé USB sans fil 150 Mbps](http://www.amazon.fr/dp/B003MTTJOY)
+- [3,5 pouces TFT écran tactile LCD (A) 320 * 480](http://www.amazon.fr/dp/B00SKOPWC4)
+- [Transcend 16 Go Carte mémoire microSDHC Classe 10](http://www.amazon.fr/dp/B00APCMMEK)
+- [Aukru NEW 3en 1 Kit - Transparent Case + 5v 2000mA Alimentation](http://www.amazon.fr/dp/B00UCSO9G6)
+
+### 1. Expand FS
 ```bash
 sudo raspi-config
 » Select Expand the filesystem
 sudo reboot
 ```
 
-## 2. Change locales
+### 2. Change locales
 
 > Clavier FR
 
@@ -49,7 +57,7 @@ sudo reboot
 
 [source](http://www.tropfacile.net/doku.php/raspberry-pi/comment-passer-votre-raspberry-en-francais)
 
-## 3. Update Packages
+### 3. Update Packages
 ```bash
 sudo apt-get update
 sudo apt-get upgrade
@@ -57,7 +65,7 @@ sudo rpi-update
 sudo reboot
 ```
 
-## 4. Auto Login
+### 4. Auto Login
 
 ```bash
 sudo nano /etc/inittab
@@ -68,7 +76,7 @@ sudo reboot
 
 [source](http://www.opentechguides.com/how-to/article/raspberry-pi/5/raspberry-pi-auto-start.html)
 
-## 5. Install Overlay
+### 5. Install Overlay
 
 ```bash
 sudo raspi-config
@@ -87,7 +95,7 @@ sudo reboot
 
 [source](https://github.com/swkim01/waveshare-dtoverlays)
 
-## 6. Install tweaks
+### 6. Install tweaks
 
 > Show Wheezy version
 
