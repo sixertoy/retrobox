@@ -26,13 +26,11 @@
 
 ## Install
 
-0. [Install Raspbian](./retrobox/00-install_raspbian.md)
-1. [Install Overlay](./retrobox/01-install_overlay.md)
-2. [Install Wifi](./retrobox/02-install_wifi.md)
-3. [Install FBCP](./retrobox/03-install_fbcp.md)
-4. [Config LCD](./retrobox/04-config_lcd.md)
-5. [Install Retropie](./retrobox/05-install_retropie.md)
-6. [Create Alisases](./retrobox/06-create_aliases.md)
+1. [Install Raspbian](./retrobox/01-install_raspbian.md)
+2. [Config LCD](./retrobox/02-config_lcd.md)
+3. [Install Wifi](./retrobox/03-install_wifi.md)
+4. [Install Retropie](./retrobox/04-install_retropie.md)
+5. [Create Alisases](./retrobox/05-create_aliases.md)
 
 ## Tweaks & Helps
 
@@ -79,5 +77,13 @@ lsmod
 sudo nano /etc/default/console-setup
 » FONTFACE="Terminus"
 » FONTSIZE="6x12"
+sudo /etc/init.d/console-setup restart
+```
+
+ou 
+
+```bash
+sudo dpkg-reconfigure console-setup
+»
 sudo /etc/init.d/console-setup restart
 ```
