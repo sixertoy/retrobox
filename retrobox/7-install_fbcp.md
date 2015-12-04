@@ -28,7 +28,7 @@ sudo nano /etc/modules
 > Init FBCP & Startup
 
 ```bash
-sudo wget -O /etc/init.d/fbcp https://github.com/watterott/RPi-Display/raw/master/docu/fbcp
+sudo wget -O /etc/init.d/fbcp https://raw.githubusercontent.com/sixertoy/retrobox/master/files/fbcp
 sudo chmod +x /etc/init.d/fbcp
 sudo update-rc.d fbcp defaults
 ```
