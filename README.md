@@ -9,7 +9,8 @@ sudo reboot
 
 ## 2. Change locales
 
-1. Clavier FR
+> Clavier FR
+
 ```bash
 sudo raspi-config
 » Select Set keyboard layout
@@ -22,7 +23,8 @@ sudo raspi-config
 » Ask for Use Control+Alt+Backspace to terminate the X server? : No
 ```
 
-2. Language
+> Language
+
 ```bash
 sudo raspi-config
 » Select Set locale
@@ -32,12 +34,17 @@ sudo raspi-config
 » Set UTF-8 as default
 ```
 
-3. Timezone
+> Timezone
+
 ```bash
 sudo raspi-config
 » Select Set Timezone
 » Set Geographic area : Europe
 » Set Time zone : Paris
+```
+
+```bash
+sudo reboot
 ```
 
 ## 3. Update Packages
