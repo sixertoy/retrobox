@@ -20,7 +20,6 @@ sudo raspi-config
 » Set Key to function as AltGr : The default for the keyboard layout
 » Set Compose key : No compose key
 » Ask for Use Control+Alt+Backspace to terminate the X server? : No
-sudo reboot
 ```
 
 2. Language
@@ -31,7 +30,6 @@ sudo raspi-config
 » Set fr_FR ISO-8859-1
 » Set fr_FR.UTF-8 UTF-8
 » Set UTF-8 as default
-sudo reboot
 ```
 
 3. Timezone
@@ -40,7 +38,6 @@ sudo raspi-config
 » Select Set Timezone
 » Set Geographic area : Europe
 » Set Time zone : Paris
-sudo reboot
 ```
 
 ## 3. Update Packages
