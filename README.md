@@ -25,14 +25,15 @@
 
 ## Install
 
-### 1. Expand FS
+#### 1. Expand FS
+
 ```bash
 sudo raspi-config
 » Select Expand the filesystem
 sudo reboot
 ```
 
-### 2. Change locales
+#### 2. Change locales
 
 > Clavier FR
 
@@ -74,7 +75,7 @@ sudo reboot
 
 [source](http://www.tropfacile.net/doku.php/raspberry-pi/comment-passer-votre-raspberry-en-francais)
 
-### 3. Update Packages
+#### 3. Update Packages
 ```bash
 sudo apt-get update
 sudo apt-get upgrade
@@ -82,7 +83,7 @@ sudo rpi-update
 sudo reboot
 ```
 
-### 4. Auto Login
+#### 4. Auto Login
 
 ```bash
 sudo nano /etc/inittab
@@ -93,7 +94,7 @@ sudo reboot
 
 [source](http://www.opentechguides.com/how-to/article/raspberry-pi/5/raspberry-pi-auto-start.html)
 
-### 5. Install Overlay
+#### 5. Install Overlay
 
 ```bash
 sudo raspi-config
@@ -110,7 +111,7 @@ sudo nano /boot/config.txt
 sudo reboot
 ```
 
-### 6. Install Wifi
+#### 6. Install Wifi
 
 > Checkup
 
@@ -154,7 +155,18 @@ sudo reboot
 
 [source](http://www.savagehomeautomation.com/projects/raspberry-pi-installing-the-edimax-ew-7811un-usb-wifi-adapte.html)
 
-### 10. Tweaks & Helps
+#### 7. Install Retropie
+
+```bash
+cd
+wget https://github.com/RetroPie/RetroPie-Setup/archive/v3.0.tar.gz
+tar -zxvf v3.0.tar.gz
+rm v3.0.tar.gz
+mv RetroPie-Setup-3.0/ RetroPie-Setup
+sudo ./retropie_setup.sh
+```
+
+## Tweaks & Helps
 
 > Show Wheezy version
 
