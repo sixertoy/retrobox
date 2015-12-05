@@ -8,7 +8,7 @@
 
 # uncomment this if your display has a black border of unused pixels visible
 # and your display can output without overscan
-disable_overscan=1
+#disable_overscan=1
 
 # uncomment the following to adjust overscan. Use positive numbers if console
 # goes off screen, and negative if there is too much border
@@ -53,7 +53,31 @@ disable_overscan=1
 
 # Additional overlays and parameters are documented /boot/overlays/README
 
+# Supprime les bordures sur l'ecran HDMI pour X Window
+
+
 dtparam=spi=on
 dtparam=i2c_arm=off
 
-#dtoverlay=waveshare35a
+disable_overscan=1
+
+# Active SPI
+# Active Device Tree
+# sudo cp waveshare-dtoverlays/waveshare35a-overlay.dtb /boot/overlays/
+# dtparam=spi=on
+# dtoverlay=waveshare35a
+
+# sudo mc /usr/share/X11/xorg.conf.d/99-fbturbo.conf ~
+# sudo mv 99-fbturbo.conf /usr/share/X11/xorg.conf.d/
+
+# FRAMEBUFFER=/dev/fb1 startx
+# FRAMEBUFFER=/dev/fb1 es
+#
+# Console switch
+# con2fbmap 1 1
+# con2fbmap 1 0
+
+
+# sudo apt-get install xboxdrv
+# sudo aptitude install bluetooth bluez-utils blueman
+# sudo reboot
