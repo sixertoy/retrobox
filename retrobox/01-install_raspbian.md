@@ -35,7 +35,6 @@ sudo raspi-config
 » Set Key to function as AltGr : The default for the keyboard layout
 » Set Compose key : No compose key
 » Ask for Use Control+Alt+Backspace to terminate the X server? : No
-sudo reboot
 ```
 
 > Timezone
@@ -102,8 +101,12 @@ sudo ifup wlan0
 ifconfig wlan0
 ```
 
+```bash
+sudo reboot
+```
+
 > Disconnect cable<br>
-> SSH connect via Wifi
+> You can now be SSH connect via Wifi
 
 [source](https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md)
 
@@ -114,10 +117,18 @@ sudo nano /etc/default/console-setup
 » FONTFACE="TerminusBold"
 » FONTSIZE="10x20"
 sudo /etc/init.d/console-setup restart
+```
+
+# 4. Setup Aliases & Welcome screen
+
+```bash
+rm .bashrc
+wget https://raw.githubusercontent.com/sixertoy/retrobox/master/files/.bashrc
+wget https://raw.githubusercontent.com/sixertoy/retrobox/master/files/.bash_aliases
 sudo reboot
 ```
 
-# 4. Setup Audio Output
+# 5. Setup Audio Output
 
 > Switch the audio output to HDMI
 
@@ -142,15 +153,6 @@ amixer cset numid=3 0
 ```bash
 sudo nano /boot/config.txt
 » hdmi_drive=2
-```
-
-# 5. Setup Aliases & Welcome screen
-
-```bash
-rm .bashrc
-wget https://raw.githubusercontent.com/sixertoy/retrobox/master/files/.bashrc
-wget https://raw.githubusercontent.com/sixertoy/retrobox/master/files/.bash_aliases
-sudo reboot
 ```
 
 
