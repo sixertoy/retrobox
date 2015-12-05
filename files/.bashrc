@@ -46,17 +46,17 @@ function retropie_welcome() {
     done < <(df -h /)
 
 echo "$(tput setaf 2)
-   .~~.   .~~.    $(date +"%A, %e %B %Y, %r")
-  '. \ ' ' / .'   $(uname -srmo)$(tput setaf 1)
-   .~ .~~~..~.   
-  : .~.'~'.~. :   $(tput setaf 3)${df_out[0]}$(tput setaf 1)
- ~ (   ) (   ) ~  $(tput setaf 7)${df_out[1]}$(tput setaf 1)
-( : '~'.~.'~' : ) Uptime.............: ${UPTIME}
- ~ .~       ~. ~  Memory.............: $(grep MemFree /proc/meminfo | awk {'print $2'})kB (Free) / $(grep MemTotal /proc/meminfo | awk {'print $2'})kB (Total)$(tput setaf 7)
-  (  $(tput setaf 4) |   | $(tput setaf 7)  )  $(tput setaf 1) Running Processes..: $(ps ax | wc -l | tr -d " ")$(tput setaf 7)
-  '~         ~'  $(tput setaf 1) IP Address.........: $(ip route get 8.8.8.8 2>/dev/null | head -1 | cut -d' ' -f8) $(tput setaf 7)
-    *--~-~--*    $(tput setaf 1) Temperature........: CPU: $cpuTempC°C/$cpuTempF°F GPU: $gpuTempC°C/$gpuTempF°F
-                 $(tput setaf 7) The RetroPie Project, http://www.petrockblock.com
+$(date +"%A, %e %B %Y, %r")
+$(uname -srmo)$(tput setaf 1)
+  
+$(tput setaf 3)${df_out[0]}$(tput setaf 1)
+$(tput setaf 7)${df_out[1]}$(tput setaf 1)
+Uptime........: ${UPTIME}
+Memory........: $(grep MemFree /proc/meminfo | awk {'print $2'})kB (Free) / $(grep MemTotal /proc/meminfo | awk {'print $2'})kB (Total)$(tput setaf 7)
+Running Proc..: $(ps ax | wc -l | tr -d " ")$(tput setaf 7)
+IP Address....: $(ip route get 8.8.8.8 2>/dev/null | head -1 | cut -d' ' -f8) $(tput setaf 7)
+Temp..........: CPU: $cpuTempC°C/$cpuTempF°F GPU: $gpuTempC°C/$gpuTempF°F
+The RetroPie Project, http://www.petrockblock.com
 
 $(tput sgr0)"
 }
