@@ -108,7 +108,16 @@ ifconfig wlan0
 
 [source](https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md)
 
-# 3. Setup Audio Output
+# 3. Setup Aliases & Welcome screen
+
+```bash
+rm .bashrc
+wget https://raw.githubusercontent.com/sixertoy/retrobox/master/files/.bashrc
+wget https://raw.githubusercontent.com/sixertoy/retrobox/master/files/.bash_aliases
+sudo reboot
+```
+
+# 4. Setup Audio Output
 
 > Switch the audio output to HDMI
 
