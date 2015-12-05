@@ -40,10 +40,9 @@ sudo raspi-config
 ```bash
 sudo raspi-config
 » Select Set locale
-» Unset en_GB.UTF-8 UTF-8
 » Set fr_FR ISO-8859-1
 » Set fr_FR.UTF-8 UTF-8
-» Set UTF-8 as default
+» Set fr_FR.UTF-8 UTF-8 as default
 ```
 
 > Timezone
