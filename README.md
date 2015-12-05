@@ -67,28 +67,10 @@ lsusb
 lsmod
 ```
 
-> Console Font Size
-
-```bash
-sudo nano /etc/default/console-setup
-» FONTFACE="TerminusBold"
-» FONTSIZE="10x20"
-sudo /etc/init.d/console-setup restart
-```
-
-ou 
-
-```bash
-sudo dpkg-reconfigure console-setup
-»
-sudo /etc/init.d/console-setup restart
-```
-
 > Check USB Device
 
 ```bash
 lsusb
-# Bus XXX Device XXX: ID XXXX:7811 Edimax Technology Co., Ltd EW-7811Un 802.11n Wireless Adapter [Realtek RTL8188CUS]
 ```
 
 > Disable/Enable Wifi
