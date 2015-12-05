@@ -103,6 +103,9 @@ sudo ifup wlan0
 ifconfig wlan0
 ```
 
+> Disconnect cable
+> SSH connect via Wifi
+
 [source](https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md)
 
 # 3. Setup Audio Output
