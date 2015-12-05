@@ -37,13 +37,6 @@ sudo nano /boot/config.txt
 cd ~/RetroPie-Setup
 sudo ./retropie_setup.sh
 » Install Themes (3 | 308) [Install]
-» Configure Samba shares (3 | 323) [Install]
-```
-
-> Install XBOX Controller Driver
-
-```bash
-sudo apt-get install xboxdrv
 ```
  
 #### Themes
@@ -53,6 +46,12 @@ sudo apt-get install xboxdrv
 - nbba
 - simplebigart
 - clean-look
+
+```bash
+» Configure Samba shares (3 | 323) [Install]
+» Install XBOX Controller Driver
+sudo reboot
+```
 
 > Connect to samba and copy BIOS
 
