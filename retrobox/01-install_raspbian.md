@@ -33,6 +33,16 @@ sudo raspi-config
 » Set Key to function as AltGr : The default for the keyboard layout
 » Set Compose key : No compose key
 » Ask for Use Control+Alt+Backspace to terminate the X server? : No
+sudo reboot
+```
+
+> Timezone
+
+```bash
+sudo raspi-config
+» Select Set Timezone
+» Set Geographic area : Europe
+» Set Time zone : Paris
 ```
 
 > Language
@@ -43,15 +53,7 @@ sudo raspi-config
 » Set fr_FR ISO-8859-1
 » Set fr_FR.UTF-8 UTF-8
 » Set fr_FR.UTF-8 UTF-8 as default
-```
-
-> Timezone
-
-```bash
-sudo raspi-config
-» Select Set Timezone
-» Set Geographic area : Europe
-» Set Time zone : Paris
+sudo reboot
 ```
 
 [source](http://www.tropfacile.net/doku.php/raspberry-pi/comment-passer-votre-raspberry-en-francais)
@@ -69,9 +71,62 @@ sudo reboot
 
 # 2. Install Wifi
 
+> list available network
 
-2. Install Wifi
-3. Install Retropie
-4. Install LCD
+```bash
+sudo iwlist wlan0 scan
+```
+
+> Edit conf
+
+```bash
+sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
+» network={
+» ssid="The_ESSID_from_earlier"
+» psk="Your_wifi_password"
+» }
+```
+
+> Restart Wifi or reboot
+
+```bash
+sudo ifdown wlan0
+sudo ifup wlan0
+```
+
+> Test wifi
+
+```bash
+ifconfig wlan0
+```
+
+[source](https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md)
+
+# 3. Setup Audio Output
+
+> Switch the audio output to HDMI
+
+```bash
+amixer cset numid=3 2
+```
+
+> Switch the audio output to headphone jack
+
+```bash
+amixer cset numid=3 1
+```
+
+> Automatic switch audio
+
+```bash
+amixer cset numid=3 0
+```
+
+> If not getting audio via HDMI
+
+```bash
+sudo nano /boot/config.txt
+» hdmi_drive=2
+```
 
 
