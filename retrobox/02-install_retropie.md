@@ -27,6 +27,13 @@ reboot
 - Snes9x - SNES Emulator SNES9X-RPi (5 | 128) [Binary]
 
 ```bash
+sudo nano /boot/config.txt
+» gpu_mem=32
+» gpu_mem_256=192
+» gpu_mem_512=448
+» gpu_mem_1024=944
+» overscan_scale=1
+
 cd ~/RetroPie-Setup
 sudo ./retropie_setup.sh
 » Install Themes (3 | 308) [Install]
@@ -46,10 +53,6 @@ sudo apt-get install xboxdrv
 - nbba
 - simplebigart
 - clean-look
-
-```bash
-reboot
-```
 
 > Connect to samba and copy BIOS
 
