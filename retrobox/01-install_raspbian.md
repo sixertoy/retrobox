@@ -1,5 +1,8 @@
 # 1. Install Raspbian
 
+[/boot/config.txt](https://www.raspberrypi.org/documentation/configuration/config-txt.md)
+
+
 > Expand FS
 
 ```bash
