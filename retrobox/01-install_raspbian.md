@@ -8,6 +8,19 @@ sudo raspi-config
 sudo reboot
 ```
 
+> Update Packages
+
+```bash
+sudo apt-get update
+sudo apt-get upgrade
+sudo reboot
+```
+
+```bash
+sudo rpi-update
+sudo reboot
+```
+
 > Clavier FR
 
 ```bash
@@ -44,19 +57,6 @@ reboot
 ```
 
 [source](http://www.tropfacile.net/doku.php/raspberry-pi/comment-passer-votre-raspberry-en-francais)
-
-> Update Packages
-
-```bash
-sudo apt-get update
-sudo apt-get upgrade
-sudo reboot
-```
-
-```bash
-sudo rpi-update
-sudo reboot
-```
 
 > Auto Login
 
