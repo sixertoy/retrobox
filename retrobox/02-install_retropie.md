@@ -53,7 +53,7 @@ sudo ./retropie_setup.sh
 sudo reboot
 ```
 
-> Connect to samba and copy BIOS
+> Connect to samba and copy BIOS & Games
 
 #### [BIOS](https://github.com/RetroPie/RetroPie-Setup/wiki/BIOS-setup-for-RetroPie)
 
