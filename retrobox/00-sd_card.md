@@ -40,6 +40,10 @@ Exit Win32DiskImage
 Insert SDCard in RPi
 Connect Battery Cable
 
+Connect to RPi via SSH
+User: pi
+Password: raspberry
+
 Next step
 
 
