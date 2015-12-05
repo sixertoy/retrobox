@@ -31,7 +31,12 @@ cd ~/RetroPie-Setup
 sudo ./retropie_setup.sh
 » Install Themes (3 | 308) [Install]
 » Configure Samba shares (3 | 323) [Install]
-» Install XBOX Controller Driver (3 | 328) [Install]
+```
+
+> Install XBOX Controller Driver
+
+```bash
+sudo apt-get install xboxdrv
 ```
  
 #### Themes
