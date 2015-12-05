@@ -2,8 +2,10 @@
 
 ```bash
 sudo nano /boot/config.txt
-gpu_mem=320
+gpu_mem=944
 ```
+
+[source](https://www.raspberrypi.org/documentation/configuration/config-txt.md)
 
 ```bash
 cd
