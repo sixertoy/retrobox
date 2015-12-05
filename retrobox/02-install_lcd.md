@@ -7,7 +7,7 @@ sudo raspi-config
 » active spi
 » active i2c
 » active Device Tree
-sudo reboot
+reboot
 ```
 
 > Install FBCP & Startup
