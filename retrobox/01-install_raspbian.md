@@ -52,7 +52,6 @@ sudo raspi-config
 » Select Set Timezone
 » Set Geographic area : Europe
 » Set Time zone : Paris
-reboot
 ```
 
 [source](http://www.tropfacile.net/doku.php/raspberry-pi/comment-passer-votre-raspberry-en-francais)
@@ -63,6 +62,9 @@ reboot
 sudo nano /etc/inittab
 » #1:2345:respawn:/sbin/getty 115200 tty1
 » 1:2345:respawn:/bin/login -f pi tty1 </dev/tty1 >/dev/tty1 2>&1
+```
+
+```bash
 sudo reboot
 ```
 
