@@ -17,4 +17,5 @@ sudo reboot
 sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
 » ssid="_SSID_"
 » psk="_WPA_SHARED_KEY_"
+sudo reboot
 ```
