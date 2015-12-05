@@ -3,7 +3,7 @@
 alias ll='ls -l'
 alias la='ls -lA'
 alias l='ls -CF'
-alias ds='df -h'
+alias lds='df -h'
 
 # Retropie aliases
 alias roms='cd /home/pi/RetroPie/roms/'
