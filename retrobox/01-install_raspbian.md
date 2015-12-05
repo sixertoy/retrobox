@@ -71,9 +71,8 @@ sudo reboot
 [source](http://www.opentechguides.com/how-to/article/raspberry-pi/5/raspberry-pi-auto-start.html)
 
 
-2. Install LCD
-3. Install Wifi
-4. Install Retropie
-4. Install Aliases
+2. Install Wifi
+3. Install Retropie
+4. Install LCD
 
 
