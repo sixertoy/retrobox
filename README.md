@@ -90,3 +90,10 @@ sudo /etc/init.d/console-setup restart
 lsusb
 # Bus XXX Device XXX: ID XXXX:7811 Edimax Technology Co., Ltd EW-7811Un 802.11n Wireless Adapter [Realtek RTL8188CUS]
 ```
+
+> Disable/Enable Wifi
+
+```bash
+sudo ifdown wlan0
+sudo ifup wlan0
+```
