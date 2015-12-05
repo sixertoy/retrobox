@@ -26,11 +26,13 @@
 
 ## Install
 
-1. [Install Raspbian](./retrobox/01-install_raspbian.md)
-2. [Install LCD](./retrobox/02-config_lcd.md)
-3. [Install Retropie](./retrobox/03-install_retropie.md)
-4. [Install Wifi](./retrobox/04-install_wifi.md)
-5. [Setup Wifi & Alisases](./retrobox/05-setup_aliases_wifi.md)
+1. [Prepare SDCard](./retrobox/01-prepare_sdcard.md)
+2. [Install Raspbian](./retrobox/01-install_raspbian.md)
+3. [Install Wifi](./retrobox/04-install_wifi.md)
+4. [Install Retropie](./retrobox/03-install_retropie.md)
+
+3. [Install LCD](./retrobox/02-config_lcd.md)
+
 
 ## Tweaks & Helps
 
