@@ -43,12 +43,6 @@ sudo apt-get install lsb-release
 » lsb_release -a
 ```
 
-> Welcome Script
-
-```bash
-Copy bash_welcome_script inside ~/.bashrc
-```
-
 > Switch between HDMI/LCD
 
 ```bash
