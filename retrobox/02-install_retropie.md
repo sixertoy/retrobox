@@ -1,4 +1,4 @@
-# 3. Install Retropie
+# 2. Install Retropie
 
 ```bash
 sudo nano /boot/config.txt
