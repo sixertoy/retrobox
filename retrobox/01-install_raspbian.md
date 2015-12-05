@@ -108,12 +108,13 @@ ifconfig wlan0
 
 [source](https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md)
 
-# 3. Setup Aliases & Welcome screen
+# 3. Change Console font size
 
 ```bash
-rm .bashrc
-wget https://raw.githubusercontent.com/sixertoy/retrobox/master/files/.bashrc
-wget https://raw.githubusercontent.com/sixertoy/retrobox/master/files/.bash_aliases
+sudo nano /etc/default/console-setup
+» FONTFACE="TerminusBold"
+» FONTSIZE="10x20"
+sudo /etc/init.d/console-setup restart
 sudo reboot
 ```
 
@@ -142,6 +143,15 @@ amixer cset numid=3 0
 ```bash
 sudo nano /boot/config.txt
 » hdmi_drive=2
+```
+
+# 5. Setup Aliases & Welcome screen
+
+```bash
+rm .bashrc
+wget https://raw.githubusercontent.com/sixertoy/retrobox/master/files/.bashrc
+wget https://raw.githubusercontent.com/sixertoy/retrobox/master/files/.bash_aliases
+sudo reboot
 ```
 
 
