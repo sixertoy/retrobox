@@ -1,4 +1,4 @@
-# 2. Install LCD
+# 3. Install LCD
 
 > Active SPI
 
