@@ -103,7 +103,7 @@ sudo ifup wlan0
 ifconfig wlan0
 ```
 
-> Disconnect cable
+> Disconnect cable<br>
 > SSH connect via Wifi
 
 [source](https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md)
