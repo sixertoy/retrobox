@@ -89,3 +89,10 @@ sudo dpkg-reconfigure console-setup
 »
 sudo /etc/init.d/console-setup restart
 ```
+
+> Checkup USB Device
+
+```bash
+lsusb
+# Bus XXX Device XXX: ID XXXX:7811 Edimax Technology Co., Ltd EW-7811Un 802.11n Wireless Adapter [Realtek RTL8188CUS]
+```
