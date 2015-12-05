@@ -56,7 +56,6 @@ Memory........: $(grep MemFree /proc/meminfo | awk {'print $2'})kB (Free) / $(gr
 Running Proc..: $(ps ax | wc -l | tr -d " ")$(tput setaf 7)
 IP Address....: $(ip route get 8.8.8.8 2>/dev/null | head -1 | cut -d' ' -f8) $(tput setaf 7)
 Temp..........: CPU: $cpuTempC°C/$cpuTempF°F GPU: $gpuTempC°C/$gpuTempF°F
-The RetroPie Project, http://www.petrockblock.com
 
 $(tput sgr0)"
 }
