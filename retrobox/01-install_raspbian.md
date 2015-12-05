@@ -1,7 +1,6 @@
 # 1. Install Raspbian
 
-[/boot/config.txt](https://www.raspberrypi.org/documentation/configuration/config-txt.md)
-
+[Raspberry Config file official description](https://www.raspberrypi.org/documentation/configuration/config-txt.md)
 
 > Expand FS
 
