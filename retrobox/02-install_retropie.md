@@ -29,10 +29,11 @@ reboot
 ```bash
 sudo nano /boot/config.txt
 » gpu_mem=32
-» gpu_mem_256=192
-» gpu_mem_512=448
-» gpu_mem_1024=944
+» gpu_mem_256=128
+» gpu_mem_512=256
+» gpu_mem_1024=448
 » overscan_scale=1
+» dwc_otg.speed=1
 
 cd ~/RetroPie-Setup
 sudo ./retropie_setup.sh
