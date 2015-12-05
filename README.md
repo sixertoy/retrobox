@@ -90,7 +90,7 @@ sudo dpkg-reconfigure console-setup
 sudo /etc/init.d/console-setup restart
 ```
 
-> Checkup USB Device
+> Check USB Device
 
 ```bash
 lsusb
