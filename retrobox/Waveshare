@@ -1,6 +1,13 @@
+> Boot on console LCD
+```bash
+# sudo nano /boot/cmdline.txt
+fbcon=font:ProFont6x11 fbcon=map:10
+```
+
+```bash
 sudo nano /boot/config.txt
 
-# recommanded by official driver
+# recommended by official driver
 #arm_freq=700
 #start_x=1
 #core_freq=250
@@ -8,18 +15,29 @@ sudo nano /boot/config.txt
 #over_voltage=0
 
 dtparam=spi=on
-#dtparam=i2c_arm=on
+dtparam=i2c_arm=on
 
 gpu_mem=128
 gpu_mem_256=128
 gpu_mem_512=256
 gpu_mem_1025=448
 overscan_scale=1
+```
 
-#https://github.com/swkim01/waveshare-dtoverlays
 # install overlays
-dtoverlay=waveshare35a:swapxy=1:spi-max-frequency=48000000:fps=60
+# https://github.com/swkim01/waveshare-dtoverlays
+dtoverlay=waveshare35a,spi-max-frequency=48000000,fps=60
+#dtoverlay=waveshare35a,spi-max-frequency=16000000,fps=60
 
 # sudo mv /usr/share/X11/xorg.conf.d/99-fbturbo.conf ~
-# or
+# ou changer dans le fichier 
+# sudo nano /usr/share/X11/xorg.conf.d/99-fbturbo.conf
 # /dev/fb1
+
+# Buffer vers le lcd
+#FRAMEBUFFER=/dev/fb1 startx
+
+#console sur le lcd
+#con2fbmap 1 1
+#console sur le hdmi
+#con2fbmap 1 0
