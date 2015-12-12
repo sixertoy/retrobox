@@ -1,15 +1,33 @@
 # Retrobox
-> Raspberry PI2 B / Waveshare 3.5" LCD / Wheezy (on windows)
+
+> Raspberry PI2 B<br>
+> Tutorial made under Windows10 and an SSH Client (MSYSGit + Console2)
 
 ## Hardware
 
 - [Raspberry Pi 2 Type B](http://www.amazon.fr/dp/B00T2U7R7I)
 - [Edimax EW-7811UN Nano Adaptateur clé USB sans fil 150 Mbps](http://www.amazon.fr/dp/B003MTTJOY)
-- [3,5 pouces TFT écran tactile LCD (A) 320 * 480](http://www.amazon.fr/dp/B00SKOPWC4)
 - [Transcend 16 Go Carte mémoire microSDHC Classe 10](http://www.amazon.fr/dp/B00APCMMEK)
+
+## LCDs 
+
+##### for Retro Gaming
+
+- [Tontec 3,5 pouces écran tactile LCD 480x320](http://www.amazon.fr/dp/B00OFLKPG4)
+- [Aukru 5v 2000mA Alimentation](http://www.amazon.fr/dp/B00V07YY0Y)
+
+##### for Micro Computer
+
+- [3,5 pouces TFT écran tactile LCD (A) 320x480](http://www.amazon.fr/dp/B00SKOPWC4)
 - [Aukru NEW 3en 1 Kit - Transparent Case + 5v 2000mA Alimentation](http://www.amazon.fr/dp/B00UCSO9G6)
 
 ## Software
+
+##### Retrobox
+
+> [Raspbian Wheezy](https://www.raspberrypi.org/downloads/raspbian/)  & [Retropie](https://github.com/RetroPie/RetroPie-Setup/wiki/First-Installation)
+or
+> [Recalbox](http://www.recalbox.com)
 
 ##### Windows
 
@@ -18,11 +36,6 @@
 - [Win32DiskImage](http://sourceforge.net/projects/win32diskimager/)
 - [SuperPutty](https://github.com/jimradford/superputty)
 - [MiniTool Partition Manager](http://www.partitionwizard.com)
-
-##### Raspbian
-
-- [Raspbian Wheezy](https://www.raspberrypi.org/downloads/raspbian/)
-- [RetroPie-Setup 3.2.1](https://github.com/RetroPie/RetroPie-Setup/archive/3.2.1.tar.gz)
 
 ## Install
 
