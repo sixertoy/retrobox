@@ -21,6 +21,7 @@ cd build/
 cmake ..
 make
 sudo install fbcp /usr/local/bin/fbcp
+sudo reboot
 ```
 
 [source](https://github.com/notro/fbtft/wiki/Framebuffer-use#framebuffer-mirroring)
