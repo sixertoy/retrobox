@@ -1,6 +1,8 @@
+# Setup & Configuration
+
 [Raspberry Config file official description](https://www.raspberrypi.org/documentation/configuration/config-txt.md)
 
-# 1. Update Raspberry OS
+## 1. Update Raspberry OS
 
 > Expand FS
 
@@ -23,7 +25,7 @@ sudo rpi-update
 sudo reboot
 ```
 
-# 2. Change Language & Keyboard
+## 2. Change Language & Keyboard
 
 > Clavier FR
 
@@ -60,7 +62,7 @@ sudo reboot
 
 [source](http://www.tropfacile.net/doku.php/raspberry-pi/comment-passer-votre-raspberry-en-francais)
 
-# 3. Change Console font size
+## 3. Change Console font size
 
 ```bash
 sudo dpkg-reconfigure console-setup
@@ -71,11 +73,11 @@ sudo dpkg-reconfigure console-setup
 sudo reboot
 ```
 
-# 4. Overclocking & LCD Config
+## 4. Overclocking & Display
 
 ```bash
 sudo raspi-config
-» Select Overclockins
+» Select Overclocking
 » Select RPI2
 sudo reboot
 ```
@@ -89,14 +91,14 @@ CTRL + X > Type 'o' letter > Enter
 sudo reboot
 ```
 
-# 5. Add aliases
+## 5. Add aliases
 
 ```bash
 wget https://raw.githubusercontent.com/sixertoy/retrobox/master/files/.bash_aliases
 sudo reboot
 ```
 
-# 6. Configure PS3 Controller, Themes, WIFI
+## 6. Configure PS3 Controller, Themes, WIFI
 
 > Install PS3 Controller
 
