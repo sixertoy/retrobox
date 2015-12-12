@@ -25,8 +25,8 @@
 
 ##### Retrobox
 
-> [Raspbian Wheezy](https://www.raspberrypi.org/downloads/raspbian/)  & [Retropie](https://github.com/RetroPie/RetroPie-Setup/wiki/First-Installation)
-or
+> [Raspbian Wheezy](https://www.raspberrypi.org/downloads/raspbian/)  & [Retropie](https://github.com/RetroPie/RetroPie-Setup/wiki/First-Installation)<br>
+or only<br>
 > [Recalbox](http://www.recalbox.com)
 
 ##### Windows
