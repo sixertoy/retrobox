@@ -65,7 +65,7 @@ ls -lA
 df -h
 ```
 
-# 4. Setup Aliases & Welcome screen
+## Setup Aliases & Welcome screen
 
 ```bash
 rm .bashrc
@@ -74,7 +74,7 @@ wget https://raw.githubusercontent.com/sixertoy/retrobox/master/files/.bash_alia
 sudo reboot
 ```
 
-# 5. Setup Audio Output
+## Setup Audio Output
 
 > Switch the audio output to HDMI
 
