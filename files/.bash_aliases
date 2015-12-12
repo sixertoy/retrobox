@@ -2,7 +2,6 @@
 # some more ls aliases
 alias ll='ls -l'
 alias la='ls -lA'
-alias l='ls -CF'
 alias lds='df -h'
 
 # Retropie aliases
