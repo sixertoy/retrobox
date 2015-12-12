@@ -1,0 +1,47 @@
+# Retrobox
+
+## Install
+
+- Format SDCard (FAT32)
+
+- Download Retropie
+- Mount retropie image on SDCard
+- Insert SDCard into RPi
+- Exit from Retropie - Press F4 when prompt and after press spacebar
+
+- Type sudo raspi-config to open raspberry configudation
+- Select **Expand File System**
+- Type sudo reboot at prompt
+
+## Language & Keyboard
+
+- Press F4 to quit Retropie and Spacebar
+- Type sudo raspi-config to open Raspberry configuration
+- Select International options
+  - Select Change Locale
+    - Uncheck en_GB UTF8 **spacebar**
+    - Check fr_FR ISO 8859-1 **spacebar**
+    - Check fr_FR UTF8 **spacebar**
+    - press **enter**
+    - select fr_FR UTF8 as default **enter**
+  - Select Change Timezone
+    - Select Europe
+    - Select Paris
+  - Change Keyboard Layout
+    - Select Generic 105 Key
+    - Select Other
+    - Select French
+    - Select French
+    - Select The Default for the keyboard input (top list option)
+    - Select No Compose Key
+    - Select No for X Server
+    - Quit to prompt
+    - Type sudo reboot at prompt
+    
+## Update Raspberry OS
+
+- Press F4 to exit to prompt
+- Type sudo apt-get update at prompt
+- Type sudo apt-get upgrade at prompt
+
+##
