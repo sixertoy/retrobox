@@ -111,13 +111,6 @@ sudo dpkg-reconfigure console-setup
 sudo reboot
 ```
 
-```bash
-sudo nano /etc/default/console-setup
-» FONTFACE="TerminusBold"
-» FONTSIZE="10x20"
-sudo /etc/init.d/console-setup restart
-```
-
 # 4. Setup Aliases & Welcome screen
 
 ```bash
