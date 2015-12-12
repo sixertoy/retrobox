@@ -22,8 +22,8 @@ sudo apt-get install lsb-release
 
 ```bash
 sudo nano /usr/share/X11/xorg.conf.d/99fbturbo.conf
-Option "fbdev" "/dev/fb0" # HDMI
-Option "fbdev" "/dev/fb1" # LCD
+» Option "fbdev" "/dev/fb0" # HDMI
+» Option "fbdev" "/dev/fb1" # LCD
 ```
 
 ## Install Chromium
@@ -32,7 +32,15 @@ Option "fbdev" "/dev/fb1" # LCD
 sudo apt-get install chromium
 ```
 
-## Disable/Enable Wifi
+## Setup & Disable/Enable Wifi
+
+```bash
+sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
+» network={
+» ssid="The_ESSID_from_earlier"
+» psk="Your_wifi_password"
+» }
+```
 
 ```bash
 sudo ifdown wlan0
