@@ -45,3 +45,7 @@
 3. Install Games & BIOS (play on TV)
 4. Setup LCD Display (play on LCD)
 5. Tricks
+ 
+## Recalbox on HDMI Only
+
+## StartX on Waveshare35a & on Tontec35
