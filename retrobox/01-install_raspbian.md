@@ -1,8 +1,6 @@
-# 1. Install Retropie
-
 [Raspberry Config file official description](https://www.raspberrypi.org/documentation/configuration/config-txt.md)
 
-## Update Raspberry OS
+# Update Raspberry OS
 
 > Expand FS
 
@@ -25,7 +23,7 @@ sudo rpi-update
 sudo reboot
 ```
 
-## Change Language & Keyboard
+# Change Language & Keyboard
 
 > Clavier FR
 
@@ -62,7 +60,7 @@ sudo reboot
 
 [source](http://www.tropfacile.net/doku.php/raspberry-pi/comment-passer-votre-raspberry-en-francais)
 
-# 2. Install Wifi
+# 2. Configure Wifi
 
 > list available network
 
@@ -103,6 +101,15 @@ sudo reboot
 [source](https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md)
 
 # 3. Change Console font size
+
+```bash
+sudo dpkg-reconfigure console-setup
+> Select UTF8
+> Select Choix automatique du jeu de caracteres adapte
+> Select TerminusBold
+> Select 10x20
+sudo reboot
+```
 
 ```bash
 sudo nano /etc/default/console-setup
