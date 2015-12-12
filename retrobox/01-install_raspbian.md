@@ -2,6 +2,8 @@
 
 [Raspberry Config file official description](https://www.raspberrypi.org/documentation/configuration/config-txt.md)
 
+## Update Raspberry OS
+
 > Expand FS
 
 ```bash
@@ -23,10 +25,13 @@ sudo rpi-update
 sudo reboot
 ```
 
+## Change Language & Keyboard
+
 > Clavier FR
 
 ```bash
 sudo raspi-config
+» Select Internationalisation Options
 » Select Set keyboard layout
 » Set Keyboard model : Generic 105-key (intl) PC
 » Set Keyboard layout : Other
@@ -40,7 +45,6 @@ sudo raspi-config
 > Timezone
 
 ```bash
-sudo raspi-config
 » Select Set Timezone
 » Set Geographic area : Europe
 » Set Time zone : Paris
@@ -49,7 +53,6 @@ sudo raspi-config
 > Language
 
 ```bash
-sudo raspi-config
 » Select Set locale
 » Set fr_FR ISO-8859-1
 » Set fr_FR.UTF-8 UTF-8
@@ -58,17 +61,6 @@ sudo reboot
 ```
 
 [source](http://www.tropfacile.net/doku.php/raspberry-pi/comment-passer-votre-raspberry-en-francais)
-
-> Auto Login
-
-```bash
-sudo nano /etc/inittab
-» #1:2345:respawn:/sbin/getty 115200 tty1
-» 1:2345:respawn:/bin/login -f pi tty1 </dev/tty1 >/dev/tty1 2>&1
-sudo reboot
-```
-
-[source](http://www.opentechguides.com/how-to/article/raspberry-pi/5/raspberry-pi-auto-start.html)
 
 # 2. Install Wifi
 
