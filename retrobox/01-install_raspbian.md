@@ -1,6 +1,6 @@
 [Raspberry Config file official description](https://www.raspberrypi.org/documentation/configuration/config-txt.md)
 
-# Update Raspberry OS
+# 1. Update Raspberry OS
 
 > Expand FS
 
@@ -23,7 +23,7 @@ sudo rpi-update
 sudo reboot
 ```
 
-# Change Language & Keyboard
+# 2. Change Language & Keyboard
 
 > Clavier FR
 
@@ -59,6 +59,26 @@ sudo reboot
 ```
 
 [source](http://www.tropfacile.net/doku.php/raspberry-pi/comment-passer-votre-raspberry-en-francais)
+
+# 3. Change Console font size
+
+```bash
+sudo dpkg-reconfigure console-setup
+» Select UTF8
+» Select Choix automatique du jeu de caracteres adapte
+» Select TerminusBold
+» Select 10x20
+sudo reboot
+```
+
+# 4. Overclocking
+
+```bash
+sudo raspi-config
+» Select Overclockins
+» Select RPI2
+sudo reboot
+```
 
 # 2. Configure Wifi
 
@@ -99,17 +119,6 @@ sudo reboot
 > You can now be SSH connect via Wifi
 
 [source](https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md)
-
-# 3. Change Console font size
-
-```bash
-sudo dpkg-reconfigure console-setup
-> Select UTF8
-> Select Choix automatique du jeu de caracteres adapte
-> Select TerminusBold
-> Select 10x20
-sudo reboot
-```
 
 # 4. Setup Aliases & Welcome screen
 
