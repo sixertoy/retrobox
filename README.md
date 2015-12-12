@@ -28,9 +28,11 @@
 
 ##### Retrobox
 
-> [Raspbian Wheezy](https://www.raspberrypi.org/downloads/raspbian/)  & [Retropie](https://github.com/RetroPie/RetroPie-Setup/wiki/First-Installation)<br>
-or only<br>
-> [Recalbox](http://www.recalbox.com)
+>  [Retropie](https://github.com/RetroPie/RetroPie-Setup/wiki/First-Installation)<br>
+or<br>
+> [Recalbox](http://www.recalbox.com)<br>
+or<br>
+> [Raspbian Wheezy](https://www.raspberrypi.org/downloads/raspbian/)  & [Retropie](https://github.com/RetroPie/RetroPie-Setup/wiki/First-Installation)
 
 ##### Windows
 
@@ -42,56 +44,8 @@ or only<br>
 
 ## Install
 
-1. [Prepare SDCard](./retrobox/01-prepare_sdcard.md)
-2. [Install Raspbian](./retrobox/01-install_raspbian.md)
-3. [Install Wifi](./retrobox/04-install_wifi.md)
-4. [Install Retropie](./retrobox/03-install_retropie.md)
-
-3. [Install LCD](./retrobox/02-config_lcd.md)
-
-
-## Tweaks & Helps
-
-> Show Wheezy version
-
-```bash
-sudo apt-get install lsb-release
-» lsb_release -a
-```
-
-> Switch between HDMI/LCD
-
-```bash
-sudo nano /usr/share/X11/xorg.conf.d/99fbturbo.conf
-Option "fbdev" "/dev/fb0" # HDMI
-Option "fbdev" "/dev/fb1" # LCD
-```
-
-> Install Chromium
-
-```bash
-sudo apt-get install chromium
-```
-
-> Command line
-
-```bash
-# show usb devices
-lsusb
-
-# show installed modules
-lsmod
-```
-
-> Check USB Device
-
-```bash
-lsusb
-```
-
-> Disable/Enable Wifi
-
-```bash
-sudo ifdown wlan0
-sudo ifup wlan0
-```
+1. 
+2. 
+3. 
+4.
+5.
