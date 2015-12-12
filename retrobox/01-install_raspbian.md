@@ -71,7 +71,7 @@ sudo dpkg-reconfigure console-setup
 sudo reboot
 ```
 
-# 4. Overclocking
+# 4. Overclocking & LCD Config
 
 ```bash
 sudo raspi-config
@@ -80,45 +80,55 @@ sudo raspi-config
 sudo reboot
 ```
 
-# 2. Configure Wifi
-
-> list available network
-
 ```bash
-sudo iwlist wlan0 scan
-```
-
-> Edit conf
-
-```bash
-sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
-» network={
-» ssid="The_ESSID_from_earlier"
-» psk="Your_wifi_password"
-» }
-```
-
-> Restart Wifi or reboot
-
-```bash
-sudo ifdown wlan0
-sudo ifup wlan0
-```
-
-> Test wifi
-
-```bash
-ifconfig wlan0
-```
-
-```bash
+sudo /boot/config.txt
+» Change gpu_mem=256 to 512
+» Change #overscan_left=16 to overscan_left=-30 (remove # behind overscan)
+» Change overscan_right, overscan_top, overscan_bottom to -30
+CTRL + X > Type 'o' letter > Enter
 sudo reboot
 ```
 
-> Disconnect cable<br>
-> You can now be SSH connect via Wifi
+# 5. Add aliases
 
-[source](https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md)
+```bash
+wget https://raw.githubusercontent.com/sixertoy/retrobox/master/files/.bash_aliases
+sudo reboot
+```
+
+# 6. Configure PS3 Controller, Themes, WIFI,  
+
+> Install PS3 Controller
+
+```bash
+rpies (launch retropie setup)
+Select setup/configuration
+Select Install/Pair PS3 Controller
+```
+
+> Install Themes
+
+```bash
+rpies (launch retropie setup)
+Select setup/configuration
+Select Install Themes for Emulationstation
+```
+
+- simple
+- simple Dark
+- nbba
+- simplebigart
+- clean-look
+
+> Configure WIFI
+
+```bash
+rpies (launch retropie setup)
+Select setup/configuration
+Select Configure WIFI
+Select a Network an enter your Secret Key
+sudo reboot
+```
 
 # 4. Setup Aliases & Welcome screen
 
