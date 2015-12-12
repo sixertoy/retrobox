@@ -12,3 +12,8 @@ Taper :
 sudo nano /boot/cmdline.txt
 Ajouter :
 fbcon=map:10
+
+overscan_top=-30
+overscan_left=-30
+overscan_right=-30
+overscan_bottom=-30
