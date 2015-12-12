@@ -26,14 +26,6 @@
 
 ## Software
 
-##### Retrobox
-
->  [Retropie](https://github.com/RetroPie/RetroPie-Setup/wiki/First-Installation)<br>
-or<br>
-> [Recalbox](http://www.recalbox.com)<br>
-or<br>
-> [Raspbian Wheezy](https://www.raspberrypi.org/downloads/raspbian/)  & [Retropie](https://github.com/RetroPie/RetroPie-Setup/wiki/First-Installation)
-
 ##### Windows
 
 - [SDFormater](https://www.sdcard.org/downloads/formatter_4/)
@@ -41,6 +33,10 @@ or<br>
 - [Win32DiskImage](http://sourceforge.net/projects/win32diskimager/)
 - [SuperPutty](https://github.com/jimradford/superputty)
 - [MiniTool Partition Manager](http://www.partitionwizard.com)
+
+##### Retrobox
+
+>  [Retropie](https://github.com/RetroPie/RetroPie-Setup/wiki/First-Installation)
 
 ## Install
 
