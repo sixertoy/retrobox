@@ -1,7 +1,7 @@
 # Retrobox
 
 > Raspberry PI2 B<br>
-> Tutorial made under Windows10 and an SSH Client (MSYSGit + Console2)
+> Tutorial made under Windows10 and an SSH Client (Superputty or MSYSGit + Console2)
 
 > Tontec 3.5 Screen is perfect for retro gaming due to its 128Mhz display frequency<br>
 > Waveshare 3.5 Screen display frequency is too weak for retro gaming (16Mhz), it can be used to build a continuous integration server
@@ -28,11 +28,11 @@
 
 ##### Windows
 
-- [SDFormater](https://www.sdcard.org/downloads/formatter_4/)
-- [WinSCP](https://winscp.net/eng/docs/lang:fr)
-- [Win32DiskImage](http://sourceforge.net/projects/win32diskimager/)
-- [SuperPutty](https://github.com/jimradford/superputty)
-- [MiniTool Partition Manager](http://www.partitionwizard.com)
+- [SDFormater](https://www.sdcard.org/downloads/formatter_4/) ...
+- [WinSCP](https://winscp.net/eng/docs/lang:fr) for transfering BIOS and Games
+- [Win32DiskImage](http://sourceforge.net/projects/win32diskimager/) for installing img on SDCard
+- [SuperPutty](https://github.com/jimradford/superputty) for SSH Client
+- [Notepad++](https://notepad-plus-plus.org/fr/) for editing text files under Windows with Unix line ending
 
 ##### Retrobox
 
