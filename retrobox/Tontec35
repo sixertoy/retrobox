@@ -1,0 +1,14 @@
+Les commandes utilisées pendant ce tuto :
+sudo nano /boot/config.txt
+Decommenter dtparam=spi=on et ajouter dtoverlay=mz61581
+
+sudo nano /usr/share/X11/xorg.conf.d/99-fbturbo.co­nf
+Modifier :
+"fbdev" "/dev/fb0" 
+par 
+"fbdev" "/dev/fb1"
+
+Taper :
+sudo nano /boot/cmdline.txt
+Ajouter :
+fbcon=map:10
