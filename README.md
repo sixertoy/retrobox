@@ -44,8 +44,8 @@ or<br>
 
 ## Install
 
-1. 
-2. 
-3. 
-4.
-5.
+1. Prepare SDCard
+2. Setup & Configuration
+3. Install Games & BIOS (play on TV)
+4. Setup LCD Display (play on LCD)
+5. Tricks
