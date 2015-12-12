@@ -39,6 +39,8 @@ sudo ifdown wlan0
 sudo ifup wlan0
 ```
 
+[source](https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md)
+
 ## Show usb devices
 
 ```bash
