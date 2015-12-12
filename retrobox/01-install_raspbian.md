@@ -1,4 +1,4 @@
-# 1. Install Raspbian
+# 1. Install Retropie
 
 [Raspberry Config file official description](https://www.raspberrypi.org/documentation/configuration/config-txt.md)
 
