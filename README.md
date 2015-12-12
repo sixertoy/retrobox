@@ -3,7 +3,7 @@
 > Raspberry PI2 B<br>
 > Tutorial made under Windows10 and an SSH Client (MSYSGit + Console2)
 
-> Tontec 3.5 Screen is perfect for retro gaming due to his 128Mhz display frequency<br>
+> Tontec 3.5 Screen is perfect for retro gaming due to its 128Mhz display frequency<br>
 > Waveshare 3.5 Screen display frequency is too weak for retro gaming (16Mhz), it can be used to build a continuous integration server
 
 ## Hardware
