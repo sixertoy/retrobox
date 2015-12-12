@@ -10,3 +10,41 @@ sudo reboot
 ```
 
 [source](http://www.opentechguides.com/how-to/article/raspberry-pi/5/raspberry-pi-auto-start.html)
+
+## Show Raspberry OS Version
+
+```bash
+sudo apt-get install lsb-release
+» lsb_release -a
+```
+
+> Switch between HDMI/LCD
+
+```bash
+sudo nano /usr/share/X11/xorg.conf.d/99fbturbo.conf
+Option "fbdev" "/dev/fb0" # HDMI
+Option "fbdev" "/dev/fb1" # LCD
+```
+
+> Install Chromium
+
+```bash
+sudo apt-get install chromium
+```
+
+> Command line
+
+```bash
+# show usb devices
+lsusb
+
+# show installed modules
+lsmod
+```
+
+> Disable/Enable Wifi
+
+```bash
+sudo ifdown wlan0
+sudo ifup wlan0
+```
