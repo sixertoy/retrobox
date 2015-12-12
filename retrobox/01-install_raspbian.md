@@ -96,7 +96,7 @@ wget https://raw.githubusercontent.com/sixertoy/retrobox/master/files/.bash_alia
 sudo reboot
 ```
 
-# 6. Configure PS3 Controller, Themes, WIFI,  
+# 6. Configure PS3 Controller, Themes, WIFI
 
 > Install PS3 Controller
 
@@ -129,41 +129,3 @@ Select Configure WIFI
 Select a Network an enter your Secret Key
 sudo reboot
 ```
-
-# 4. Setup Aliases & Welcome screen
-
-```bash
-rm .bashrc
-wget https://raw.githubusercontent.com/sixertoy/retrobox/master/files/.bashrc
-wget https://raw.githubusercontent.com/sixertoy/retrobox/master/files/.bash_aliases
-sudo reboot
-```
-
-# 5. Setup Audio Output
-
-> Switch the audio output to HDMI
-
-```bash
-amixer cset numid=3 2
-```
-
-> Switch the audio output to headphone jack
-
-```bash
-amixer cset numid=3 1
-```
-
-> Automatic switch audio
-
-```bash
-amixer cset numid=3 0
-```
-
-> If not getting audio via HDMI
-
-```bash
-sudo nano /boot/config.txt
-» hdmi_drive=2
-```
-
-
