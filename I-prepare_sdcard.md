@@ -22,3 +22,5 @@ Connect Battery Cable
 Connect to RPi via SSH
 User: pi
 Password: raspberry
+
+NEXT - Setup, Config & Installation
