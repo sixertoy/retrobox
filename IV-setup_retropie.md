@@ -7,6 +7,10 @@ cd
 sudo /boot/config.txt
 » Change
 gpu_mem_1024=256 to gpu_mem_1024=448
+» Change
+oversan_scale=1 to oversan_scale=0
+
+
 » At the last line of the file
 hdmi_force_hotplug=1
 overscan_top=-30
