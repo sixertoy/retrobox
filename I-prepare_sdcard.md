@@ -1,4 +1,4 @@
-# Prepare SD Card (16Go)
+# Prepare SD Card
 
 ## 1. Plug
 
