@@ -7,18 +7,12 @@ cd
 sudo /boot/config.txt
 » Change
 gpu_mem_1024=256 to gpu_mem_1024=448
-» Change
-oversan_scale=1 to oversan_scale=0
+hdmi_drive=2
+#overscan_scale=1
 
-
-» At the last line of the file
-hdmi_force_hotplug=1
-overscan_top=-30
-overscan_left=-30
-overscan_right=-30
-overscan_bottom=-30
-» Press CTRL+X to save & quit (overwrite=yes and enter to validate filename)
-sudo reboot
+#sound issue
+sudo nano /opt/retropie/configs/all/retroarch.cfg
+audio_out_rate=44100
 ```
 
 ## 2. Add aliases
