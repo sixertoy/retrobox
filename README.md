@@ -4,7 +4,7 @@
 > Tutorial made under Windows10
 
 > Tontec 3.5 Screen is perfect for retro gaming due to its 128Mhz display frequency<br>
-> Waveshare 3.5 Screen display frequency is too weak for retro gaming (16Mhz), it can be used to build a continuous integration server
+> Waveshare 3.5 Screen display frequency is too weak for retro gaming (16Mhz)
 
 ## Step by Step Install, Config & Setup
 
@@ -37,7 +37,7 @@
 - [Tontec 3,5 pouces écran tactile LCD 480x320](http://www.amazon.fr/dp/B00OFLKPG4)
 - [Aukru 5v 2000mA Alimentation](http://www.amazon.fr/dp/B00V07YY0Y)
 
-##### for Micro Computer
+##### for XWindow GUI
 
 - [3,5 pouces TFT écran tactile LCD (A) 320x480](http://www.amazon.fr/dp/B00SKOPWC4)
 - [Aukru NEW 3en 1 Kit - Transparent Case + 5v 2000mA Alimentation](http://www.amazon.fr/dp/B00UCSO9G6)
