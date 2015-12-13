@@ -9,6 +9,13 @@ sudo raspi-config
 sudo reboot
 ```
 
+## 2. Add Tontec Overlay to config
+
+```bash
+sudo nano /boot/config.txt
+dtoverlay=mz61581-overlay.dtb
+```
+
 ## 2. Install FBCP
 
 > Active SPI
@@ -36,6 +43,12 @@ sudo reboot
 ```
 
 [source](https://github.com/notro/fbtft/wiki/Framebuffer-use#framebuffer-mirroring)
+
+> Test is FBCP is well installed
+
+```bash
+fbcp &
+```
 
 > Active FBCP at Boot Startup
 
