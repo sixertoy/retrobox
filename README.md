@@ -9,8 +9,9 @@
 ## Hardware
 
 - [Raspberry Pi 2 Type B](http://www.amazon.fr/dp/B00T2U7R7I)
-- [Edimax EW-7811UN Nano Adaptateur clé USB sans fil 150 Mbps](http://www.amazon.fr/dp/B003MTTJOY)
+- [Edimax EW-7811UN Nano Adaptateur USB sans fil 150 Mbps](http://www.amazon.fr/dp/B003MTTJOY)
 - [Transcend 16 Go Carte mémoire microSDHC Classe 10](http://www.amazon.fr/dp/B00APCMMEK)
+- [Belkin F8T065bf Mini USB Bluetooth 4.0 classe 2](http://www.amazon.fr/dp/B009IQB3US)
 
 ## LCDs 
 
