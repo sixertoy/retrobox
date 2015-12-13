@@ -27,6 +27,8 @@ dtoverlay=mz61581-overlay.dtb
 » Press CTRL+X to save & quit (overwrite=yes and enter to validate filename)
 ```
 
+> ms61581 is the open source overlay compatible with the Tontec 3.5 Screen
+
 ## 4. Install FBCP
 
 ```bash
@@ -38,6 +40,7 @@ mkdir build
 cd build/
 cmake ..
 make
+sudo mkdir /usr/local/bin (may already exists)
 sudo install fbcp /usr/local/bin/fbcp
 sudo reboot
 ```
