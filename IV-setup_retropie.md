@@ -48,6 +48,8 @@ Select Install Themes for Emulationstation
 
 ## 4. Configure PS3 Controller
 
+> Connect PS3 Controller to RPi USB
+
 ```bash
 cd
 rpies (launch retropie setup)
