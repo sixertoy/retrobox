@@ -1,4 +1,4 @@
-# Setup & Configuration
+# II. Setup & Configuration
 
 [Raspberry Config file official description](https://www.raspberrypi.org/documentation/configuration/config-txt.md)
 
