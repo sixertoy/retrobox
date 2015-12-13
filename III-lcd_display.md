@@ -1,13 +1,4 @@
-# III. Overclocking & Display
-
-## 1. Overclocking
-
-```bash
-sudo raspi-config
-» Select Overclocking
-» Select RPI2
-sudo reboot
-```
+# III. LCD Display
 
 ## 2. Active SPI
 
