@@ -6,7 +6,7 @@
 > Tontec 3.5 Screen is perfect for retro gaming due to its 128Mhz display frequency<br>
 > Waveshare 3.5 Screen display frequency is too weak for retro gaming (16Mhz), it can be used to build a continuous integration server
 
-## Install
+## Step by Step Install & Setup
 
 1. Prepare SDCard
 2. [Setup & Configuration](./II-setup_configuration.md)
