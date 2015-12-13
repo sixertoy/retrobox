@@ -13,9 +13,10 @@
   1. Update Raspberry OS
   2. Change language & keyboard
   3. Change console font size
-3. [Setup LCD Display (play on LCD)](./III-setup_lcd_display.md)
+3. [Setup LCD Display](./III-setup_lcd_display.md)
   1.
   2.
+4. [Setup Retropie](./IV-setup_retropie.md)
 4. Install Games & BIOS (play on TV)
 5. Tricks
 
