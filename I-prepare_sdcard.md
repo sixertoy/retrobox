@@ -31,7 +31,7 @@
 ## 3. Format SDCard
 
 - Install **SDFormatter**
-- Insert SDCard
+- Insert SDCard in PC
 - Open SDFormatter
 - Select **Drive** (take care choosing the right disk letter)
 - Set **volume label** to **RETROBOX**
@@ -44,18 +44,31 @@
 
 ## 4. Burn Retropie image file on SDCard
 
-[Download Retropie image file](http://blog.petrockblock.com/retropie/retropie-downloads/)
-Launch Win32DiskImage
-Select Retropie Image File
-Select target SDCard
-Click "Write" > yes
-Exit Win32DiskImage
+- [Download Retropie image file](http://blog.petrockblock.com/retropie/retropie-downloads/)
+- Launch Win32DiskImage
+- Select Retropie Image File
+- Select target SDCard
+- Click "Write" > yes
+- Exit Win32DiskImage
 
-Insert SDCard in RPi
-Connect Battery Cable
+## 5. Turn on RPi
 
-Connect to RPi via SSH
-User: pi
-Password: raspberry
+- Insert SDCard in RPi
+- Connect Battery Cable
+- 
+## 5. Connect via SSH to RPi
+
+> Superputty
+
+- Open **superputty**
+- 
+
+> Console
+
+```bash
+ssh pi@192.168.1.xxx
+```
+
+> **RPi Login Password** raspberry
 
 [**NEXT - Setup & Config**](./II-setup_configuration.md)
