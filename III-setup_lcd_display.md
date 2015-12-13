@@ -68,7 +68,8 @@ sudo reboot
 ```bash
 cd
 sudo /boot/config.txt
-» Change gpu_mem=256 to 512
+» Change
+gpu_mem_1024=xxx to 512
 » At the last line of the file
 hdmi_force_hotplug=1
 overscan_top=-30
