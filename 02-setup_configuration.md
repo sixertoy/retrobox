@@ -69,6 +69,6 @@ sudo dpkg-reconfigure console-setup
 » Select UTF8
 » Select Choix automatique du jeu de caracteres adapte
 » Select TerminusBold
-» Select 10x20
+» Select 16x32
 sudo reboot
 ```
