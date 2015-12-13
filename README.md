@@ -8,16 +8,16 @@
 
 ## Step by Step Install, Config & Setup
 
-I. Prepare SDCard
-II. [Setup & Configuration](./II-setup_configuration.md)
+1. Prepare SDCard
+2. [Setup & Configuration](./II-setup_configuration.md)
   1. Update Raspberry OS
   2. Change language & keyboard
   3. Change console font size]
-III. [Setup LCD Display (play on LCD)](./III-setup_lcd_display.md)
+3. [Setup LCD Display (play on LCD)](./III-setup_lcd_display.md)
   1.
   2.
-IV. Install Games & BIOS (play on TV)
-V. Tricks
+4. Install Games & BIOS (play on TV)
+5. Tricks
 
 ## Hardware
 
