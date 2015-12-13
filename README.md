@@ -1,7 +1,7 @@
 # Retrobox
 
 > Raspberry PI2 B<br>
-> Tutorial made under Windows10 and an SSH Client (Superputty or MSYSGit + Console2)
+> Tutorial made under Windows10
 
 > Tontec 3.5 Screen is perfect for retro gaming due to its 128Mhz display frequency<br>
 > Waveshare 3.5 Screen display frequency is too weak for retro gaming (16Mhz), it can be used to build a continuous integration server
