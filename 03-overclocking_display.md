@@ -1,4 +1,4 @@
-# Overclocking & Display
+# II. Overclocking & Display
 
 ## 1. Overclocking
 
@@ -23,13 +23,14 @@ sudo reboot
 
 ```bash
 sudo nano /boot/config.txt
+» At the last line of the file
 dtoverlay=mz61581-overlay.dtb
 » Press CTRL+X to save & quit (overwrite=yes and enter to validate filename)
 ```
 
 > ms61581 is the open source overlay compatible with the Tontec 3.5 Screen
 
-## 4. Install FBCP
+## 4. Install FBCP (Frame Buffer Copy)
 
 ```bash
 cd
@@ -71,13 +72,18 @@ sudo reboot
 
 [source](https://github.com/watterott/RPi-Display/blob/master/docu/FAQ.md)
 
-## 3. LCD Configure Display
+## 5. Configure LCD Display
 
 ```bash
+cd
 sudo /boot/config.txt
 » Change gpu_mem=256 to 512
-» Change #overscan_left=16 to overscan_left=-30 (remove # behind overscan)
-» Change overscan_right, overscan_top, overscan_bottom to -30
+» At the last line of the file
+hdmi_force_hotplug=1
+overscan_top=-30
+overscan_left=-30
+overscan_right=-30
+overscan_bottom=-30
 » Press CTRL+X to save & quit (overwrite=yes and enter to validate filename)
 sudo reboot
 ```
