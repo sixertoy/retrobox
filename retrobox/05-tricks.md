@@ -34,6 +34,8 @@ sudo apt-get install chromium
 
 ## Setup & Disable/Enable Wifi
 
+> Via SSH
+
 ```bash
 sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
 » network={
@@ -48,6 +50,18 @@ sudo ifup wlan0
 ```
 
 [source](https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md)
+
+> Via RPIES
+
+```bash
+cd
+rpies (launch retropie setup)
+Select setup/configuration
+Select Configure WIFI
+Select a Network an enter your Secret Key
+sudo reboot
+```
+
 
 ## Show usb devices
 
@@ -108,7 +122,6 @@ amixer cset numid=3 0
 sudo nano /boot/config.txt
 » hdmi_drive=2
 ```
-
 
 ## 1. Overclocking
 
