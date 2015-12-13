@@ -6,14 +6,14 @@
 > Tontec 3.5 Screen is perfect for retro gaming due to its 128Mhz display frequency<br>
 > Waveshare 3.5 Screen display frequency is too weak for retro gaming (16Mhz), it can be used to build a continuous integration server
 
-## Hardware
+### Hardware
 
 - [Raspberry Pi 2 Type B](http://www.amazon.fr/dp/B00T2U7R7I)
 - [Edimax EW-7811UN Nano Adaptateur USB sans fil 150 Mbps](http://www.amazon.fr/dp/B003MTTJOY)
 - [Transcend 16 Go Carte mémoire microSDHC Classe 10](http://www.amazon.fr/dp/B00APCMMEK)
 - [Belkin F8T065bf Mini USB Bluetooth 4.0 classe 2](http://www.amazon.fr/dp/B009IQB3US)
 
-## LCDs 
+### LCDs 
 
 ##### for Retro Gaming
 
@@ -25,7 +25,7 @@
 - [3,5 pouces TFT écran tactile LCD (A) 320x480](http://www.amazon.fr/dp/B00SKOPWC4)
 - [Aukru NEW 3en 1 Kit - Transparent Case + 5v 2000mA Alimentation](http://www.amazon.fr/dp/B00UCSO9G6)
 
-## Software
+### Software
 
 ##### Windows
 
