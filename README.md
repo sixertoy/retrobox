@@ -42,6 +42,6 @@
 
 1. Prepare SDCard
 2. [Setup & Configuration](./II-setup_configuration.md)
-3. [Setup LCD Display (play on LCD)](./III-overclocking_display.md)
+3. [Setup LCD Display (play on LCD)](./III-setup_lcd_display.md)
 4. Install Games & BIOS (play on TV)
 5. Tricks
