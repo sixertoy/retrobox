@@ -72,3 +72,5 @@ sudo dpkg-reconfigure console-setup
 » Select 16x32
 sudo reboot
 ```
+
+[> NEXT Setup LCD Display](./III-setup_lcd_display.md <)
