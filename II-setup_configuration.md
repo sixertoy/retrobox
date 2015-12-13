@@ -73,4 +73,6 @@ sudo dpkg-reconfigure console-setup
 sudo reboot
 ```
 
+|   |
+| - |
 | [NEXT Setup LCD Display](./III-setup_lcd_display.md)  |
