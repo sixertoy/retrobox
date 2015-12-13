@@ -9,16 +9,7 @@ sudo raspi-config
 sudo reboot
 ```
 
-## 2. Add Tontec Overlay to config
-
-```bash
-sudo nano /boot/config.txt
-dtoverlay=mz61581-overlay.dtb
-```
-
-## 2. Install FBCP
-
-> Active SPI
+## 2. Active SPI
 
 ```bash
 sudo raspi-config
@@ -28,9 +19,18 @@ sudo raspi-config
 sudo reboot
 ```
 
-> Install FBCP
+## 3. Add Tontec Overlay to config
 
 ```bash
+sudo nano /boot/config.txt
+dtoverlay=mz61581-overlay.dtb
+» Press CTRL+X to save & quit (overwrite=yes and enter to validate filename)
+```
+
+## 4. Install FBCP
+
+```bash
+cd
 sudo apt-get install cmake
 git clone https://github.com/tasanakorn/rpi-fbcp
 cd rpi-fbcp/
@@ -48,19 +48,23 @@ sudo reboot
 
 ```bash
 fbcp &
+» What you see on your HDMI Display should appears on your LCD display
+» FBCP must setted for an automatic startup during boot sequence
+
+» For a manual start of fbcp run: fbcp & (Process ID should be logged in console)
+» For a manual stop of fbcp run: killall fbcp (Console warn that process has been completed)
 ```
 
-> Active FBCP at Boot Startup
+> Startup FBCP during Boot sequence
 
 ```bash
+cd
 sudo wget -O /etc/init.d/fbcp https://raw.githubusercontent.com/sixertoy/retrobox/master/files/fbcp
 sudo chmod +x /etc/init.d/fbcp
 sudo update-rc.d fbcp defaults
-reboot
+sudo reboot
+» Display is configured at startup
 ```
-
-For a manual start of fbcp run: fbcp &
-For a manual stop of fbcp run: killall fbcp
 
 [source](https://github.com/watterott/RPi-Display/blob/master/docu/FAQ.md)
 
@@ -71,6 +75,6 @@ sudo /boot/config.txt
 » Change gpu_mem=256 to 512
 » Change #overscan_left=16 to overscan_left=-30 (remove # behind overscan)
 » Change overscan_right, overscan_top, overscan_bottom to -30
-CTRL + X > Type 'o' letter > Enter
+» Press CTRL+X to save & quit (overwrite=yes and enter to validate filename)
 sudo reboot
 ```
