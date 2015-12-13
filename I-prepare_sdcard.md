@@ -2,7 +2,7 @@
 
 ## 1. Plug
 
-- Don't connect power cable yet to RPi
+- **Do not connect** power cable yet to RPi
 - Connect HDMI cable to RPi
 - Connect Ethernet cable to RPi
 - Plug WIFI key (optionnal)
@@ -61,7 +61,6 @@
 > Superputty
 
 - Open **superputty**
-- 
 
 > Console
 
