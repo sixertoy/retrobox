@@ -1,6 +1,6 @@
 # III. LCD Display
 
-## 2. Active SPI
+## 1. Active SPI
 
 ```bash
 sudo raspi-config
@@ -10,7 +10,7 @@ sudo raspi-config
 sudo reboot
 ```
 
-## 3. Add Tontec Overlay to config
+## 2. Add Tontec Overlay to config
 
 ```bash
 sudo nano /boot/config.txt
@@ -21,7 +21,7 @@ dtoverlay=mz61581-overlay.dtb
 
 > ms61581 is the open source overlay compatible with the Tontec 3.5 Screen
 
-## 4. Install FBCP (Frame Buffer Copy)
+## 3. Install FBCP (Frame Buffer Copy)
 
 ```bash
 cd
@@ -63,7 +63,7 @@ sudo reboot
 
 [source](https://github.com/watterott/RPi-Display/blob/master/docu/FAQ.md)
 
-## 5. Configure LCD Display
+## 4. Config LCD Display
 
 ```bash
 cd
