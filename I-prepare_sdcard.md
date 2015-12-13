@@ -54,9 +54,9 @@
 ## 5. Turn on RPi
 
 - Insert SDCard in RPi
-- Connect Battery Cable
-- 
-## 5. Connect via SSH to RPi
+- Connect power Cable to RPi
+
+## 6. Connect via SSH to RPi
 
 > Superputty
 
