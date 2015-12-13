@@ -23,4 +23,4 @@ Connect to RPi via SSH
 User: pi
 Password: raspberry
 
-NEXT - Setup, Config & Installation
+[**NEXT - Setup & Config**](./II-setup_configuration.md)
