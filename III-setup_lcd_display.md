@@ -63,19 +63,4 @@ sudo reboot
 
 [source](https://github.com/watterott/RPi-Display/blob/master/docu/FAQ.md)
 
-## 4. Config LCD Display
-
-```bash
-cd
-sudo /boot/config.txt
-» Change
-gpu_mem_1024=xxx to 512
-» At the last line of the file
-hdmi_force_hotplug=1
-overscan_top=-30
-overscan_left=-30
-overscan_right=-30
-overscan_bottom=-30
-» Press CTRL+X to save & quit (overwrite=yes and enter to validate filename)
-sudo reboot
-```
+[**NEXT - Configure Display**]()
