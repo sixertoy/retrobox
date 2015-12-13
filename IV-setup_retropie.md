@@ -20,23 +20,15 @@ sudo reboot
 ## 2. Add aliases
 
 ```bash
+cd
 wget https://raw.githubusercontent.com/sixertoy/retrobox/master/files/.bash_aliases
 sudo reboot
 ```
 
-## 3. Configure PS3 Controller, Themes
-
-> Install PS3 Controller
+## 3. Configure Themes
 
 ```bash
-rpies (launch retropie setup)
-Select setup/configuration
-Select Install/Pair PS3 Controller
-```
-
-> Install Themes
-
-```bash
+cd
 rpies (launch retropie setup)
 Select setup/configuration
 Select Install Themes for Emulationstation
@@ -48,3 +40,11 @@ Select Install Themes for Emulationstation
 - simplebigart
 - clean-look
 
+## 4. Configure PS3 Controller
+
+```bash
+cd
+rpies (launch retropie setup)
+Select setup/configuration
+Select Install/Pair PS3 Controller
+```
