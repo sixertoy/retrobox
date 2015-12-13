@@ -63,4 +63,4 @@ sudo reboot
 
 [source](https://github.com/watterott/RPi-Display/blob/master/docu/FAQ.md)
 
-[**NEXT - Configure Display**]()
+[**NEXT - Setup Retropie**](./IV-setup_retropie.md)
