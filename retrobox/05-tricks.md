@@ -110,4 +110,14 @@ sudo nano /boot/config.txt
 ```
 
 
+## 1. Overclocking
+
+```bash
+sudo raspi-config
+» Select Overclocking
+» Select RPI2
+sudo reboot
+```
+
+
 
