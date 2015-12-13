@@ -47,7 +47,7 @@ sudo reboot
 
 [source](https://github.com/notro/fbtft/wiki/Framebuffer-use#framebuffer-mirroring)
 
-> Test is FBCP is well installed
+> Test if FBCP is well installed
 
 ```bash
 fbcp &
