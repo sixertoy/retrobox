@@ -1,13 +1,13 @@
+# IV. Setup Retropie
 
-
-## 5. Add aliases
+## 1. Add aliases
 
 ```bash
 wget https://raw.githubusercontent.com/sixertoy/retrobox/master/files/.bash_aliases
 sudo reboot
 ```
 
-## 6. Configure PS3 Controller, Themes, WIFI
+## 2. Configure PS3 Controller, Themes
 
 > Install PS3 Controller
 
@@ -31,12 +31,5 @@ Select Install Themes for Emulationstation
 - simplebigart
 - clean-look
 
-> Configure WIFI
+## 3. Configure WIFI
 
-```bash
-rpies (launch retropie setup)
-Select setup/configuration
-Select Configure WIFI
-Select a Network an enter your Secret Key
-sudo reboot
-```
