@@ -31,5 +31,3 @@ Select Install Themes for Emulationstation
 - simplebigart
 - clean-look
 
-## 3. Configure WIFI
-
