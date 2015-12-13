@@ -67,7 +67,7 @@ sudo wget -O /etc/init.d/fbcp https://raw.githubusercontent.com/sixertoy/retrobo
 sudo chmod +x /etc/init.d/fbcp
 sudo update-rc.d fbcp defaults
 sudo reboot
-» Display is configured at startup
+» Display is now configured at startup
 ```
 
 [source](https://github.com/watterott/RPi-Display/blob/master/docu/FAQ.md)
