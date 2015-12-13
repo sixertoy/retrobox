@@ -72,21 +72,3 @@ sudo dpkg-reconfigure console-setup
 » Select 10x20
 sudo reboot
 ```
-
-## 4. Overclocking & Display
-
-```bash
-sudo raspi-config
-» Select Overclocking
-» Select RPI2
-sudo reboot
-```
-
-```bash
-sudo /boot/config.txt
-» Change gpu_mem=256 to 512
-» Change #overscan_left=16 to overscan_left=-30 (remove # behind overscan)
-» Change overscan_right, overscan_top, overscan_bottom to -30
-CTRL + X > Type 'o' letter > Enter
-sudo reboot
-```
