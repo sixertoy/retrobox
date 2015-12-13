@@ -41,11 +41,7 @@
 ## Install
 
 1. Prepare SDCard
-2. [Setup & Configuration](./02-setup_configuration.md)
-3. Install Games & BIOS (play on TV)
-4. Setup LCD Display (play on LCD)
+2. [Setup & Configuration](./II-setup_configuration.md)
+3. [Setup LCD Display (play on LCD)](./III-overclocking_display.md)
+4. Install Games & BIOS (play on TV)
 5. Tricks
- 
-## Recalbox on HDMI Only
-
-## StartX on Waveshare35a & on Tontec35
