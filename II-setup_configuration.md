@@ -16,7 +16,7 @@ sudo reboot
 
 ```bash
 sudo apt-get update
-sudo apt-get upgrade
+sudo apt-get upgrade (Y if prompted)
 sudo reboot
 ```
 
