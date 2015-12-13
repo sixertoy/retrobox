@@ -14,11 +14,16 @@
   2. Change language & keyboard
   3. Change console font size
 3. [Setup LCD Display](./III-setup_lcd_display.md)
-  1.
-  2.
+  1. Activate SPI
+  2. Add Tontec Drivers
+  3. Install FBCP
 4. [Setup Retropie](./IV-setup_retropie.md)
-4. Install Games & BIOS (play on TV)
-5. Tricks
+  1. Config Display & Memory
+  2. Add Aliases
+  3. Configure Retropie's Themes
+  4. Configure PS3 Controller
+5. Install Games & BIOS
+6. Tricks
 
 ## Hardware
 
