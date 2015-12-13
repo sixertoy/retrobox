@@ -36,7 +36,7 @@
 
 ##### Retrobox
 
->  [Retropie](https://github.com/RetroPie/RetroPie-Setup/wiki/First-Installation)
+- [Retropie](https://github.com/RetroPie/RetroPie-Setup/wiki/First-Installation)
 
 ## Install
 
