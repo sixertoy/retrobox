@@ -41,7 +41,7 @@
 ## Install
 
 1. Prepare SDCard
-2. [Setup & Configuration](./retrobox/02-setup_configuration)
+2. [Setup & Configuration](./retrobox/02-setup_configuration.md)
 3. Install Games & BIOS (play on TV)
 4. Setup LCD Display (play on LCD)
 5. Tricks
