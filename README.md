@@ -12,7 +12,7 @@
 2. [Setup & Configuration](./II-setup_configuration.md)
   1. Update Raspberry OS
   2. Change language & keyboard
-  3. Change console font size]
+  3. Change console font size
 3. [Setup LCD Display (play on LCD)](./III-setup_lcd_display.md)
   1.
   2.
