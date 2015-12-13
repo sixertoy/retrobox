@@ -1,5 +1,35 @@
 # Raspberry Tricks
 
+## Setup & Disable/Enable Wifi
+
+> Via SSH
+
+```bash
+sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
+» network={
+» ssid="The_ESSID_from_earlier"
+» psk="Your_wifi_password"
+» }
+```
+
+```bash
+sudo ifdown wlan0
+sudo ifup wlan0
+```
+
+[source](https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md)
+
+> Via RPIES
+
+```bash
+cd
+rpies (launch retropie setup)
+Select setup/configuration
+Select Configure WIFI
+Select a Network an enter your Secret Key
+sudo reboot
+```
+
 ## Auto Login
 
 ```bash
@@ -31,37 +61,6 @@ sudo nano /usr/share/X11/xorg.conf.d/99fbturbo.conf
 ```bash
 sudo apt-get install chromium
 ```
-
-## Setup & Disable/Enable Wifi
-
-> Via SSH
-
-```bash
-sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
-» network={
-» ssid="The_ESSID_from_earlier"
-» psk="Your_wifi_password"
-» }
-```
-
-```bash
-sudo ifdown wlan0
-sudo ifup wlan0
-```
-
-[source](https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md)
-
-> Via RPIES
-
-```bash
-cd
-rpies (launch retropie setup)
-Select setup/configuration
-Select Configure WIFI
-Select a Network an enter your Secret Key
-sudo reboot
-```
-
 
 ## Show usb devices
 
