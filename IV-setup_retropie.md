@@ -4,15 +4,11 @@
 
 ```bash
 cd
-sudo /boot/config.txt
+sudo nano /boot/config.txt
 » Change
-gpu_mem_1024=256 to gpu_mem_1024=448
-hdmi_drive=2
+gpu_mem_1024=256 to gpu_mem_1024=512
+» Comment
 #overscan_scale=1
-
-#sound issue
-sudo nano /opt/retropie/configs/all/retroarch.cfg
-audio_out_rate=44100
 ```
 
 ## 2. Add aliases
