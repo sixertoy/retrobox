@@ -25,11 +25,8 @@
 - active spi
 - reboot
 - sudo nano /boot/config.txt
-- #screen
 - dtparam=spi=on
 - dtoverlay=mz61581-overlay.dtb
-- sudo raspi-config
-- overclocking > none
 - reboot
 
 ## Retropie Install
