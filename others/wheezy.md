@@ -16,6 +16,25 @@
 - sudo raspi-config
 - active spi
 - reboot
+- sudo nano /boot/config.txt
+- #screen
+- dtparam=spi=on
+- dtoverlay=mz61581-overlay.dtb
+- #overclock PI2
+- arm_freq=1000
+- core_freq=500
+- sdram_freq=500
+- over_voltage=2
+- #overclock none
+- arm_freq=700
+- core_freq=250
+- sdram_freq=400
+- over_voltage=0
+
+## WIFI
+- sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
+
+## Retropie
 - git clone --depth=1 https://github.com/RetroPie/RetroPie-Setup.git
 - cd Retropie-Setup
 - sudo ./retropie-setup
