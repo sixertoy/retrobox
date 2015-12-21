@@ -1,6 +1,7 @@
-- install wheez on sdcard
+
 
 ## Preinstall
+- copy wheezy image on sdcard
 - sudo raspi-config
 - extend FS
 - reboot
@@ -15,32 +16,53 @@
 ## Languages
 - sudo raspi-config
 - change locale
-- reboot
 - change timezone
-- change keyboard layout
+- sudo reboot
+
+## Autologin et WIFI
+
+### Autologin
+- sudo nano /etc/inittab
+- #1:2345:respawn:/sbin/getty --noclear 38400 tty1
+- 1:2345:respawn:/bin/login -f pi tty1 </dev/tty1 >/dev/tty1 2>&1
+- sudo reboot
+- 
+### WIFI
+- sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
+- @see file files/wp_supplicant.conf
+- network={id_str="" ssid="" psk=""}
 - reboot
 
 ## LCD Display
+
+### Display
 - sudo raspi-config
 - active spi
 - reboot
 - sudo nano /boot/config.txt
 - dtparam=spi=on
 - dtoverlay=mz61581-overlay.dtb
-- reboot
 
-## WIFI
-- sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
-- @see file files/wp_supplicant.conf
-- network={id_str="" ssid="" psk=""}
-
-## Autologin
-- sudo nano /etc/inittab
-- 1:2345:respawn:/bin/login -f pi tty1 </dev/tty1 >/dev/tty1 2>&1
-
-## Install console on LCD
+### Console on LCD
 - sudo nano /boot/cmdline.txt
 - fbcon=map:10 fbcon=font:ProFont6x11
+- reboot
+
+## Change Keyboard
+- plug a keyboard
+- sudo raspi-config
+- change keyboard layout
+- reboot
+
+## Install FBCP
+- git clone https://github.com/tasanakorn/rpi-fbcp
+- cd rpi-fbcp/
+- mkdir build
+- cd build/
+- cmake ..
+- make
+- sudo mkdir /usr/local/bin
+- sudo install fbcp /usr/local/bin/fbcp
 
 ## Retropie Install
 - git clone --depth=1 https://github.com/RetroPie/RetroPie-Setup.git
@@ -48,14 +70,18 @@
 - sudo ./retropie_setup.sh
 - Install EmulationStation (binary)
 - Install Retroarch (binary)
-- 
-- perform reboot
+- sudo reboot
 
-## Retropie Configure Emulator
+
+## Install Aliases & Startup
+
+## Optional
+
+### Retropie Configure Emulator
 - cd RetroPie-Setup
 - sh ./retropie_setup.sh
 
-## Max Overclock PI2
+### Max Overclock PI2
 - arm_freq=1000
 - core_freq=500
 - sdram_freq=500
