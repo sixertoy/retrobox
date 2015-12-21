@@ -33,6 +33,14 @@
 - sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
 - @see file files/wp_supplicant.conf
 
+## Autologin
+- sudo nano /etc/inittab
+- 1:2345:respawn:/bin/login -f pi tty1 </dev/tty1 >/dev/tty1 2>&1
+
+## Install console on CD
+- sudo nano /boot/cmdline.txt
+- fbcon=map:10 fbcon=font:ProFont6x11
+
 ## Retropie Install
 - git clone --depth=1 https://github.com/RetroPie/RetroPie-Setup.git
 - cd RetroPie-Setup
@@ -41,12 +49,6 @@
 - install Retroach
 - 
 - perform reboot
-
-## Install console on CD
-- sudo nano /boot/cmdline.txt
-- fbcon=map:10 fbcon=font:ProFont6x11
-
-## Autologin
 
 ## Retropie Configure Emulator
 - cd RetroPie-Setup
