@@ -64,16 +64,25 @@
 - sudo mkdir /usr/local/bin
 - sudo install fbcp /usr/local/bin/fbcp
 
-## Retropie Install
+## Install Aliases
+- wget 
+
+## Retropie
+
+### Install
 - git clone --depth=1 https://github.com/RetroPie/RetroPie-Setup.git
 - cd RetroPie-Setup
 - sudo ./retropie_setup.sh
 - Install EmulationStation (binary)
 - Install Retroarch (binary)
+- Install MUPen64 (binary)
 - sudo reboot
 
-
-## Install Aliases & Startup
+### Install Themes
+- cd RetroPie-Setup
+- sudo ./retropie_setup.sh
+- Setup/Configuration > Install Themes > Simple + Clean-Look
+- Setup/Configuration > Install Samba Shares
 
 ## Optional
 
