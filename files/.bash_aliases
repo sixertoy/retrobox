@@ -1,5 +1,5 @@
 # cd
-# wget wget https://raw.githubusercontent.com/sixertoy/retrobox/master/files/.bash_aliases
+# wget https://raw.githubusercontent.com/sixertoy/retrobox/master/files/.bash_aliases
 # some more ls aliases
 alias ll='ls -l'
 alias la='ls -lA'
