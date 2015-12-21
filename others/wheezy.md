@@ -84,6 +84,12 @@
 - Setup/Configuration > Install Themes > Simple + Clean-Look
 - Setup/Configuration > Install Samba Shares
 
+### Setup GPU MEM
+- sudo nano /boot/config.txt
+- overscan_scale=0
+- gpu_mem_1024=448
+- sudo reboot
+
 ## Optional
 
 ### Retropie Configure Emulator
