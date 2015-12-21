@@ -25,20 +25,19 @@
 - sudo nano /etc/inittab
 - #1:2345:respawn:/sbin/getty --noclear 38400 tty1
 - 1:2345:respawn:/bin/login -f pi tty1 </dev/tty1 >/dev/tty1 2>&1
-- sudo reboot
-- 
+
 ### WIFI
 - sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
 - @see file files/wp_supplicant.conf
 - network={id_str="" ssid="" psk=""}
-- reboot
+- sudo reboot
 
 ## LCD Display
 
 ### Display
 - sudo raspi-config
 - active spi
-- reboot
+- sudo reboot
 - sudo nano /boot/config.txt
 - dtparam=spi=on
 - dtoverlay=mz61581-overlay.dtb
@@ -46,7 +45,7 @@
 ### Console on LCD
 - sudo nano /boot/cmdline.txt
 - fbcon=map:10 fbcon=font:ProFont6x11
-- reboot
+- sudo reboot
 
 ## Change Keyboard
 - plug a keyboard
@@ -55,6 +54,7 @@
 - reboot
 
 ## Install FBCP
+- sudo apt-get install cmake
 - git clone https://github.com/tasanakorn/rpi-fbcp
 - cd rpi-fbcp/
 - mkdir build
