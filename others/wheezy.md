@@ -89,6 +89,7 @@
 - gpu_mem_1024=448
 - overscan_scale=0
 - disable_overscan=1
+- disable_audio_dither=1
 - sudo reboot
 
 ## Optional
