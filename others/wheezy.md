@@ -65,7 +65,7 @@
 - sudo install fbcp /usr/local/bin/fbcp
 
 ## Install Aliases
-- wget 
+- wget https://raw.githubusercontent.com/sixertoy/retrobox/master/files/.bash_aliases 
 
 ## Retropie
 
