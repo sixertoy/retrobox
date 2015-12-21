@@ -103,6 +103,3 @@
 - core_freq=500
 - sdram_freq=500
 - over_voltage=2
-
-
-wget ftp://mondemul.info/mondemul/1/zizo/rhums/n64/Legend%20of%20Zelda,%20The%20-%20Majora's%20Mask.7z
