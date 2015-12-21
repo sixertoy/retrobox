@@ -32,6 +32,7 @@
 ## WIFI
 - sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
 - @see file files/wp_supplicant.conf
+- network={id_str="" ssid="" psk=""}
 
 ## Autologin
 - sudo nano /etc/inittab
