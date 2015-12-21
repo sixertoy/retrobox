@@ -37,7 +37,7 @@
 - sudo nano /etc/inittab
 - 1:2345:respawn:/bin/login -f pi tty1 </dev/tty1 >/dev/tty1 2>&1
 
-## Install console on CD
+## Install console on LCD
 - sudo nano /boot/cmdline.txt
 - fbcon=map:10 fbcon=font:ProFont6x11
 
@@ -45,16 +45,14 @@
 - git clone --depth=1 https://github.com/RetroPie/RetroPie-Setup.git
 - cd RetroPie-Setup
 - sudo ./retropie_setup.sh
-- install Emulationstation
-- install Retroach
+- Install EmulationStation (binary)
+- Install Retroarch (binary)
 - 
 - perform reboot
 
 ## Retropie Configure Emulator
 - cd RetroPie-Setup
 - sh ./retropie_setup.sh
-- Install EmulationStation (binary)
-- Install Retroarch (binary)
 
 ## Max Overclock PI2
 - arm_freq=1000
