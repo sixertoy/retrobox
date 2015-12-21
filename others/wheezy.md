@@ -86,9 +86,9 @@
 
 ### Setup GPU MEM
 - sudo nano /boot/config.txt
-- overscan_scale=0
 - gpu_mem_1024=448
-- hdmi_drive=2
+- overscan_scale=0
+- disable_overscan=1
 - sudo reboot
 
 ## Optional
