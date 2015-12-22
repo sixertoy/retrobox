@@ -73,9 +73,10 @@
 - git clone --depth=1 https://github.com/RetroPie/RetroPie-Setup.git
 - cd RetroPie-Setup
 - sudo ./retropie_setup.sh
-- Install EmulationStation (binary)
-- Install Retroarch (binary)
-- Install MUPen64 (binary)
+- Install EmulationStation (306) (binary)
+- Install Retroarch (125) (binary)
+- Install mupen64plus (116) (binary)
+- Install lr-snes9x-next (234) (binary)
 - sudo reboot
 
 ### Install Themes
