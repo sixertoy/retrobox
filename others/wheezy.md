@@ -43,9 +43,15 @@
 - dtoverlay=mz61581-overlay.dtb
 
 ### Console on LCD
+
+#### With Startx
 - sudo nano /boot/cmdline.txt
 - fbcon=map:10 fbcon=font:ProFont6x11
 - sudo reboot
+- 
+#### With EmulationStation
+- con2fbmap 1 1 # HDMI -> LCD
+- con2fbmap 1 0 # LCD -> HDMI
 
 ## Change Keyboard
 - plug a keyboard
