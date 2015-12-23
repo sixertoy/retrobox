@@ -29,9 +29,26 @@
 - remove alias l='ls -CF'
 - sudo reboot
 - install Git
-- sudo apt-get install git-core
-- clone retropie
-- 
+- sudo apt-get install -y git dialog
+- install fbcp
+- sudo apt-get install cmake
+- git clone https://github.com/tasanakorn/rpi-fbcp
+- cd rpi-fbcp/
+- mkdir build
+- cd build/
+- cmake ..
+- make
+- sudo mkdir /usr/local/bin (may already exists)
+- sudo install fbcp /usr/local/bin/fbcp
+- sudo wget -O /etc/init.d/fbcp https://raw.githubusercontent.com/sixertoy/retrobox/master/files/fbcp
+- sudo chmod +x /etc/init.d/fbcp
+- sudo reboot
+- install chromium
+- sudo apt-get install chromium
+- install retropie
+- git clone --depth=1 https://github.com/RetroPie/RetroPie-Setup.git
+- cd RetroPie-Setup
+- sudo chmod +x retropie_setup.sh
 
 ## Make root file 
 
