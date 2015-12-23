@@ -25,3 +25,13 @@
 - alias ds='df -h'
 - remove alias l='ls -CF'
 - sudo reboot
+
+## Make root file 
+
+sudo tar -cvpf root.tar /* --exclude=proc/* --exclude=sys/* --exclude = dev/pts/*
+sudo xz  -9  -e  root.tar
+
+## Make boot file 
+
+sudo tar  -cvpf boot.tar
+sudo xz  -9  -e  boot.tar
