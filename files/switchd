@@ -1,0 +1,22 @@
+#! /bin/sh
+# /etc/init.d/switchd
+# sudo chmod 755 switchd
+#
+# Install
+# sudo update-rc.d switchd defaults
+#
+# Uninstall
+# sudo update-rc.d -f switchd remove
+case "$1" in
+  start)
+    con2fbmap 1 1
+    ;;
+  stop)
+    echo "Switch display LCD to HDMI"
+    con2fbmap 1 0
+    ;;
+  *)
+    echo "Usage: /etc/init.d/switchd {start|stop}"
+    ;;
+esac
+exit 0
