@@ -12,5 +12,5 @@
 - sudo reboot
 - slim raspbian
 - sudo cp /etc/network/interfaces /etc/network/interfaces.bak
-- wget https://gist.githubusercontent.com/
+- wget https://gist.githubusercontent.com/sixertoy/d6886212814c61c54e29/raw/3123a7d786f3c012fa0604439e35642cb1eb067e/slim-raspbian.sh
 - sh ./slim-raspbian.sh | sudo sh
