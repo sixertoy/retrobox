@@ -1,0 +1,16 @@
+- download wheezy
+- edit /boot/config.txt
+- edit /boot/cmdline.txt
+- install wheezy on sdcard
+- plug rpi
+- sudo raspi-config
+- edit international
+- sudo apt-get update
+- sudo apt-get upgrade
+- sudo reboot
+- sudo rpi-update
+- sudo reboot
+- slim raspbian
+- sudo cp /etc/network/interfaces /etc/network/interfaces.bak
+- wget https://gist.githubusercontent.com/
+- sh ./slim-raspbian.sh | sudo sh
