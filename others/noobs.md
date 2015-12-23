@@ -31,10 +31,27 @@
 
 ## Make root file 
 
-sudo tar -cvpf root.tar /* --exclude=proc/* --exclude=sys/* --exclude = dev/pts/*
-sudo xz  -9  -e  root.tar
+- cd /
+- sudo tar -cvpf root.tar /* --exclude=proc/* --exclude=sys/* --exclude = dev/pts/*
+- sudo xz  -9  -e  root.tar.xz
 
 ## Make boot file 
 
-sudo tar  -cvpf boot.tar
-sudo xz  -9  -e  boot.tar
+- cd /boot
+- sudo tar -cvpf boot.tar
+- sudo xz  -9  -e  boot.tar
+
+## Get file over ssh
+
+- scp pi@<rpi_ip_adress>:root.tar.xz ~/Downloads
+- scp pi@<rpi_ip_adress>:boot.tar.xz ~/Downloads
+
+# NOOBS
+
+- edit recovery.cmdline
+- add silentinstall
+- in os/ replace root.tar.xz
+- in os/ replace boot.tar.xz
+- edit os.json
+- edit raspbian.png
+- edit slides/*
