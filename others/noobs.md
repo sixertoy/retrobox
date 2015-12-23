@@ -73,12 +73,15 @@
 ## Install Packages
 
 > **install Git**
+
 - sudo apt-get install -y git dialog
 
 > **install cmake**
+
 - sudo apt-get install -y cmake
 
 > **install fbcp**
+
 - git clone https://github.com/tasanakorn/rpi-fbcp
 - cd rpi-fbcp/
 - mkdir build
@@ -92,6 +95,7 @@
 - sudo reboot
 
 > **install retropie**
+
 - git clone --depth=1 https://github.com/RetroPie/RetroPie-Setup.git
 - cd RetroPie-Setup
 - sudo chmod +x retropie_setup.
@@ -111,6 +115,7 @@
 - install samba shares
 
 > **install chromium [Optional]**
+
 - sudo apt-get install chromium
 
 # NOOBS
@@ -132,7 +137,7 @@
 - scp pi@<rpi_ip_adress>:root.tar.xz ~/Downloads
 - scp pi@<rpi_ip_adress>:boot.tar.xz ~/Downloads
 
-# NOOBS
+## Config boot
 
 - edit recovery.cmdline
 - add silentinstall
