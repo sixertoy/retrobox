@@ -28,6 +28,10 @@
 - alias ds='df -h'
 - remove alias l='ls -CF'
 - sudo reboot
+- install Git
+- sudo apt-get install git-core
+- clone retropie
+- 
 
 ## Make root file 
 
