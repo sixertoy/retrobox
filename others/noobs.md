@@ -1,8 +1,8 @@
 - download wheezy
+- burn wheezu on sdcard
 - edit /boot/config.txt
 - edit /boot/cmdline.txt
-- install wheezy on sdcard
-- plug rpi
+- plug sdcard + rpi
 - sudo raspi-config
 - edit international
 - sudo apt-get update
