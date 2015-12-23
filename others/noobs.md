@@ -54,7 +54,7 @@
 
 - cd /
 - sudo tar -cvpf root.tar /* --exclude=proc/* --exclude=sys/* --exclude = dev/pts/*
-- sudo xz  -9  -e  root.tar.xz
+- sudo xz  -9  -e  root.tar
 
 ## Make boot file 
 
