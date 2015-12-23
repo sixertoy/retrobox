@@ -72,13 +72,13 @@
 
 ## Install Packages
 
-> install Git
+> **install Git**
 - sudo apt-get install -y git dialog
 
-> install cmake
+> **install cmake**
 - sudo apt-get install -y cmake
 
-> install fbcp
+> **install fbcp**
 - git clone https://github.com/tasanakorn/rpi-fbcp
 - cd rpi-fbcp/
 - mkdir build
@@ -91,7 +91,7 @@
 - sudo chmod +x /etc/init.d/fbcp
 - sudo reboot
 
-> install retropie
+> **install retropie**
 - git clone --depth=1 https://github.com/RetroPie/RetroPie-Setup.git
 - cd RetroPie-Setup
 - sudo chmod +x retropie_setup.
@@ -110,7 +110,7 @@
   - clean-look
 - install samba shares
 
-> install chromium [Optional]
+> **install chromium [Optional]**
 - sudo apt-get install chromium
 
 # NOOBS
