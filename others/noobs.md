@@ -59,7 +59,7 @@
 ## Make boot file 
 
 - cd /boot
-- sudo tar -cvpf boot.tar
+- sudo tar -cvpf boot.tar /*
 - sudo xz  -9  -e  boot.tar
 
 ## Get file over ssh
