@@ -1,14 +1,27 @@
-- download wheezy
-- burn wheezu on sdcard
+# Jessie
+- download jessie
+- burn jessie on sdcard
 - edit /boot/config.txt
+  - dtparam=spi=on
+  - dtoverlay=mz61581-overlay.dtb
 - edit /boot/cmdline.txt
+  - fbcon=map:10 fbcon=font:ProFont6x11
 - plug sdcard + rpi
 - sudo raspi-config
 - edit international
 - sudo reboot
+- setup autologin
+- sudo nano /etc/systemd/system/getty@tty1.service.d/autologin.conf
+- [Service]
+- ExecStart=
+- ExecStart=-/sbin/agetty --autologin pi --noclear %I 38400 linux
+- sudo systemctl enable getty@tty1.service
+- sudo reboot
 - setup wifi
-- 
-- slim raspbian
-- sudo cp /etc/network/interfaces /etc/network/interfaces.bak
-- wget https://gist.githubusercontent.com/sixertoy/d6886212814c61c54e29/raw/d265696ee61634c8c25d189cfc1a943d456c8e6d/slim-raspbian.sh
-- sh ./slim-raspbian.sh | sudo sh
+- sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
+- network={id_str="" ssid="" psk=""}
+- setup alias
+- sudo nano .bashrc
+- alias ds='df -h'
+- remove alias l='ls -CF'
+- sudo reboot
