@@ -79,17 +79,18 @@
 - git clone --depth=1 https://github.com/RetroPie/RetroPie-Setup.git
 - cd RetroPie-Setup
 - sudo ./retropie_setup.sh
-- Install EmulationStation (306) (binary)
-- Install Retroarch (125) (binary)
-- Install mupen64plus (116) (binary)
-- Install lr-snes9x-next (234) (binary)
+- Instal Emulators > Install EmulationStation (306) (binary)
+- Instal Emulators > Install Retroarch (125) (binary)
+- Instal Emulators > Install mupen64plus (116) (binary)
+- Instal Emulators > Install lr-snes9x-next (234) (binary)
 - sudo reboot
 
-### Install Themes
+### Install Themes & Tweaks
 - cd RetroPie-Setup
 - sudo ./retropie_setup.sh
 - Setup/Configuration > Install Themes > Simple + Clean-Look
 - Setup/Configuration > Install Samba Shares
+- Setup/Configuration > Configure Splashscreen (323) > Use default
 
 ### Setup GPU MEM
 - sudo nano /boot/config.txt
