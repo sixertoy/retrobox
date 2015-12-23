@@ -8,6 +8,9 @@
   - fbcon=map:10 fbcon=font:ProFont6x11
 - plug sdcard + rpi
 - sudo raspi-config
+- expand file system
+- sudo reboot
+- sudo raspi-config
 - edit international
 - sudo reboot
 - setup autologin
