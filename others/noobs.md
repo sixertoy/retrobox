@@ -108,6 +108,7 @@
   - reicast (Dreamcast)
   - lr-SNES9x-Next (SNES)
   - lr-mgba (GBA)
+  - lr-genesis-plus-gx (Sega MS + MD)
 - sudo reboot
 - rpies
 - install themes
