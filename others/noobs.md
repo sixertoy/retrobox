@@ -109,6 +109,9 @@
   - lr-SNES9x-Next (SNES)
   - lr-mgba (GBA)
   - lr-genesis-plus-gx (Sega MS + MD)
+  - lr-nestopia (NES)
+  - ppsspp (PSP)
+  - lf-fba-next (Final Burn - Arcade)
 - sudo reboot
 - rpies
 - install themes
