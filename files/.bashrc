@@ -1,4 +1,6 @@
-# Copy content to ~/.bashrc
+# Edit ~/.bashrc
+# Copy content and copy script below
+# And the end of the file 
 #
 # RETROPIE PROFILE START
 # Thanks to http://blog.petrockblock.com/forums/topic/retropie-mushroom-motd/#post-3965

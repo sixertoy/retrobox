@@ -1,4 +1,8 @@
 #!/bin/sh
+# /usr/local/bin/fbcp
+#
+# installed as a service
+#
 ### BEGIN INIT INFO
 # Provides:          fbcp
 # Required-Start:    $local_fs $remote_fs

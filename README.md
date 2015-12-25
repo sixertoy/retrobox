@@ -24,5 +24,7 @@
 
 ##### Retrobox
 
-- [Noobs Jessie Lite](https://www.raspberrypi.org/downloads/raspbian/)
-- [Retropie](https://github.com/RetroPie/RetroPie-Setup/wiki/First-Installation)
+- [Noobs](https://www.raspberrypi.org/downloads/noobs/)
+- [Raspbian Wheezy/Jessie](https://www.raspberrypi.org/downloads/raspbian/)
+- [Retropie Setup](https://github.com/RetroPie/RetroPie-Setup/wiki/First-Installation)
+- [Retropie Disk Image](http://blog.petrockblock.com/retropie/retropie-downloads/)

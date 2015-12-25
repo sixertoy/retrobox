@@ -1,58 +1,59 @@
-# Jessie
+# III - Custom OS Retrobox
 
-## Prepare SDCard
+> **Eject SDCard & plug it on your RPi**<br>
+> Needs a keyboard to be plugged in rpi<br>
+> Or a RJ45 plugged with an SSH connection<br>
+> **At first startup RPi is setted in Qwerty mode**<br>
+> **Use pi/raspbery for user login/password (pi/rqspberry)**
 
-> download jessie image<br>
-> burn jessie on sdcard<br>
+## 1. Configure system
 
-- edit /boot/config.txt
-  - dtparam=spi=on
-  - dtoverlay=mz61581-overlay.dtb
-- edit /boot/cmdline.txt
-  - fbcon=map:10 fbcon=font:ProFont6x11
-- eject & plug sdcard + rpi
+```bash
+sudo raspi-config (sudo rqspi°config)
+expand file system
+perform reboot
+sudo raspi-config
+setup international language
+setup timezone
+setup keyboard
+sudo reboot
+```
 
-## Config system
+## 2. Setup WIFI
 
-> need a keyboard to be plugged in rpi
+> Edit /etc/wpa_supplicant/wpa_supplicant.conf<br>
+> Add your network
 
-- sudo raspi-config (sudo rqspi°config)
-- expand file system
-- perform reboot
-- sudo raspi-config
-- edit international language
-- sudo reboot
-- sudo raspi-config
-- setup timezone
-- setup keyboard
-- sudo reboot
+```bash
+sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
+network={id_str="" ssid="" psk=""}
+sudo reboot
+```
 
-## WIFI
+## 3. Autologin to you RPi
 
-> need a keyboard to be plugged in rpi
+> You can now connect with SSH via wifi<br>
+> Install autologin script
 
-- sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
-- network={id_str="" ssid="" psk=""}
+```bash
+wget https://raw.githubusercontent.com/sixertoy/retrobox/master/files/autologin.conf
+mv autologin.conf /etc/systemd/system/getty@tty1.service.d/
+sudo systemctl enable getty@tty1.service
+sudo reboot
+```
 
-## Autologin
+> **Or you can create and edit autologin script**
 
-> can be done via SSH
+```bash
+sudo nano /etc/systemd/system/getty@tty1.service.d/autologin.conf
+[Service]
+ExecStart=
+ExecStart=-/sbin/agetty --autologin pi --noclear %I 38400 linux
+sudo systemctl enable getty@tty1.service
+sudo reboot
+```
 
-- wget https://raw.githubusercontent.com/sixertoy/retrobox/master/files/autologin.conf
-- mv autologin.conf /etc/systemd/system/getty@tty1.service.d/
-- sudo systemctl enable getty@tty1.service
-- sudo reboot
-
-> or
-
-- sudo nano /etc/systemd/system/getty@tty1.service.d/autologin.conf
-- [Service]
-- ExecStart=
-- ExecStart=-/sbin/agetty --autologin pi --noclear %I 38400 linux
-- sudo systemctl enable getty@tty1.service
-- sudo reboot
-
-## Aliases
+## 4. Add Custom aliases
 
 > can be done via SSH
 
@@ -124,13 +125,13 @@
 
 # NOOBS
 
-## Make root file 
+## Make root file
 
 - cd /
 - sudo tar -cvpf root.tar /* --exclude=proc/* --exclude=sys/* --exclude = dev/pts/*
 - sudo xz  -9  -e  root.tar
 
-## Make boot file 
+## Make boot file
 
 - cd /boot
 - sudo tar -cvpf boot.tar /*
@@ -143,10 +144,6 @@
 
 ## Config boot
 
-- edit recovery.cmdline
-- add silentinstall
+
 - in os/ replace root.tar.xz
 - in os/ replace boot.tar.xz
-- edit os.json
-- edit raspbian.png
-- edit slides/*
