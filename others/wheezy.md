@@ -9,9 +9,9 @@
 ## Update Firmware
 - sudo apt-get update
 - sudo apt-get upgrade
-- reboot
+- sudo reboot
 - sudo rpi-update
-- reboot
+- sudo reboot
 
 ## Languages
 - sudo raspi-config
