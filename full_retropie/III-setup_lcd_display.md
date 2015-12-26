@@ -18,7 +18,7 @@ sudo nano /usr/share/X11/xorg.conf.d/99-fbturbo.conf
 "fbdev" "/dev/fb1" # Show on LCD
 ```
 
-> Tontect drivers are available with kernel module FBTFT<br>
+> Tontec drivers are available with kernel module FBTFT<br>
 > ms61581 is the open source overlay compatible with the Tontec 3.5 Screen
 
 ## 2. Install FBCP (Frame Buffer Copy)
