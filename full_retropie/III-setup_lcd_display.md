@@ -1,6 +1,6 @@
 # III. LCD Display
 
-## #. Add Tontec Drivers
+## 1. Add Tontec Drivers
 
 ```bash
 sudo nano /boot/config.txt
@@ -8,6 +8,14 @@ dtparam=spi=on
 dtoverlay=mz61581-overlay.dtb
 » Press CTRL+X to save & quit (overwrite=yes and enter to validate filename)
 sudo reboot
+```
+
+## 2. Switch display
+
+```bash
+sudo nano /usr/share/X11/xorg.conf.d/99-fbturbo.conf
+"fbdev" "/dev/fb0" # Show on HDMI
+"fbdev" "/dev/fb1" # Show on LCD
 ```
 
 > Tontect drivers are available with kernel module FBTFT<br>
