@@ -1,28 +1,19 @@
 # III. LCD Display
 
-## 1. Activate SPI
-
-```bash
-sudo raspi-config
-» Select Advanced Options
-» Activer spi
-» Select Active by default
-sudo reboot
-```
-
-## 2. Add Tontec Drivers
+## #. Add Tontec Drivers
 
 ```bash
 sudo nano /boot/config.txt
-» At the last line of the file
+dtparam=spi=on
 dtoverlay=mz61581-overlay.dtb
 » Press CTRL+X to save & quit (overwrite=yes and enter to validate filename)
+sudo reboot
 ```
 
 > Tontect drivers are available with kernel module FBTFT<br>
 > ms61581 is the open source overlay compatible with the Tontec 3.5 Screen
 
-## 3. Install FBCP (Frame Buffer Copy)
+## 2. Install FBCP (Frame Buffer Copy)
 
 ```bash
 cd
