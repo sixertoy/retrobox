@@ -9,9 +9,11 @@
 ## 1. Configure system
 
 ```bash
+cd ~
 sudo raspi-config (sudo rqspi°config)
 expand file system
 perform reboot
+cd ~
 sudo raspi-config
 setup international language
 setup timezone
@@ -25,6 +27,7 @@ sudo reboot
 > Add your network
 
 ```bash
+cd ~
 sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
 network={id_str="" ssid="" psk=""}
 sudo reboot
@@ -36,15 +39,17 @@ sudo reboot
 > Install autologin script
 
 ```bash
+cd ~
 wget https://raw.githubusercontent.com/sixertoy/retrobox/master/files/autologin.conf
 mv autologin.conf /etc/systemd/system/getty@tty1.service.d/
 sudo systemctl enable getty@tty1.service
 sudo reboot
 ```
 
-> **Or you can create and edit autologin script**
+> **Or you can create and edit autologin script via SSH**
 
 ```bash
+cd ~
 sudo nano /etc/systemd/system/getty@tty1.service.d/autologin.conf
 [Service]
 ExecStart=
@@ -57,25 +62,33 @@ sudo reboot
 
 > can be done via SSH
 
-- wget https://raw.githubusercontent.com/sixertoy/retrobox/master/files/.bash_aliases
+```bash
+cd ~
+wget https://raw.githubusercontent.com/sixertoy/retrobox/master/files/.bash_aliases
+```
 
-> or
+> **Or edit .bashrc via SSH**
 
-- sudo nano .bashrc
-- #alias l='ls -CF'
-- alias ll='ls -lA'
-- alias ds='df -h'
+```bash
+cd ~
+sudo nano .bash_aliases
+alias ll='ls -lA'
+alias ds='df -h'
+sudo reboot
+```
 
 ## Welcome Tweaks
 
-- sudo nano .bashrc
-- copy file content https://raw.githubusercontent.com/sixertoy/retrobox/master/files/.bashrc
+> Copy file from content https://raw.githubusercontent.com/sixertoy/retrobox/master/files/.bashrc<br>
+> To ~/.bashrc
 
 ## Install Packages
 
 > **install Git**
 
-- sudo apt-get install -y git dialog
+```bash
+sudo apt-get install -y git dialog
+```
 
 > **install cmake**
 

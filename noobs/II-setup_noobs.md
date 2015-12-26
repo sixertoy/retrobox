@@ -50,6 +50,8 @@ Edit url property to your own (optional)
 > Edit /boot/config.txt
 
 ```bash
+cd ~
+sudo nano /boot/config.txt
 Uncomment (#) dtparam=spi=on
 Add dtoverlay=mz61581-overlay.dtb
 ```
@@ -59,6 +61,8 @@ Add dtoverlay=mz61581-overlay.dtb
 > Edit /boot/config.txt
 
 ```bash
+cd ~
+sudo nano /boot/config.txt
 Add gpu_mem_256=128
 Add gpu_mem_512=256
 Add gpu_mem_1024=512
@@ -76,7 +80,10 @@ Add disable_audio_dither=1
 > Edit /boot/cmdline.txt
 
 ```bash
+cd ~
+sudo nano /boot/config.txt
 Add fbcon=map:10 fbcon=font:ProFont6x11 to the end of line
+sudo reboot
 ```
 
 > **Eject SDCard & plug it on your RPi**
