@@ -1,5 +1,22 @@
 # V. Raspberry Tricks
 
+## OS Update
+
+> Update System
+
+```bash
+sudo apt-get update
+sudo apt-get upgrade
+sudo reboot
+```
+
+> Update Displays Drivers
+
+```bash
+sudo rpi-update
+sudo reboot
+```
+
 ## Setup & Disable/Enable Wifi
 
 > Via SSH
