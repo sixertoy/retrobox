@@ -9,9 +9,9 @@
 ## Update Firmware
 - sudo apt-get update
 - sudo apt-get upgrade
-- reboot
+- sudo reboot
 - sudo rpi-update
-- reboot
+- sudo reboot
 
 ## Languages
 - sudo raspi-config
@@ -28,7 +28,6 @@
 
 ### WIFI
 - sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
-- @see file files/wp_supplicant.conf
 - network={id_str="" ssid="" psk=""}
 - sudo reboot
 
@@ -76,6 +75,7 @@
 ## Retropie
 
 ### Install
+# recuperation des sources du projet
 - git clone --depth=1 https://github.com/RetroPie/RetroPie-Setup.git
 - cd RetroPie-Setup
 - sudo ./retropie_setup.sh
