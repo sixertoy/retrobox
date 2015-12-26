@@ -19,7 +19,7 @@ wget https://raw.githubusercontent.com/sixertoy/retrobox/master/files/.bash_alia
 sudo reboot
 ```
 
-> **Take of error 503: Connection timeout when downloading file**
+> **Take care of error 503: Connection timeout when downloading file**
 
 ## 3. Configure Themes
 
