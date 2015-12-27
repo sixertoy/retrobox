@@ -25,7 +25,7 @@ sudo rqspi°config
 > **Enter** to validate<br>
 > **Left/Right** arrow to validate/cancel
 
-## Languages, Timezone & Keyboard
+## [Languages, Timezone & Keyboard](./languages.md)
 
 > Set internationalisation for the system
 
