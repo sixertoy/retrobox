@@ -10,7 +10,7 @@ sudo nano /etc/inittab
 1:2345:respawn:/bin/login -f pi tty1 /dev/tty1 2>&1
 # save and exit nano
 # by pressing ctrl+x
-# at prompt press **y** (o)
-# press enter to validate filename
+# at prompt press `y` (o)
+# then press enter to validate filename
 sudo reboot
 ```
