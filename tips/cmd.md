@@ -60,6 +60,20 @@ ls -l
 ls -lA
 ```
 
+## Show Raspbian version
+
+> Install package
+
+```bash
+sudo apt-get install lsb-release
+```
+
+> Available when package is installed
+
+```bash
+lsb_release -a
+```
+
 ## Show Disk Space
 
 ```bash
