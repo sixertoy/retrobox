@@ -21,3 +21,9 @@
 > Burn raspbian wheezy img on sdcard
   - Use [Win32DiskImager](http://sourceforge.net/projects/win32diskimager/) on windows, see instruction [here](https://github.com/sixertoy/retrobox/blob/master/softwares/win32diskimager.md)
   - Use [ApplePi Baker](http://www.tweaking4all.com/hardware/raspberry-pi/macosx-apple-pi-baker/) on Mac OS
+  
+## Ending
+
+> Put your sdcard on your RPi<br>
+> Plug power cable to your RPi<br>
+> **For boot on LCD Screen see instructions [here](https://github.com/sixertoy/retrobox/blob/master/tips/display.md#console-on-lcd-at-startup)**
