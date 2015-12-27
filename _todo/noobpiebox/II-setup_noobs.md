@@ -54,41 +54,19 @@ Edit url property to your own (optional)
 ```bash
 cd ~
 sudo nano /boot/config.txt
-dtparam=spi=on
+# Audio
 dtparam=audio=on
 disable_audio_dither=1
+
+# Display
+dtparam=spi=on
 dtoverlay=mz61581-overlay.dtb
-```
-
-### 3.2. Configure Display driver
-
-> Edit /boot/config.txt
-
-```bash
-cd ~
-sudo nano /boot/config.txt
-
-# Display parameters
 gpu_mem_256=128
 gpu_mem_512=256
 gpu_mem_1024=448
+overscan_scale=1
 
-overscan_scale
-#disable_overscan=0
-
-#overscan_left=-30
-#overscan_right=-30
-#overscan_top=-30
-#overscan_bottom=-30
-```
-
-### 3.4. Overclock RPi 2
-
-> Edit /boot/config.txt
-
-```bash
-cd ~
-sudo nano /boot/config.txt
+# Overclock RPi 2
 arm_freq=1000
 sdram_freq=500
 core_freq=500
@@ -106,7 +84,5 @@ cd ~
 sudo nano /boot/config.txt
 fbcon=map:10 fbcon=font:ProFont6x11
 ```
-
-> **Eject SDCard & plug it on your RPi**
 
 [**NEXT - Custom OS Retrobox**](./III-custom_os.md)
