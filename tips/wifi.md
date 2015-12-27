@@ -20,7 +20,7 @@ psk="wifi_password"
 }
 ```
 
-> Check if connecter
+> Check if connected
 
 ```bash
 ifconfig wlan0
