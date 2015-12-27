@@ -58,6 +58,10 @@ sudo rqspi°config
 
 > Default overclocking + Others
 
+## [Welcome Tweaks](./welcome_tweaks.md)
+
+> Show additionals informations at startup
+
 ## [WIFI](./wifi.md)
 
 > Config & Command Lines for a WIFI connection setup
