@@ -17,3 +17,7 @@ sudo nano /usr/share/X11/xorg.conf.d/99fbturbo.conf
 » Edit Option "fbdev" "/dev/fb1" # LCD
 sudo reboot
 ```
+
+## Stream HDMI Output to LCD (Framebuffer)
+
+> Install FBCP package, see instruction [here]()
