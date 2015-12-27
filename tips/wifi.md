@@ -1,7 +1,5 @@
 # WIFI
 
-[source](https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md)
-
 > Scan WIFI network
 
 ```bash
@@ -39,3 +37,5 @@ sudo ifdown wlan0
 ```bash
 sudo ifup wlan0
 ```
+
+[source](https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md)
