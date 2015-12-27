@@ -29,11 +29,15 @@ sudo reboot
 ```bash
 cd ~
 sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
-network={id_str="" ssid="" psk=""}
+network={
+id_str=""
+ssid=""
+psk=""
+}
 sudo reboot
 ```
 
-## 3. Autologin to you RPi
+## 3. Autologin to you RPi at Startup
 
 > You can now connect with SSH via wifi<br>
 > Install autologin script
@@ -67,7 +71,7 @@ cd ~
 wget https://raw.githubusercontent.com/sixertoy/retrobox/master/files/.bash_aliases
 ```
 
-> **Or edit .bashrc via SSH**
+> **Or edit you can edit existing .bashrc via SSH**
 
 ```bash
 cd ~
@@ -77,86 +81,55 @@ alias ds='df -h'
 sudo reboot
 ```
 
-## Welcome Tweaks
+## 5. Welcome Tweaks at Startup
 
-> Copy file from content https://raw.githubusercontent.com/sixertoy/retrobox/master/files/.bashrc<br>
-> To ~/.bashrc
+> Copy content from file https://raw.githubusercontent.com/sixertoy/retrobox/master/files/.bashrc<br>
+> At the end of the existing file /home/pi/.bashrc (~/.bashrc)
 
-## Install Packages
+## 6. Install Packages
 
-> **install Git**
+### 6.1. Install GIT
+
+> Git is a versionning tools
 
 ```bash
+cd ~
 sudo apt-get install -y git dialog
 ```
 
-> **install cmake**
+### 6.2. Install CMake
 
-- sudo apt-get install -y cmake
+> CMake build some packages based on the current system configuration
 
-> **install fbcp**
+```bash
+cd ~
+sudo apt-get install -y cmake
+```
 
-- git clone https://github.com/tasanakorn/rpi-fbcp
-- cd rpi-fbcp/
-- mkdir build
-- cd build/
-- cmake ..
-- make
-- sudo mkdir /usr/local/bin (may already exists)
-- sudo install fbcp /usr/local/bin/fbcp
-- sudo wget -O /etc/init.d/fbcp https://raw.githubusercontent.com/sixertoy/retrobox/master/files/fbcp
-- sudo chmod +x /etc/init.d/fbcp
-- sudo reboot
+### 6.3. Install FBCP (Framebuffer Copy)
 
-> **install retropie**
+> FBCP streams output from HDMI port to a GPIO LCD Display
 
-- git clone --depth=1 https://github.com/RetroPie/RetroPie-Setup.git
-- cd RetroPie-Setup
-- sudo chmod +x retropie_setup.
-- sudo sh ./retropie_setup.sh
-- install emulators (binary)
-  - emulationstation
-  - retroarch
-  - mupen64plus (N64)
-  - lr-pcsx-rearmed (PSX)
-  - reicast (Dreamcast)
-  - lr-SNES9x-Next (SNES)
-  - lr-mgba (GBA)
-  - lr-genesis-plus-gx (Sega MS + MD)
-  - lr-nestopia (NES)
-  - ppsspp (PSP)
-  - lf-fba-next (Final Burn - Arcade)
-- sudo reboot
-- rpies
-- install themes
-  - clean-look
-- install samba shares
+#### 6.3.1 Install FBCP sources from git repository
 
-> **install chromium [Optional]**
+```bash
+cd ~
+git clone https://github.com/tasanakorn/rpi-fbcp
+cd rpi-fbcp/
+mkdir build
+cd build/
+cmake ..
+make
+sudo mkdir /usr/local/bin (may already exists)
+sudo install fbcp /usr/local/bin/fbcp
+sudo reboot
+```
 
-- sudo apt-get install chromium
+#### 6.3.2. Install FBCP's script launcher
 
-# NOOBS
-
-## Make root file
-
-- cd /
-- sudo tar -cvpf root.tar /* --exclude=proc/* --exclude=sys/* --exclude = dev/pts/*
-- sudo xz  -9  -e  root.tar
-
-## Make boot file
-
-- cd /boot
-- sudo tar -cvpf boot.tar /*
-- sudo xz  -9  -e  boot.tar
-
-## Get file over ssh
-
-- scp pi@<rpi_ip_adress>:root.tar.xz ~/Downloads
-- scp pi@<rpi_ip_adress>:boot.tar.xz ~/Downloads
-
-## Config boot
-
-
-- in os/ replace root.tar.xz
-- in os/ replace boot.tar.xz
+```bash
+cd ~
+sudo wget -O /etc/init.d/fbcp https://raw.githubusercontent.com/sixertoy/retrobox/master/files/fbcp
+sudo chmod +x /etc/init.d/fbcp
+sudo reboot
+```
