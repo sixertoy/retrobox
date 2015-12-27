@@ -17,14 +17,14 @@ sudo reboot
 
 ## Switch between HDMI/LCD For X Window
 
-> **Install a Custom Config**
+#### Install a Custom Config
 
 ```bash
 sudo mkdir -p /etc/X11/xorg.conf.d/
 sudo wget https://raw.githubusercontent.com/sixertoy/retrobox/master/files/fbtft.conf
 ```
 
-> **Or manually**
+#### Or manually
 
 ```bash
 sudo nano /usr/share/X11/xorg.conf.d/99fbturbo.conf
