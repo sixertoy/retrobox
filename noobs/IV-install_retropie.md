@@ -25,7 +25,8 @@ sh ./retropie_setup.sh
 ### 1.2. Install Emulators from retropie setup
 
 > **Install all emulators fromm binary**<br>
-> Select *Install individual emulators from binary or source (4)*
+> Select
+  - Install individual emulators from binary or source (4)
 
 > Select:
   - Emulationstation (306)
