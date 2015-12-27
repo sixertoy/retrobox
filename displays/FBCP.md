@@ -1,12 +1,11 @@
 # Raspberry Pi Framebuffer Copy
 
-This program used for copy primary framebuffer to secondary framebuffer (eg. FBTFT)
+This program used for copy primary framebuffer to secondary framebuffer (eg. FBTFT)<br>
+Mirroring HDMI Output to LCD Display
 
 [FBCP](https://github.com/tasanakorn/rpi-fbcp)
 
 ## Install
-
-[source](https://github.com/notro/fbtft/wiki/FBTFT-on-Raspian#framebuffer-copy)
 
 ```bash
 cd ~
@@ -22,12 +21,19 @@ sudo install fbcp /usr/local/bin/fbcp
 > **To start FBCP**
 
 ```bash
+# We need to switch the console to fb0 first
+con2fbmap 1 0
+sudo service fbcp start
 ```
 
 > **To stop FBCP**
 
 ```bash
+sudo service fbcp stop
+con2fbmap 1 1
 ```
+
+[source](https://github.com/notro/fbtft/wiki/FBTFT-on-Raspian#framebuffer-copy)
 
 ## Install as a Service
 
