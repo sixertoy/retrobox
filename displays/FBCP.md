@@ -39,6 +39,6 @@ con2fbmap 1 1
 
 ```bash
 cd ~
-sudo wget -O /etc/init.d/fbcp https://gist.github.com/notro/eac0fec51cac67bb99c7/raw/4804a36459db10b17d35451d98d4573a045084be/fbcp
+sudo wget -O /etc/init.d/fbcp https://raw.githubusercontent.com/sixertoy/retrobox/master/files/fbcp
 sudo chmod +x /etc/init.d/fbcp
 ```
