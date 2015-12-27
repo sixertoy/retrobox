@@ -7,62 +7,35 @@ This folder contains utilities files for an RPi OS based on Wheezy/Jessie versio
 ## .bash_aliases
 
 > This file contains OS utils alias/shortcuts<br>
-> **Install in your home folder**
-
-```bash
-cd ~
-wget https://raw.githubusercontent.com/sixertoy/retrobox/master/files/.bash_aliases
-```
+> **Must be installed in your home folder**<br>
+> See headers in file for install instructions
 
 ## .bashrc
 
 > **Don't replace your /home/pi/.bashrc file by this file**<br>
 > This file is a part of a .bashrc file<br>
-> It only contains some tweaks to display more informations<br>
-> At RPi Startup
+> It only contains some tweaks to display more informations at RPi Startup<br>
 > This script was extract from an offical [Retropie](https://github.com/RetroPie/RetroPie-Setup) image
 
 ## autologin.conf
 
-> **Raspbian Jessie Version**
-> This file allows an autologin TTY connection at boot
-> **Install**
+> **Raspbian Jessie Version**<br>
+> This file allows an autologin TTY connection at boot<br>
+> see [autologin](./../tips/autologin.md) in tips section
 
-```bash
-cd ~
-wget https://raw.githubusercontent.com/sixertoy/retrobox/master/files/autologin.conf
-mv autologin.conf /etc/systemd/system/getty@tty1.service.d/
-sudo systemctl enable getty@tty1.service
-sudo reboot
-```
-
-> for **Raspbian Wheezy Version** see [autologin for wheezy](./../tips/AUTOLOGIN_WHEEZY.md) in tips section
-
-## fbcp
+## FBCP
 
 > Framebuffer Copy<br>
 > Is used to clone an HDMI stream output to a LCD GPIO display output<br>
-> **Install**
-
-```bash
-```
+> Used in case of a retrogaming box<br>
+> **see instruction [here](./../tips/FBCP.md) to Install**
 
 ## switchd
+
+> Switch Display HDMI <-> LCD<br>
+> See headers in file for install instructions
 
 ## wp_supplicant.conf
 
 > A WIFI basic configuration file<br>
-> **Install**
-
-```bash
-cd ~
-wget 
-mv wpa_supplicant.conf /etc/wpa_supplicant
-# edit file
-sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
-# define your WIFI network
-# ID_STR: a user defined custom name for the WIFI connection
-# SSID: name of your home network
-# PSK: secret key for accessing your network defined by your internet provider
-```
-
+> See headers in file for install instructions

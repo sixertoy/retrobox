@@ -9,6 +9,7 @@ cd ~
 # edit file via nano editor
 sudo nano /etc/inittab
 # replace line below
+# or comment with an `#`
 1:2345:respawn:/sbin/getty --noclear 38400 tty1
 # by
 1:2345:respawn:/bin/login -f pi tty1 /dev/tty1 2>&1

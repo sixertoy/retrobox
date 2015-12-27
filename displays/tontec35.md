@@ -6,14 +6,14 @@
 > [Official Manufacturer](http://www.itontec.com/product-detail/product-name-9/)<br>
 
 > **Before any operations:**
-    - Expand file system - see instruction [here]()
-    - Update your system - see instruction [here]()
+    - Expand filesystem & Update packages - see instructions [here](./../tips/update_system.md)
 
 ## 1. Configure Driver
 
 > Edit /boot/config.txt
 
 ```bash
+cd ~
 sudo nano /boot/config.txt
 dtparam=spi=on
 dtoverlay=mz61582-overlay.dtb

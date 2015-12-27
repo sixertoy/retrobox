@@ -7,10 +7,9 @@
 > [Official Manufacturer](http://www.waveshare.com/3.5inch-rpi-lcd-a.htm)
 
 > **Before any operations:**
-    - Expand file system - see instruction [here]()
-    - Update your system - see instruction [here]()
+    - Expand filesystem & Update packages - see instructions [here](./../tips/update_system.md)
 
-## 1. Install Drivers
+## 1. Download & Install Drivers
 
 ```bash
 cd ~

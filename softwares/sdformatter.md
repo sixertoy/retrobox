@@ -4,7 +4,7 @@
 
 > Put your sdcard in your PC<br>
   - Take care of your sdcard drive letter
-  
+
 > Launch SDFormatter
   - Select sdcard **Drive** letter
   - Click on **Option**
@@ -13,7 +13,5 @@
     - Click **OK**
   - Click **Format**
   - Exit SDFormatter
-  
-> **Your sdcard has been formatted**
-  
 
+> **Your sdcard has been formatted**

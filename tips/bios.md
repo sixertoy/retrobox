@@ -1,4 +1,4 @@
-# Install BIOS
+# Install BIOS for Retroarch
 
 > Some Emulators needs additionals bios to run<br>
 > Open a new samba shared network connection via your PC's explorer<br>
@@ -10,4 +10,3 @@
   - /home/pi/RetroPie/BIOS/SCPH1001.BIN
 - GBA
   - /home/pi/RetroPie/BIOS/gba_bios.bin
-

@@ -1,5 +1,8 @@
 # SSH Connection
 
+> SSH is the easiest to access a remote device<br>
+> and perform copy + paste and others text operations
+
 ## Windows
 
 - Install [putty](http://www.putty.org)

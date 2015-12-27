@@ -28,11 +28,12 @@
 > Put your sdcard on your RPi<br>
 > Plug power cable to your RPi<br>
 
-> **Before any operations:**
-    - Expand file system - see instruction [here]()
-    - Update your system - see instruction [here]()
+## 4. Udpate Sytem
 
-## 6. Configure Languages & Keyboard
+> **Before any operations:**
+    - Expand file system & Update your system - see instruction [here](./../tips/update_system.md)
+
+## 5. Configure Languages & Keyboard
 
 > In qwerty mode, by default<br>
 > type ***rqspi°config*** instead of raspi-config

@@ -6,14 +6,14 @@
 
 > Connect to a remote device
 
-## [Udpate System](./_update_system.md)
-
-> **Might be the first task to be executed**
-
 ## PI Login Credentials
 
 > **User/login:** pi<br>
 > **Password**: raspberry (rqspberry in qwerty)
+
+## [Udpate System](./_update_system.md)
+
+> **It's the first task to be execute at a new system install**
 
 ## Raspi Config in qwerty mode
 

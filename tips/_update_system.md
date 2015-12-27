@@ -1,13 +1,23 @@
 # Update System
 
-## Udpate packages
+> **This operations must be done before any others installations at a new system install**
+
+## 1. Expand Filesystem
+
+```bash
+sudo raspi-config
+» Expand Filesystem
+Reboot
+```
+
+## 2. Udpate packages
 
 ```bash
 sudo apt-get update
 sudo apt-get upgrade
 sudo reboot
 ```
-## Udpate Display Drivers
+## 3. Update Display Drivers
 
 ```bash
 sudo rpi-update

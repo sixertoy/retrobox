@@ -1,12 +1,21 @@
 #! /bin/sh
-# /etc/init.d/switchd
-# sudo chmod 755 switchd
 #
-# Install
+# /etc/init.d/switchd
+#
+# ######## Install ########
+# cd ~
+# wget https://raw.githubusercontent.com/sixertoy/retrobox/master/files/switchd
+# mv switchd /etc/init.d/switchd
+# sudo chmod 755 switchd
+# sudo reboot
+#
+# Install as a Service
 # sudo update-rc.d switchd defaults
 #
-# Uninstall
+# Uninstall as a Service
 # sudo update-rc.d -f switchd remove
+#
+#
 case "$1" in
   start)
     con2fbmap 1 1

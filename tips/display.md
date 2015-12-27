@@ -1,5 +1,9 @@
 # Display
 
+> **System must be updated and** see [instructions](./_update_system.md)<br>
+> **Display Drivers must be installed first**
+> see [Tontec](./../displays/tontec35.md) or [Waveshare](./../waveshare35a.md)
+
 ## Console on LCD at startup
 
 ```bash
@@ -20,4 +24,4 @@ sudo reboot
 
 ## Stream HDMI Output to LCD (Framebuffer)
 
-> Install FBCP package, see instruction [here]()
+> Install FBCP package, see instruction [here](./FBCP.md)

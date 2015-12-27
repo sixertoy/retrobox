@@ -1,11 +1,14 @@
-# Edit /home/pi/.bashrc
+# WELCOME TWEAKS
+# .bashrc
+#
+# ####### Install ###########
 # sudo nano ~/.bashrc
-# Copy content and copy script below
-# And the end of your .bashrc file 
+# Copy content and copy script below and the end of your .bashrc file
+# sudo reboot
 #
 # RETROPIE PROFILE START
 # Thanks to http://blog.petrockblock.com/forums/topic/retropie-mushroom-motd/#post-3965
-
+#
 function retropie_welcome() {
     local upSeconds="$(/usr/bin/cut -d. -f1 /proc/uptime)"
     local secs=$((upSeconds%60))

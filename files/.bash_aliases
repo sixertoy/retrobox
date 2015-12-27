@@ -1,8 +1,11 @@
+# SOME MORE ALIASES
 # ~/.bash_aliases
-# cd
-# wget https://raw.githubusercontent.com/sixertoy/retrobox/master/files/.bash_aliases
 #
-# some more ls aliases
+# ########### Install ###########
+# cd ~
+# wget https://raw.githubusercontent.com/sixertoy/retrobox/master/files/.bash_aliases
+# sudo reboot
+#
 alias ll='ls -lA'
 alias ds='df -h'
 

@@ -37,6 +37,3 @@ cd ~
 sudo nano /boot/config.txt
 » hdmi_drive=2
 ```
-
-
-

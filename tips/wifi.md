@@ -1,16 +1,20 @@
 # WIFI
 
-> Scan WIFI network
+### Scan WIFI network
 
 ```bash
+cd ~
 sudo iwlist wlan0 scan
 ```
 
-> Setup
+### Setup
 
 ```bash
+cd ~
 sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
 ```
+
+> At the end of the file
 
 ```conf
 network={
@@ -20,21 +24,24 @@ psk="wifi_password"
 }
 ```
 
-> Check if connected
+### Check if connected
 
 ```bash
+cd ~
 ifconfig wlan0
 ```
 
-> WIFI Down
+### WIFI Down
 
 ```bash
+cd ~
 sudo ifdown wlan0
 ```
 
-> WIFI Up
+### WIFI Up
 
 ```bash
+cd ~
 sudo ifup wlan0
 ```
 
