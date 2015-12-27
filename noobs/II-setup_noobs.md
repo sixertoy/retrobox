@@ -44,6 +44,7 @@ Edit url property to your own (optional)
 
 > Plug SDCard into your PC<br>
 > Download [Jessie Lite OS ](https://www.raspberrypi.org/downloads/raspbian/)<br>
+> X Window is not include in Jessie Lite<br>
 > Burn jessie img file on your SDCard
 
 ### 3.1. Configure Display driver
