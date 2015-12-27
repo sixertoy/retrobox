@@ -19,7 +19,7 @@ sudo chmod +x ./retropie_setup.sh
 > Launch Retropie Setup
 
 ```bash
-sh ./retropie_setup.sh
+sudo sh ./retropie_setup.sh
 ```
 
 ### 1.2. Install Emulators from retropie setup (rpies)
