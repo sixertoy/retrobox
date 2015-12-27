@@ -1,6 +1,6 @@
 # README
 
-> ***/fips/README.md***
+> tips/README.md
 
 ## Autologin
 
