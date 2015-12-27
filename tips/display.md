@@ -2,7 +2,7 @@
 
 > **System must be updated and** see [instructions](./_update_system.md)<br>
 > **Display Drivers must be installed first**
-> see [Tontec](./../displays/tontec35.md) or [Waveshare](./../waveshare35a.md)
+> see [Tontec](./../displays/tontec35.md) or [Waveshare](./../displays/waveshare35a.md)
 
 ## Console on LCD at startup
 
@@ -24,4 +24,4 @@ sudo reboot
 
 ## Stream HDMI Output to LCD (Framebuffer)
 
-> Install FBCP package, see instruction [here](./FBCP.md)
+> Install FBCP package, see instruction [here](./../softwares/FBCP.md)

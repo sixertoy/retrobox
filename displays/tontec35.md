@@ -5,8 +5,8 @@
 > [Tontec 3.5 on Amazon](http://www.amazon.fr/dp/B00OFLKPG4)<br>
 > [Official Manufacturer](http://www.itontec.com/product-detail/product-name-9/)<br>
 
-> **Before any operations:**
-    - Expand filesystem & Update packages - see instructions [here](./../tips/update_system.md)
+> **Before any operations:**<br>
+> Expand filesystem & Update packages - see instructions [here](./../tips/_update_system.md)
 
 ## 1. Configure Driver
 

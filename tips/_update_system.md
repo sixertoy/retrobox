@@ -7,8 +7,9 @@
 ```bash
 sudo raspi-config
 » Expand Filesystem
-Reboot
 ```
+
+> exit and reboot
 
 ## 2. Udpate packages
 
