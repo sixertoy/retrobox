@@ -6,7 +6,7 @@
 
 [FBCP](https://github.com/tasanakorn/rpi-fbcp)
 
-## Install
+## 1. Install
 
 ```bash
 cd ~
@@ -63,4 +63,16 @@ sudo nano /boot/cmdline.txt
 # add fbcon=map:10 at the end of the line
 # exit nano
 sudo reboot
+```
+
+## 0. Test a video
+
+```bash
+con2fbmap 1 0
+sudo service fbcp start
+wget http://download.blender.org/peach/bigbuckbunny_movies/big_buck_bunny_480p_surround-fix.avi
+omxplayer big_buck_bunny_480p_surround-fix.avi
+# Press CTRL+C to stop video/omxplayer
+sudo service fbcp stop
+con2fbmap 1 1
 ```
