@@ -55,7 +55,7 @@ sudo reboot
 > **Install**
 
 ```bash
-cd ~~
+cd ~
 wget 
 mv wpa_supplicant.conf /etc/wpa_supplicant
 # edit file
