@@ -20,6 +20,8 @@ sudo reboot
 
 ## Disable Overclocking
 
+> **Doesnt' work with NOOBS installed**
+
 ```bash
 hold shift at boot
 ```
