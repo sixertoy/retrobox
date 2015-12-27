@@ -1,4 +1,5 @@
-# Edit ~/.bashrc
+# Edit /home/pi/.bashrc
+# sudo nano ~/.bashrc
 # Copy content and copy script below
 # And the end of your .bashrc file 
 #
