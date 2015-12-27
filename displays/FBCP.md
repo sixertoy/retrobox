@@ -1,7 +1,8 @@
 # Raspberry Pi Framebuffer Copy
 
-This program used for copy primary framebuffer to secondary framebuffer (eg. FBTFT)<br>
-Mirroring HDMI Output to LCD Display
+> Used for Retrogaming and watching video with omxplayer<br>
+> This program used for copy primary framebuffer to secondary framebuffer (eg. FBTFT)<br>
+> Mirroring HDMI Output to LCD Display
 
 [FBCP](https://github.com/tasanakorn/rpi-fbcp)
 
@@ -16,29 +17,50 @@ cd rpi-fbcp/build
 cmake ..
 make
 sudo install fbcp /usr/local/bin/fbcp
-```
-
-> **To start FBCP**
-
-```bash
-# We need to switch the console to fb0 first
-con2fbmap 1 0
-sudo service fbcp start
-```
-
-> **To stop FBCP**
-
-```bash
-sudo service fbcp stop
-con2fbmap 1 1
+sudo wget -O /etc/init.d/fbcp https://raw.githubusercontent.com/sixertoy/retrobox/master/files/fbcp
+sudo chmod +x /etc/init.d/fbcp
 ```
 
 [source](https://github.com/notro/fbtft/wiki/FBTFT-on-Raspian#framebuffer-copy)
 
-## Install as a Service
+## Start/Stop FBCP
+
+#### Start
+
+```bash
+# Switch the console to fb0 (HDMI)
+con2fbmap 1 0
+sudo service fbcp start
+```
+
+#### Stop
+
+```bash
+# Switch back the console to fb1 (LCD)
+sudo service fbcp stop
+con2fbmap 1 1
+```
+
+## Start Service at Startup
+
+#### Install
 
 ```bash
 cd ~
-sudo wget -O /etc/init.d/fbcp https://raw.githubusercontent.com/sixertoy/retrobox/master/files/fbcp
-sudo chmod +x /etc/init.d/fbcp
+sudo nano /boot/cmdline.txt
+# remove fbcon=map:10
+# exit nano
+sudo update-rc.d fbcp defaults
+sudo reboot
+```
+
+#### Remove
+
+```bash
+cd ~
+sudo update-rc.d fbcp defaults
+sudo nano /boot/cmdline.txt
+# add fbcon=map:10 at the end of the line
+# exit nano
+sudo reboot
 ```
