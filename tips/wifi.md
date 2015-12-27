@@ -2,6 +2,12 @@
 
 [source](https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md)
 
+> Scan WIFI network
+
+```bash
+sudo iwlist wlan0 scan
+```
+
 > Setup
 
 ```bash
@@ -14,6 +20,12 @@ id_str="custom_name"
 ssid="internet_box_ssid"
 psk="wifi_password"
 }
+```
+
+> Check if connecter
+
+```bash
+ifconfig wlan0
 ```
 
 > WIFI Down
