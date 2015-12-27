@@ -17,3 +17,9 @@ sudo /boot/config.txt
 
 sudo reboot
 ```
+
+## Disable Overclocking
+
+```bash
+hold shift at boot
+```
