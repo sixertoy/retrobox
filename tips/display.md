@@ -15,23 +15,14 @@ sudo reboot
 
 [source](https://github.com/notro/fbtft/wiki/Boot-console)
 
-## Switch between HDMI/LCD For X Window
-
-#### Install a Custom Config
+## X Window on LCD
 
 ```bash
 sudo mkdir -p /etc/X11/xorg.conf.d/
 sudo wget https://raw.githubusercontent.com/sixertoy/retrobox/master/files/fbtft.conf
 ```
 
-#### Or manually
-
-```bash
-sudo nano /usr/share/X11/xorg.conf.d/99fbturbo.conf
-» Edit Option "fbdev" "/dev/fb0" # HDMI
-» Edit Option "fbdev" "/dev/fb1" # LCD
-sudo reboot
-```
+[source](https://github.com/notro/fbtft/wiki/FBTFT-on-Raspian#where-to-display-x-windows)
 
 ## Stream HDMI Output to LCD (Framebuffer)
 
