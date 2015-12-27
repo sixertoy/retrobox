@@ -19,6 +19,10 @@ sudo nano /etc/inittab
 sudo reboot
 ```
 
+[source](http://www.opentechguides.com/how-to/article/raspberry-pi/5/raspberry-pi-auto-start.html)
+
 ## Rasbian Jessie
 
 > For an autologin under **Raspbian Jessie Version** see file [autologin.conf](./../files/autologin.conf) in files section
+
+[source](http://notes.ponderworthy.com/autologin-to-text-in-debian-jessie)
