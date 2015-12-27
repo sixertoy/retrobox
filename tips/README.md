@@ -2,6 +2,10 @@
 
 > retrobox/tips/README.md
 
+## Audio
+
+> Utils for audio
+
 ## Autologin
 
 > Autologin for **Raspbian Wheezy Version**
@@ -18,6 +22,10 @@
 ## Display
 
 > Utils for display HDMI/LCD
+
+## Overclocking
+
+> Default overclocking + Others
 
 ## WIFI
 
