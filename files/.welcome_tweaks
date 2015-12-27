@@ -3,8 +3,10 @@
 #
 # ####### Install ###########
 # cd ~
-# wget 
+# wget https://raw.githubusercontent.com/sixertoy/retrobox/master/files/.welcome_tweaks
 # sudo nano ~/.bashrc
+# ##### at the end of .bashrc
+# 
 # sudo reboot
 #
 # RETROPIE PROFILE START

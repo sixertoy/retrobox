@@ -21,6 +21,14 @@
 sudo rqspi°config
 ```
 
+> In menu **spacebar** for select/unselect<br>
+> **Enter** to validate<br>
+> **Left/Right** arrow to validate/cancel
+
+## Languages, Timezone & Keyboard
+
+> Set internationalisation for the system
+
 ## [Audio](./audio.md)
 
 > Utils for audio
