@@ -13,31 +13,31 @@
 sudo rqspi°config
 ```
 
-## Audio
+## [Audio](./audio.md)
 
 > Utils for audio
 
-## Autologin
+## [Autologin](./autologin.md)
 
 > Autologin for **Raspbian Wheezy Version**
 > for autologin for raspbian jessie version see [this file](./../files/autologin.conf)
 
-## BIOS
+## [BIOS](./bios.md)
 
 > Installing additionnals retroarch BIOS files
 
-## CMD
+## [CMD](./cmd.md)
 
 > Command lines under an UNIX environment
 
-## Display
+## [Display](./display.md)
 
 > Utils for display HDMI/LCD
 
-## Overclocking
+## [Overclocking](./overclocking.md)
 
 > Default overclocking + Others
 
-## WIFI
+## [WIFI](./wifi.md)
 
 > Config & Command Lines for a WIFI connection setup
