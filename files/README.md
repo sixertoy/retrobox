@@ -30,7 +30,7 @@ sudo systemctl enable getty@tty1.service
 sudo reboot
 ```
 
-> for **Raspbain Wheezy Version** see [autologin for wheezy](./../tips/AUTOLOGIN_WHEEZY.md) in tips section
+> for **Raspbian Wheezy Version** see [autologin for wheezy](./../tips/AUTOLOGIN_WHEEZY.md) in tips section
 
 ## fbcp
 
