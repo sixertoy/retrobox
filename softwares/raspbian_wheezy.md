@@ -51,11 +51,27 @@
 
 > See instructions [here](./../tips/wifi.md#Setup)
 
-## 9. Install LCD Display Driver (Optional)
+## 9. Use LCD Display
+
+## 9.1. Install LCD Display Driver
 
 > For Tontec 3.5, see instructions [here](./../displays/tontec35.md)<br>
 > For Waveshare 3.5, see instructions [here](./../displas/waveshare35a.md)<br>
 
-## 9. Launch X Window (Optional)
+### 9.2. Setup Console
 
-> see instructions [here](./x_window.md)
+```bash
+cd ~
+sudo nano /boot/cmdline.txt
+fbcon=map:10 fbcon=font:ProFont6x11
+sudo reboot
+```
+
+### 9.3. Setup For X Window
+
+```bash
+sudo nano /usr/share/X11/xorg.conf.d/99-fbturbo.conf
+Option "fbdev" "/dev/fb1"
+sudo reboot
+```
+
