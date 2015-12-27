@@ -69,5 +69,10 @@ sudo reboot
 
 #### 9.3. Setup For X Window
 
-> Install a custom config, see instructions [here](https://github.com/sixertoy/retrobox/blob/master/tips/display.md#x-window-on-lcd)
+```bash
+cd ~
+sudo mkdir -p /etc/X11/xorg.conf.d/
+sudo wget https://raw.githubusercontent.com/sixertoy/retrobox/master/files/fbtft.conf
+sudo mv ~/fbtft.conf /etc/X11/xorg.conf.d/
+```
 
