@@ -23,6 +23,11 @@ wget https://raw.githubusercontent.com/sixertoy/retrobox/master/files/.bash_alia
 > **Install**
 
 ```bash
+cd ~
+wget https://raw.githubusercontent.com/sixertoy/retrobox/master/files/autologin.conf
+mv autologin.conf /etc/systemd/system/getty@tty1.service.d/
+sudo systemctl enable getty@tty1.service
+sudo reboot
 ```
 
 > for **Raspbain Wheezy Version** see [autologin for wheezy]() in tips section
