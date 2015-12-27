@@ -1,10 +1,7 @@
 # Waveshare 3.5 LCD on RPi
 
-> Boot on console LCD
-```bash
-# sudo nano /boot/cmdline.txt
-fbcon=font:ProFont6x11 fbcon=map:10
-```
+> Waveshare 3.5 LCD Screen is too weak for retrogaming<br>
+> But can be use for desktop applications
 
 ```bash
 sudo nano /boot/config.txt
