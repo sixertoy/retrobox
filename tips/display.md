@@ -17,6 +17,14 @@ sudo reboot
 
 ## Switch between HDMI/LCD
 
+> **Install a Custom Config**
+
+```bash
+sudo mkdir -p /etc/X11/xorg.conf.d/
+```
+
+> **Or manually**
+
 ```bash
 sudo nano /usr/share/X11/xorg.conf.d/99fbturbo.conf
 » Edit Option "fbdev" "/dev/fb0" # HDMI
