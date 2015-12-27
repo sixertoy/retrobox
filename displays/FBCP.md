@@ -65,7 +65,7 @@ sudo nano /boot/cmdline.txt
 sudo reboot
 ```
 
-## 0. Test a video
+## 0. Test Video
 
 ```bash
 con2fbmap 1 0
