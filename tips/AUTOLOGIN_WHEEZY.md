@@ -1,5 +1,7 @@
 # Autologin for Raspbian Wheezy
 
+> Allows an user to autoconnect via a TTY connection
+
 ```bash
 cd ~
 # edit file via nano editor
@@ -14,3 +16,5 @@ sudo nano /etc/inittab
 # then press enter to validate filename
 sudo reboot
 ```
+
+> For an autologin under **Raspbian Jessie Version** see file [autologin.conf](./../files/autologin.conf) in files section
