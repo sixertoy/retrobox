@@ -69,5 +69,5 @@ sudo reboot
 
 #### 9.3. Setup For X Window
 
-> Install a custom config, see instructions [here](https://github.com/sixertoy/retrobox/blob/master/tips/display.md#install-a-custom-config)
+> Install a custom config, see instructions [here](https://github.com/sixertoy/retrobox/blob/master/tips/display.md#x-window-on-lcd)
 
