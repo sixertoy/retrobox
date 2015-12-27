@@ -10,12 +10,13 @@ This folder contains utilities files for an RPi OS based on Wheezy/Jessie versio
 > **Must be installed in your home folder**<br>
 > See headers in file for install instructions
 
-## .bashrc
+## .welcome_tweaks
 
-> **Don't replace your /home/pi/.bashrc file by this file**<br>
 > This file is a part of a .bashrc file<br>
+> It is autoload by .bashrc
 > It only contains some tweaks to display more informations at RPi Startup<br>
-> This script was extract from an offical [Retropie](https://github.com/RetroPie/RetroPie-Setup) image
+> This script was extract from an offical [Retropie](https://github.com/RetroPie/RetroPie-Setup) image<br>
+> See .bashrc to install this script at startup
 
 ## autologin.conf
 
