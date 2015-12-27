@@ -18,6 +18,8 @@ wget https://raw.githubusercontent.com/sixertoy/retrobox/master/files/.bash_alia
 
 ## autologin.conf
 
-## 
+## fbcp
+
+## switchd
 
 ## wp_supplicant.conf
