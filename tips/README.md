@@ -2,6 +2,16 @@
 
 > retrobox/tips/README.md<br>
 
+## Raspi Config in qwerty mode
+
+```bash
+sudo rqspi°config
+```
+
+> In menu **spacebar** for select/unselect<br>
+> **Enter** to validate<br>
+> **Left/Right** arrow to validate/cancel
+
 ## PI Login Credentials
 
 > **User/login:** pi<br>
@@ -14,20 +24,6 @@
 ## [Connect via SSH](./ssh.md)
 
 > Connect to a remote device
-
-## Raspi Config in qwerty mode
-
-```bash
-sudo rqspi°config
-```
-
-> In menu **spacebar** for select/unselect<br>
-> **Enter** to validate<br>
-> **Left/Right** arrow to validate/cancel
-
-## [Font Size in Console](./font_size.md)
-
-> Change font size on HDMI/LCD Display
 
 ## [Audio](./audio.md)
 
@@ -50,9 +46,9 @@ sudo rqspi°config
 
 > Utils for display HDMI/LCD
 
-## [Font Size](./font_size.md)
+## [Font Size in Console](./font_size.md)
 
-> Change font size on display
+> Change font size on HDMI/LCD Display
 
 ## [Languages, Timezone & Keyboard](./languages.md)
 
