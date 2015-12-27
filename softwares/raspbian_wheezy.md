@@ -70,6 +70,7 @@ sudo reboot
 ### 9.3. Setup For X Window
 
 ```bash
+cd ~
 sudo nano /usr/share/X11/xorg.conf.d/99-fbturbo.conf
 Option "fbdev" "/dev/fb1"
 sudo reboot
