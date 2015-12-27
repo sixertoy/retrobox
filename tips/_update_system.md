@@ -1,7 +1,5 @@
 # Update System
 
-> **Might be the fist to executed**
-
 ```bash
 sudo apt-get update
 sudo apt-get upgrade
