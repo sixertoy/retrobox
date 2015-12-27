@@ -1,12 +1,14 @@
 # CMD
 
-> Command lines under an Unix environnement<br>
+> Command lines under an UNI environnement<br>
 
 #### Change directory to your home folder
 
 ```bash
 cd ~
 ```
+
+> **or**
 
 ```bash
 cd
@@ -18,7 +20,7 @@ cd
 sudo reboot
 ```
 
-#### Edit a file via nano edirot
+#### Edit a file via nano editor
 
 ```bash
 sudo nano /path/to/a/file.extension
@@ -28,15 +30,23 @@ sudo nano /path/to/a/file.extension
 > Press CTRL+X then press Y to overwrite file on N to cancel changes
 > Then press ENTER to validate filename
 
+> Nano editor shortcut are highlighted at the screen bottom
+
 #### List a directory
+
+> List inline
 
 ```bash
 ls
 ```
 
+> List in columns
+
 ```bash
 ls -l
 ```
+
+> List in columns with additionals informations
 
 ```bash
 ls -lA
