@@ -6,7 +6,7 @@ This folder contains utilities files for an RPi OS based on Wheezy/Jessie versio
 
 ## .bash_aliases
 
-> This file contains utils alias
+> This file contains OS utils alias/shortcuts<br>
 > **Install in your home folder**
 
 ```bash
@@ -18,8 +18,28 @@ wget https://raw.githubusercontent.com/sixertoy/retrobox/master/files/.bash_alia
 
 ## autologin.conf
 
+> **Raspbian Jessie Version**
+> This file allows an autologin TTY connection at boot
+> **Install**
+
+```bash
+```
+
 ## fbcp
+
+> Framebuffer Copy<br>
+> Clone an HDMI output to a LCD GIPIO display<br>
+> **Install***
+
+```bash
+```
 
 ## switchd
 
 ## wp_supplicant.conf
+
+> A WIFI basic configuration file<br>
+> **Install**
+
+```bash
+```
