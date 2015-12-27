@@ -22,8 +22,9 @@ sudo chmod +x ./retropie_setup.sh
 sh ./retropie_setup.sh
 ```
 
-### 1.2. Install Emulators from retropie setup
+### 1.2. Install Emulators from retropie setup (rpies)
 
+> **From rpies main menu**<br>
 > **Install all emulators fromm binary**<br>
 > Select
   - Install individual emulators from binary or source (4)
@@ -45,7 +46,7 @@ sh ./retropie_setup.sh
 sudo reboot
 ````
 
-### 1.3. Install Tools from retropie setup
+### 1.3. Install Tools from retropie setup (rpies)
 
 ```bash
 rpies
@@ -53,37 +54,32 @@ rpies
 
 #### 1.3.1. Install themes for emulationstation
 
-- clean-look
+> **From rpies main menu**
+
+> Select
+  - Setup/Configuration ()
+
+> Select
+  - ()
+  
+> Select
+  - clean-look ()
 
 #### 1.3.2. Samba shares
 
+> **From rpies main menu**
 
+> Select
+  -
+  
+> Select
+  -
+  
+> Select
+  -
 
-> **install chromium [Optional]**
+```bash
+sudo reboot
+```
 
-- sudo apt-get install chromium
-
-# NOOBS
-
-## Make root file
-
-- cd /
-- sudo tar -cvpf root.tar /* --exclude=proc/* --exclude=sys/* --exclude = dev/pts/*
-- sudo xz  -9  -e  root.tar
-
-## Make boot file
-
-- cd /boot
-- sudo tar -cvpf boot.tar /*
-- sudo xz  -9  -e  boot.tar
-
-## Get file over ssh
-
-- scp pi@<rpi_ip_adress>:root.tar.xz ~/Downloads
-- scp pi@<rpi_ip_adress>:boot.tar.xz ~/Downloads
-
-## Config boot
-
-
-- in os/ replace root.tar.xz
-- in os/ replace boot.tar.xz
+> **You can now copy ROMS & BIOS via your pc explorer in network menu to your RPi**
