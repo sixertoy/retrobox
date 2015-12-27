@@ -2,6 +2,10 @@
 
 > retrobox/tips/README.md<br>
 
+## [Connect via SSH](./ssh.md)
+
+> Connect to a remote device
+
 ## [Udpate System](./_update_system.md)
 
 > **Might be the first task to be executed**
