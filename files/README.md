@@ -25,6 +25,8 @@ wget https://raw.githubusercontent.com/sixertoy/retrobox/master/files/.bash_alia
 ```bash
 ```
 
+> for **Raspbain Wheezy Version** see [autologin for wheezy]() in tips section
+
 ## fbcp
 
 > Framebuffer Copy<br>
