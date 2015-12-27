@@ -51,6 +51,11 @@
 
 > See instructions [here](./../tips/wifi.md#Setup)
 
+## 9. Install LCD Display Driver (Optional)
+
+> For Tontec 3.5, see instructions [here](./../displays/tontec35.md)<br>
+> For Waveshare 3.5, see instructions [here](./../displas/waveshare35a.md)<br>
+
 ## 9. Launch X Window (Optional)
 
 > see instructions [here](./x_window.md)

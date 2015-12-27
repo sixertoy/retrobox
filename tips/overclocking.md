@@ -30,9 +30,9 @@ sudo reboot
 cd ~
 sudo /boot/config.txt
 arm_freq=700
-core_freq=500
-sdram_freq=500
-over_voltage=2
+core_freq=250
+sdram_freq=400
+over_voltage=0
 sudo reboot
 ```
 
