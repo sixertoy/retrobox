@@ -7,7 +7,7 @@
   
 > Launch Win32DiskImager
 
-##### Write an image
+##### Write an existing image file (.img)
 
 - Select an existing image file by clicking on **folder icon**
 - Select your **sdcard device** letter for destination to burn your image
@@ -17,7 +17,7 @@
 ##### Backup an image
   
   - Select your **sdcard device** letter
-  - Click on **folder icon** to select destination and name of your new image
+  - Click on **folder icon** to select destination and name of your fresh new image file (.img)
   - Click **read** to create a new image from your sdcard
   - Click **exit**
 
