@@ -5,6 +5,7 @@
 - **Do not connect** power cable yet to RPi
 - Connect HDMI cable to RPi
 - Connect Ethernet cable to RPi
+- Plug USB/Bluetooth Keyboard/Mouse
 - Plug WIFI key (optionnal)
 - Plug Bluetooth key (optionnal)
 
@@ -30,26 +31,9 @@
 
 ## 3. Format SDCard
 
-- Install **SDFormatter**
-- Insert SDCard in PC
-- Open SDFormatter
-- Select **Drive** (take care choosing the right disk letter)
-- Set **volume label** to **RETROBOX**
-- Click **Options**
-- Set options **Format type** to **quick**
-- Set options **Format size adjustment** to **on**
-- Click **ok**
-- Click **Format**
-- Exit
-
 ## 4. Burn Retropie image file on SDCard
 
 - [Download Retropie image file](http://blog.petrockblock.com/retropie/retropie-downloads/)
-- Launch Win32DiskImage
-- Select Retropie Image File
-- Select target SDCard
-- Click "Write" > yes
-- Exit Win32DiskImage
 
 ## 5. Turn on RPi
 
