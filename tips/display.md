@@ -13,6 +13,8 @@ fbcon=map:10 fbcon=font:ProFont6x11
 sudo reboot
 ```
 
+[source](https://github.com/notro/fbtft/wiki/Boot-console)
+
 ## Switch between HDMI/LCD
 
 ```bash
