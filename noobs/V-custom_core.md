@@ -1,4 +1,4 @@
-# V - Custom files OS core
+# V - Custom OS core
 
 # NOOBS
 
