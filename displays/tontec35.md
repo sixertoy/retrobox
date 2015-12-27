@@ -32,7 +32,7 @@ fbcon=map:10 fbcon=font:ProFont6x11
 sudo reboot
 ```
 
-## Backlight
+## 3. Backlight
 
 ### Turn Off
 
