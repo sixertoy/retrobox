@@ -29,6 +29,10 @@ sudo rqspi°config
 
 > Set internationalisation for the system
 
+## [Font Size in Console](./font_size.md)
+
+> Change font size on HDMI/LCD Display
+
 ## [Audio](./audio.md)
 
 > Utils for audio

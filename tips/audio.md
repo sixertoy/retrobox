@@ -35,5 +35,5 @@ amixer cset numid=3 0
 ```bash
 cd ~
 sudo nano /boot/config.txt
-» hdmi_drive=2
+hdmi_drive=2
 ```

@@ -17,7 +17,10 @@ sudo reboot
 ```bash
 cd ~
 sudo /boot/config.txt
-
+arm_freq=1000
+core_freq=500
+sdram_freq=500
+over_voltage=2
 sudo reboot
 ```
 
@@ -26,7 +29,10 @@ sudo reboot
 ```bash
 cd ~
 sudo /boot/config.txt
-
+arm_freq=700
+core_freq=500
+sdram_freq=500
+over_voltage=2
 sudo reboot
 ```
 
