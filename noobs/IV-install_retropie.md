@@ -13,27 +13,33 @@
 cd ~
 git clone --depth=1 https://github.com/RetroPie/RetroPie-Setup.git
 cd RetroPie-Setup
-sudo chmod +x retropie_setup.
-sudo sh ./retropie_setup.sh
+sudo chmod +x ./retropie_setup.sh
+```
+
+> Launch Retropie Setup
+
+```bash
+sh ./retropie_setup.sh
 ```
 
 ### 1.2. Install Emulators
 
 > **Install all emulators form binary**<br>
-> Select *Install individuals emulators*
 
-- Emulationstation
-- Retroarch
-- mupen64plus (N64)
-- lr-pcsx-rearmed (PSX)
-- reicast (Dreamcast)
-- lr-SNES9x-Next (SNES)
-- lr-mgba (GBA)
-- lr-genesis-plus-gx (Sega MS + MD)
-- lr-nestopia (NES)
-- ppsspp (PSP)
-- lf-fba-next (Final Burn - Arcade)
+> Select *Install individual emulators from binary or source (4)*
 
+> Select:
+  - Emulationstation (306)
+  - Retroarch (125)
+  - mupen64plus **(N64)** (116)
+  - lr-pcsx-rearmed **(PSX)** (228)
+  - reicast **(Dreamcast)** (124)
+  - lr-SNES9x-Next **(SNES)** (234)
+  - lr-mgba **(GBA)** (223)
+  - lr-genesis-plus-gx **(Sega MS + MD)** (213)
+  - lr-nestopia **(NES (225)
+  - ppsspp **(PSP)** (122)
+  - lf-fba-next **(Final Burn - Arcade)** (207)
 
 ```bash
 sudo reboot
