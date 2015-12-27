@@ -22,10 +22,9 @@ sudo chmod +x ./retropie_setup.sh
 sh ./retropie_setup.sh
 ```
 
-### 1.2. Install Emulators
+### 1.2. Install Emulators from retropie setup
 
-> **Install all emulators form binary**<br>
-
+> **Install all emulators fromm binary**<br>
 > Select *Install individual emulators from binary or source (4)*
 
 > Select:
@@ -45,7 +44,7 @@ sh ./retropie_setup.sh
 sudo reboot
 ````
 
-### 1.3. Install Tools
+### 1.3. Install Tools from retropie setup
 
 ```bash
 rpies
