@@ -42,4 +42,14 @@ wget https://raw.githubusercontent.com/sixertoy/retrobox/master/files/.bash_alia
 > **Install**
 
 ```bash
+cd ~~
+wget 
+mv wpa_supplicant.conf /etc/wpa_supplicant
+# edit file
+sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
+# define your WIFI network
+# ID_STR: a user defined custom name for the WIFI connection
+# SSID: name of your home network
+# PSK: secret key for accessing your network defined by your internet provider
 ```
+
