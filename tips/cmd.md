@@ -51,3 +51,15 @@ ls -l
 ```bash
 ls -lA
 ```
+
+## Show USB Devices
+
+```bash
+lsusb
+```
+
+## Show installed modules
+
+```bash
+lsmod
+```
