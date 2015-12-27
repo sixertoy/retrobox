@@ -2,10 +2,6 @@
 
 > retrobox/tips/README.md<br>
 
-## [Connect via SSH](./ssh.md)
-
-> Connect to a remote device
-
 ## PI Login Credentials
 
 > **User/login:** pi<br>
@@ -14,6 +10,10 @@
 ## [Udpate System](./_update_system.md)
 
 > **It's the first task to be execute at a new system install**
+
+## [Connect via SSH](./ssh.md)
+
+> Connect to a remote device
 
 ## Raspi Config in qwerty mode
 
@@ -24,10 +24,6 @@ sudo rqspi°config
 > In menu **spacebar** for select/unselect<br>
 > **Enter** to validate<br>
 > **Left/Right** arrow to validate/cancel
-
-## [Languages, Timezone & Keyboard](./languages.md)
-
-> Set internationalisation for the system
 
 ## [Font Size in Console](./font_size.md)
 
@@ -53,6 +49,14 @@ sudo rqspi°config
 ## [Display](./display.md)
 
 > Utils for display HDMI/LCD
+
+## [Font Size](./font_size.md)
+
+> Change font size on display
+
+## [Languages, Timezone & Keyboard](./languages.md)
+
+> Set internationalisation for the system
 
 ## [Overclocking](./overclocking.md)
 
