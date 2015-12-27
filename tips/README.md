@@ -15,6 +15,10 @@
 
 > Command lines under an UNIX environment
 
+## Display
+
+> Utils for display HDMI/LCD
+
 ## WIFI
 
 > Config & Command Lines for a WIFI connection setup
