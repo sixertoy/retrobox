@@ -16,6 +16,12 @@ wget https://raw.githubusercontent.com/sixertoy/retrobox/master/files/.bash_alia
 
 ## .bashrc
 
+> **Don't replace your /home/pi/.bashrc file by this file**<br>
+> This file is a part of a .bashrc file<br>
+> It only contains some tweaks to display more informations<br>
+> At RPi Startup
+> This script was extract from an offical [Retropie](https://github.com/RetroPie/RetroPie-Setup) image
+
 ## autologin.conf
 
 > **Raspbian Jessie Version**
@@ -35,7 +41,7 @@ sudo reboot
 ## fbcp
 
 > Framebuffer Copy<br>
-> Clone an HDMI output to a LCD GPIO display<br>
+> Is used to clone an HDMI stream output to a LCD GPIO display output<br>
 > **Install**
 
 ```bash
