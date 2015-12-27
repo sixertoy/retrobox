@@ -28,8 +28,8 @@ wget https://raw.githubusercontent.com/sixertoy/retrobox/master/files/.bash_alia
 ## fbcp
 
 > Framebuffer Copy<br>
-> Clone an HDMI output to a LCD GIPIO display<br>
-> **Install***
+> Clone an HDMI output to a LCD GPIO display<br>
+> **Install**
 
 ```bash
 ```
