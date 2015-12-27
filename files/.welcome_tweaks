@@ -6,7 +6,9 @@
 # wget https://raw.githubusercontent.com/sixertoy/retrobox/master/files/.welcome_tweaks
 # sudo nano ~/.bashrc
 # ##### at the end of .bashrc
-# 
+# if [ -f ~/.welcome_tweaks ]; then
+#   . ~/.welcome_tweaks
+# fi
 # sudo reboot
 #
 # RETROPIE PROFILE START
