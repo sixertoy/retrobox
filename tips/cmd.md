@@ -11,6 +11,7 @@
 - [Show USB Devices](https://github.com/sixertoy/retrobox/blob/master/tips/cmd.md#show-usb-devices)
 - [Show modules installed](https://github.com/sixertoy/retrobox/blob/master/tips/cmd.md#show-installed-modules)
 - [Show logs for boot](https://github.com/sixertoy/retrobox/blob/master/tips/cmd.md#show-logs-for-boot)
+- [Start X Window Desktop](https://github.com/sixertoy/retrobox/blob/master/tips/cmd.md#start-x-window)
 
 #### Change directory to your home folder
 
@@ -99,3 +100,17 @@ lsmod
 ```bash
 dmesg
 ```
+
+## Start X Window
+
+```bash
+startx
+```
+
+> or start on LCD
+
+```bash
+FRAMEBUFFER=/dev/fb1 startx
+```
+
+[source](https://github.com/notro/fbtft/wiki/Framebuffer-use#x-server)
