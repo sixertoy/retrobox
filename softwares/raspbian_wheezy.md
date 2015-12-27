@@ -30,8 +30,8 @@
 
 ## 4. Udpate Sytem
 
-> **Before any operations:**
-    - Expand file system & Update your system - see instruction [here](./../tips/update_system.md)
+> **Before any operations:**<br>
+- Expand file system & Update your system - see instruction [here](./../tips/update_system.md)
 
 ## 5. Configure Languages & Keyboard
 
