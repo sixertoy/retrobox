@@ -19,17 +19,26 @@
 ##### Windows
 
 - [SDFormater](https://www.sdcard.org/downloads/formatter_4/) ...
-- [WinSCP](https://winscp.net/eng/docs/lang:fr) for transfering BIOS and Games
+- [WinSCP](https://winscp.net/eng/docs/lang:fr) for transfering BIOS & Games
 - [Win32DiskImage](http://sourceforge.net/projects/win32diskimager/) for installing img on SDCard
 - [SuperPutty](https://github.com/jimradford/superputty) & [Putty](http://www.putty.org) for SSH Client
 - [Notepad++](https://notepad-plus-plus.org/fr/) for editing text files under Windows with Unix line ending
 
+
+##### Mac OS
+
+- Native OS Disk Util for SDCard formatter
+- Finder for transferring BIOS & Games
+- [ApplePI Baker](http://www.tweaking4all.com/hardware/raspberry-pi/macosx-apple-pi-baker/) for installing img on SDCard
+- Native OS Terminal for SSH Client
+- Native text editor/[Sublime Text](http://www.sublimetext.com) for editing text files under Windows with Unix line ending
+
 ##### Retrobox
 
-- [Noobs](https://www.raspberrypi.org/downloads/noobs/)
+- [Noobs/Noos Lite](https://www.raspberrypi.org/downloads/noobs/)
 - [Raspbian Wheezy/Jessie](https://www.raspberrypi.org/downloads/raspbian/)
-- [Retropie Setup](https://github.com/RetroPie/RetroPie-Setup/wiki/First-Installation)
-- [Retropie Disk Image](http://blog.petrockblock.com/retropie/retropie-downloads/)
+- [Retropie Setup](https://github.com/RetroPie/RetroPie-Setup/wiki/First-Installation) or [Retropie Disk Image](http://blog.petrockblock.com/retropie/retropie-downloads/)
+- You can also install [Recalbox](http://www.recalbox.com)
 
 
 ## This project Contains:
