@@ -35,4 +35,4 @@ sudo reboot
 
 ## Stream HDMI Output to LCD (Framebuffer)
 
-> Install FBCP package, see instruction [here](./../softwares/FBCP.md)
+> Install FBCP package, see instruction [here](./../displays/FBCP.md)
