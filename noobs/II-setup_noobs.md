@@ -54,7 +54,8 @@ Edit url property to your own (optional)
 cd ~
 sudo nano /boot/config.txt
 dtparam=spi=on
-dtparam=audtio=on
+dtparam=audio=on
+disable_audio_dither=1
 dtoverlay=mz61581-overlay.dtb
 ```
 
@@ -65,16 +66,19 @@ dtoverlay=mz61581-overlay.dtb
 ```bash
 cd ~
 sudo nano /boot/config.txt
+
+# Display parameters
 gpu_mem_256=128
 gpu_mem_512=256
-gpu_mem_1024=320
-# overscan_left=-30
-# overscan_right=-30
-# overscan_top=-30
-# overscan_bottom=-30
-# overscan_scale=1
-# disable_overscan=0
-# disable_audio_dither=1
+gpu_mem_1024=448
+
+overscan_scale
+#disable_overscan=0
+
+#overscan_left=-30
+#overscan_right=-30
+#overscan_top=-30
+#overscan_bottom=-30
 ```
 
 ### 3.4. Overclock RPi 2
