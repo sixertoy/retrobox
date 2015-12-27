@@ -10,3 +10,7 @@
 ## BIOS
 
 > Installing additionnals retroarch BIOS files
+
+## CMD
+
+> Command lines under an UNIX environment
