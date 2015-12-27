@@ -31,3 +31,19 @@ sudo nano /boot/cmdline.txt
 fbcon=map:10 fbcon=font:ProFont6x11
 sudo reboot
 ```
+
+## Backlight
+
+### Turn Off
+
+```bash
+echo 1 | sudo tee /sys/class/backlight/*/bl_power
+```
+
+### Turn On
+
+```bash
+echo 0 | sudo tee /sys/class/backlight/*/bl_power
+```
+
+[source](https://github.com/notro/fbtft/wiki/Backlight)
