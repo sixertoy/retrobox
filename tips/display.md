@@ -6,7 +6,21 @@
 
 [FBTFT Package](https://github.com/notro/fbtft/wiki)
 
-## Console on LCD at startup
+## Console on Displays
+
+> On HDMI
+
+```bash
+fbconmap 1 0
+```
+
+> On LCD
+
+```bash
+fbconmap 1 0
+```
+
+## Enable Console on LCD at startup
 
 ```bash
 sudo nano /boot/cmdline.txt
