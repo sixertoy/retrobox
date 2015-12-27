@@ -17,7 +17,7 @@ fbconmap 1 0
 > On LCD
 
 ```bash
-fbconmap 1 0
+fbconmap 1 1
 ```
 
 ## Enable Console on LCD at startup
