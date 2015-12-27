@@ -37,7 +37,7 @@ sh ./retropie_setup.sh
   - lr-SNES9x-Next **(SNES)** (234)
   - lr-mgba **(GBA)** (223)
   - lr-genesis-plus-gx **(Sega MS + MD)** (213)
-  - lr-nestopia **(NES (225)
+  - lr-nestopia **(NES)** (225)
   - ppsspp **(PSP)** (122)
   - lf-fba-next **(Final Burn - Arcade)** (207)
 
