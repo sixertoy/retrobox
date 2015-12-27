@@ -14,6 +14,8 @@
   - Use [SDFormatter](https://www.sdcard.org/downloads/formatter_4/eula_windows/index.html) on Windows, see instructions [here](https://github.com/sixertoy/retrobox/blob/master/softwares/sdformatter.md)
   - Use Disk Util on Mac OS
   
+## Burn Raspbian Wheezy on sdcard
+
 > Extract raspbian wheezy zip archives<br>
 
 > Burn raspbian wheezy img on sdcard
