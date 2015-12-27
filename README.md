@@ -2,6 +2,8 @@
 
 > Raspberry PI2 B<br>
 > Tontec 3.5 Screen is perfect for retro gaming due to its 128Mhz display frequency<br>
+> I've this project for some of my family members<br>
+> It doesn't intend to replace retropie any offical documentation :)
 
 ## Hardware
 
