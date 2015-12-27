@@ -14,13 +14,13 @@ psk="wifi_password"
 }
 ```
 
-> WIFI Up
+> WIFI Down
 
 ```bash
 sudo ifdown wlan0
 ```
 
-> WIFI Down
+> WIFI Up
 
 ```bash
 sudo ifup wlan0
