@@ -15,12 +15,13 @@ sudo reboot
 
 [source](https://github.com/notro/fbtft/wiki/Boot-console)
 
-## Switch between HDMI/LCD
+## Switch between HDMI/LCD For X Window
 
 > **Install a Custom Config**
 
 ```bash
 sudo mkdir -p /etc/X11/xorg.conf.d/
+sudo wget https://raw.githubusercontent.com/sixertoy/retrobox/master/files/fbtft.conf
 ```
 
 > **Or manually**
