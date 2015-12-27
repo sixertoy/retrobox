@@ -11,5 +11,5 @@
 > Download [Raspbian Wheezy Version](https://www.raspberrypi.org/downloads/raspbian/)
 
 > Format SDCard
-  - Use [SDFormatter](https://www.sdcard.org/downloads/formatter_4/eula_windows/index.html) on Windows, see instructions [here](https://github.com/sixertoy/retrobox/blob/master/tips/sdcardformatter.md)
+  - Use [SDFormatter](https://www.sdcard.org/downloads/formatter_4/eula_windows/index.html) on Windows, see instructions [here](https://github.com/sixertoy/retrobox/blob/master/software/sdformatter.md)
   - Use Disk Util on Mac OS
