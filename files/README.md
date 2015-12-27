@@ -2,7 +2,7 @@
 
 > retrobox/files/README.md
 
-This folder contains utilities files for an RPi os bases on Wheezy/Jessie
+This folder contains utilities files for an RPi OS based on Wheezy/Jessie version
 
 ## .bash_aliases
 
