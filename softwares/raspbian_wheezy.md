@@ -53,12 +53,12 @@
 
 ## 9. Use LCD Display
 
-## 9.1. Install LCD Display Driver
+#### 9.1. Install LCD Display Driver
 
 > For Tontec 3.5, see instructions [here](./../displays/tontec35.md)<br>
 > For Waveshare 3.5, see instructions [here](./../displas/waveshare35a.md)<br>
 
-### 9.2. Setup Console
+#### 9.2. Setup Console
 
 ```bash
 cd ~
@@ -67,7 +67,7 @@ fbcon=map:10 fbcon=font:ProFont6x11
 sudo reboot
 ```
 
-### 9.3. Setup For X Window
+#### 9.3. Setup For X Window
 
 ```bash
 cd ~
