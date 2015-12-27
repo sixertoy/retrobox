@@ -2,6 +2,14 @@
 
 > Command lines under an UNI environnement<br>
 
+- Change Directory to home folder
+- Reboot a device
+- Nano file editor
+- List a directory
+- Show Disk space
+- Show USB Devices
+- Show modules installed
+
 #### Change directory to your home folder
 
 ```bash
@@ -46,10 +54,16 @@ ls
 ls -l
 ```
 
-> List in columns with additionals informations
+> List in columns with additionals informations + hidden files
 
 ```bash
 ls -lA
+```
+
+## Show Disk Space
+
+```bash
+df -h
 ```
 
 ## Show USB Devices
