@@ -44,5 +44,5 @@
 ## This project Contains:
 
 - [some UNIX/RPi Tips](https://github.com/sixertoy/retrobox/tree/master/tips)
-- [An install of Retropie/Jessie/Noobs](https://github.com/sixertoy/retrobox/tree/master/noobs)
-- [some RPi Scripts](https://github.com/sixertoy/retrobox/tree/master/files)
+- [An install of Raspbian + X Window](https://github.com/sixertoy/retrobox/tree/master/softwares/raspbian.md)
+- [An custom install of Retropie/Jessie/Noobs](https://github.com/sixertoy/retrobox/tree/master/noobs)
