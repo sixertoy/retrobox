@@ -2,13 +2,14 @@
 
 > Command lines under an UNI environnement<br>
 
-- Change Directory to home folder
-- Reboot a device
-- Nano file editor
-- List a directory
-- Show Disk space
-- Show USB Devices
-- Show modules installed
+- [Change Directory to home folder](https://github.com/sixertoy/retrobox/blob/master/tips/cmd.md#change-directory-to-your-home-folder)
+- [Reboot a device](https://github.com/sixertoy/retrobox/blob/master/tips/cmd.md#reboot-a-device)
+- [Nano file editor](https://github.com/sixertoy/retrobox/blob/master/tips/cmd.md#edit-a-file-via-nano-editor)
+- [List a directory](https://github.com/sixertoy/retrobox/blob/master/tips/cmd.md#list-a-directory)
+- [Show Raspbian Version](https://github.com/sixertoy/retrobox/blob/master/tips/cmd.md#show-raspbian-version)
+- [Show Disk space](https://github.com/sixertoy/retrobox/blob/master/tips/cmd.md#show-disk-space)
+- [Show USB Devices](https://github.com/sixertoy/retrobox/blob/master/tips/cmd.md#show-usb-devices)
+- [Show modules installed](https://github.com/sixertoy/retrobox/blob/master/tips/cmd.md#show-installed-modules)
 
 #### Change directory to your home folder
 
