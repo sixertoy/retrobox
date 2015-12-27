@@ -14,3 +14,7 @@
 ## CMD
 
 > Command lines under an UNIX environment
+
+## WIFI
+
+> Config & Command Lines for a WIFI connection setup
