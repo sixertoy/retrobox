@@ -10,7 +10,7 @@
 - [Show Disk space](https://github.com/sixertoy/retrobox/blob/master/tips/cmd.md#show-disk-space)
 - [Show USB Devices](https://github.com/sixertoy/retrobox/blob/master/tips/cmd.md#show-usb-devices)
 - [Show modules installed](https://github.com/sixertoy/retrobox/blob/master/tips/cmd.md#show-installed-modules)
-- [Show logs at boot]()
+- [Show logs for boot](https://github.com/sixertoy/retrobox/blob/master/tips/cmd.md#show-logs-for-boot)
 
 #### Change directory to your home folder
 
