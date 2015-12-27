@@ -12,7 +12,7 @@
 > Download [Raspbian Wheezy Version](https://www.raspberrypi.org/downloads/raspbian/)
 
 > Format SDCard
-  - Use [SDFormatter](https://www.sdcard.org/downloads/formatter_4/eula_windows/index.html) on Windows, see instructions [here](./sdformatter.md) [here](https://github.com/sixertoy/retrobox/blob/master/softwares/sdformatter.md)
+  - Use [SDFormatter](https://www.sdcard.org/downloads/formatter_4/eula_windows/index.html) on Windows, see instructions [here](./sdformatter.md)
   - Use Disk Util on Mac OS
 
 ## 2. Burn Raspbian Wheezy on sdcard
