@@ -1,18 +1,5 @@
 
 
-## Preinstall
-- copy wheezy image on sdcard
-- sudo raspi-config
-- extend FS
-- reboot
-
-## Update Firmware
-- sudo apt-get update
-- sudo apt-get upgrade
-- sudo reboot
-- sudo rpi-update
-- sudo reboot
-
 ## Languages
 - sudo raspi-config
 - change locale
