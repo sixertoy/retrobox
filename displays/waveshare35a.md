@@ -3,7 +3,7 @@
 > Waveshare 3.5 LCD Screen is too weak for retrogaming<br>
 > But can be use for desktop applications<br>
 
-> [Waveshare 3.5 on amazon](http://www.amazon.fr/gp/product/B00SKOPWC4?psc=1&redirect=true&ref_=oh_aui_detailpage_o06_s00)<br>
+> [Waveshare 3.5 on Amazon](http://www.amazon.fr/gp/product/B00SKOPWC4?psc=1&redirect=true&ref_=oh_aui_detailpage_o06_s00)<br>
 > [Official manufacturer](http://www.waveshare.com/3.5inch-rpi-lcd-a.htm)
 
 
