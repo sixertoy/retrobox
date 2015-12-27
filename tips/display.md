@@ -23,6 +23,7 @@ sudo wget https://raw.githubusercontent.com/sixertoy/retrobox/master/files/fbtft
 ```
 
 [source](https://github.com/notro/fbtft/wiki/FBTFT-on-Raspian#where-to-display-x-windows)
+[x window multiseat](https://github.com/notro/fbtft-spindle/wiki/Appendix#x-windows-multiseat)
 
 ## Stream HDMI Output to LCD (Framebuffer)
 
