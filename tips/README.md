@@ -1,6 +1,6 @@
 # README
 
-> tips/README.md
+> retrobox/tips/README.md
 
 ## Autologin
 
