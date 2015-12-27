@@ -2,7 +2,7 @@
 
 > Some Emulators needs additionals bios to run<br>
 > Open a new samba shared network connection via your PC's explorer<br>
-> And copy bios files in /home/pi/RetroPie/BIOS folder (~/RetroPie/BIOS/
+> And copy bios files in /home/pi/RetroPie/BIOS folder (~/RetroPie/BIOS/)
 
 ## BIOS
 
