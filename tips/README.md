@@ -1,6 +1,17 @@
 # README
 
-> retrobox/tips/README.md
+> retrobox/tips/README.md<br>
+
+## PI Login Credentials
+
+> **User/login:** pi<br>
+> **Password**: raspberry (rqspberry in qwerty)
+
+## Raspi Config in qwerty mode
+
+```bash
+sudo rqspi°config
+```
 
 ## Audio
 
