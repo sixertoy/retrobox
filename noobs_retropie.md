@@ -37,7 +37,7 @@
 
 > In qwerty mode, by default<br>
 > type ***rqspi°config*** instead of raspi-config<br>
-> see instruction [here](./tips/languages.md)
+> see instruction [here](./tips/locales.md) and [here](./tips/locales.md#32-via-config-files) for keyboard layout
 
 ## 6. Install Bash Aliases
 
