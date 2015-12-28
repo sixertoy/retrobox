@@ -241,6 +241,30 @@ sudo reboot
 
 ## 2. NOOBS
 
+#### 2.1 Backup root & boot from image
+
+###### 2.1.1 Backup root
+
+```bash
+cd /
+sudo tar -cvpf root.tar /* --exclude=proc/* --exclude=sys/* --exclude = dev/pts/*
+sudo xz -9 -e root.tar
+```
+
+###### 2.1.2 Backup boot elements
+
+```bash
+cd /boot
+sudo tar -cvpf boot.tar /*
+sudo xz -9 -e boot.tar
+```
+
+#### 2.2 Download archives
+
+```bash
+scp pi@192.168.1.xx:root.tar.xz ~/Downloads
+scp pi@192.168.1.xx:boot.tar.xz ~/Downloads
+```
 
 
 
