@@ -58,7 +58,7 @@ sudo reboot
 
 ###### 1.3.2. Install Autologin
 
-> See instructions [here](./tips/autologin.md#rasbian-jessie)
+> See instructions [here](./tips/autologin.md#rasbian-jessie) for Raspbian Jessie
 
 ###### 1.3.3. Install Bash Aliases
 
