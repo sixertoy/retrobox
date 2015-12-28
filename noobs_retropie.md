@@ -110,6 +110,7 @@ wget https://raw.githubusercontent.com/sixertoy/retrobox/master/files/.bash_alia
 #### 1.4. Install FBCP
 
 > FBCP mirroring HDMI stream to a LCD Display<br>
+> 
 > See instructions [here](./displays/FBCP.md#1-install) to install it<br>
 > **Do not set it to autostart at boot**
 
