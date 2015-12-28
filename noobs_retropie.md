@@ -116,9 +116,13 @@ wget https://raw.githubusercontent.com/sixertoy/retrobox/master/files/.bash_alia
 
 #### 1.5. Install LCD Display Drivers
 
-> Add [No Logo]() and [Quiet]()<br>
+```bash
+sudo nano /boot/cmdline.txt
+# add at the end of the line
+quiet logo.nologo fbcon=map:10 fbcon=font:ProFont6x11
+```
+
 > Install drivers for Tontec 3.5, see instructions [here](./displays/tontec35.md)<br>
-> Add [Boot Console at startup](./displays/tontec35.md#2-console-on-boot)
 
 #### 1.6. Install Retropie
 
