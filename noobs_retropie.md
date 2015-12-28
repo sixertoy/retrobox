@@ -69,12 +69,15 @@
 
 ###### 1.6.1. Install from Sources
 
-
 ```bash
 cd ~
-
+git clone --depth=1 https://github.com/RetroPie/RetroPie-Setup.git
+cd RetroPie-Setup
+sudo ./retropie_setup.sh
 sudo reboot
 ```
+
+[source](https://github.com/RetroPie/RetroPie-Setup#general-usage)
 
 ###### 1.6.2. Install Emulators
 
