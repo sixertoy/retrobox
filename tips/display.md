@@ -20,7 +20,7 @@ con2fbmap 1 0
 con2fbmap 1 1
 ```
 
-> Permanent Switch on Raspbian Wheezy
+> **Permanent Switch on Raspbian Wheezy**
 
 ```bash
 cd ~
