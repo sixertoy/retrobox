@@ -144,6 +144,16 @@ sudo chmod 0777 /usr/bin/retrobox
 sudo reboot
 ```
 
+##### 1.6.2 Update emulationstation script
+
+```bash
+cd ~
+wget https://raw.githubusercontent.com/sixertoy/retrobox/master/files/emulationstation
+sudo mv emulationstation /usr/bin
+sudo chmod 0777 /usr/bin/retrobox
+sudo reboot
+```
+
 ##### 1.6.2. Autostart at Boot
 
 ## 2. NOOBS
