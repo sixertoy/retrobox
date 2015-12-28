@@ -8,11 +8,11 @@
 - Plug USB/Bluetooth Keyboard/Mouse or set a SSH Connection
 - Plug WIFI & Bluetooth keys (optionnal)
 
-## 1. Setup Jessie + Retropie Image
+## 1 Setup Jessie + Retropie Image
 
-#### 1.1. Setup Jessie
+#### 1.1 Setup Raspbain Jessie
 
-###### 1.1.1. Prepare SDCard
+###### 1.1.1 Prepare SDCard
 
 > Download [Raspbian Jessie Lite Version](https://www.raspberrypi.org/downloads/raspbian/)
 
@@ -20,7 +20,7 @@
   - Use [SDFormatter](https://www.sdcard.org/downloads/formatter_4/eula_windows/index.html) on Windows, see instructions [here](./softwares/sdformatter.md)
   - Use Disk Util on Mac OS
 
-###### 1.1.2. Burn Raspbian Jessie Lite on sdcard
+###### 1.1.2 Burn Raspbian Jessie Lite on sdcard
 
 > Extract Raspbian Jessie Lite zip archives<br>
 
@@ -28,7 +28,7 @@
   - Use [Win32DiskImager](http://sourceforge.net/projects/win32diskimager/) on windows, see instruction [here](./softwares/win32diskimager.md)
   - Use [ApplePi Baker](http://www.tweaking4all.com/hardware/raspberry-pi/macosx-apple-pi-baker/) on Mac OS
 
-#### 1.2. Start your RPi
+#### 1.2 Start your RPi
 
 > Put your sdcard in your RPi<br>
 > Plug power cable in your RPi<br>
@@ -36,7 +36,7 @@
 > type ***rqspi°config*** instead of raspi-config<br>
 > **Default Raspbian user/password:** pi/raspberry
 
-#### 1.3. Configure Sytem
+#### 1.3 Configure Sytem
 
 > **Before any operations:**<br>
 > Expand Filesystem
@@ -48,7 +48,7 @@ sudo raspi-config
 sudo reboot
 ```
 
-###### 1.3.1. Install Packages
+###### 1.3.1 Install Packages
 
 > Update System
 
@@ -67,7 +67,7 @@ sudo apt-get install -y git dialog cmake
 sudo reboot
 ```
 
-###### 1.3.2. Configure Languages & Keyboard
+###### 1.3.2 Configure Languages & Keyboard
 
 > **Quick setup for keyboard**
 
@@ -88,41 +88,41 @@ BACKSPACE="guess"
 sudo reboot
 ```
 
-###### 1.3.3. Install Autologin
+###### 1.3.3 Install Autologin
 
 > See instructions [here](./tips/autologin.md#rasbian-jessie) for Raspbian Jessie
 
-###### 1.3.4. Install Bash Aliases
+###### 1.3.4 Install Bash Aliases
 
 ```bash
 cd ~
 wget https://raw.githubusercontent.com/sixertoy/retrobox/master/files/.bash_aliases
 ```
 
-###### 1.3.5. Install Welcome Tweaks (Optional)
+###### 1.3.5 Install Welcome Tweaks (Optional)
 
 > See instructions [here](./tips/welcome_tweaks.md)
 
-###### 1.3.6. Configure WIFI (Optional)
+###### 1.3.6 Configure WIFI (Optional)
 
 > See instructions [here](./tips/wifi.md#Setup)
 
-#### 1.4. Install FBCP
+#### 1.4 Install FBCP
 
 > FBCP mirroring HDMI stream to a LCD Display<br>
 > 
 > See instructions [here](./displays/FBCP.md#1-install) to install it<br>
 > **Do not set it to autostart at boot**
 
-#### 1.5. Install LCD Display Drivers
+#### 1.5 Install LCD Display Drivers
 
 > Install drivers for Tontec 3.5, see instructions [here](./displays/tontec35.md)<br>
 
-#### 1.6. Install Retropie
+#### 1.6 Install Retropie
 
 [source](https://github.com/RetroPie/RetroPie-Setup/wiki/First-Installation)
 
-###### 1.6.1. Install from Sources
+###### 1.6.1 Install from Sources
 
 ```bash
 cd ~
@@ -134,7 +134,7 @@ sudo reboot
 
 [source](https://github.com/RetroPie/RetroPie-Setup#general-usage)
 
-###### 1.6.2. Install Emulators
+###### 1.6.2 Install Emulators
 
 > **Install all emulators from binary**<br>
 
@@ -161,7 +161,7 @@ rpies
 sudo reboot
 ````
 
-###### 1.6.3. Install Themes & Drivers
+###### 1.6.3 Install Themes & Drivers
 
 ```bash
 cd ~
@@ -180,9 +180,9 @@ rpies
 sudo reboot
 ```
 
-#### 1.7. Install Retrobox Script
+#### 1.7 Install Retrobox Script
 
-##### 1.7.1. Install from sources
+##### 1.7.1 Install retrobox script
 
 ```bash
 cd ~
@@ -204,7 +204,8 @@ sudo chmod 0777 /usr/bin/emulationstation
 
 ```bash
 cd ~
-wget 
+wget https://raw.githubusercontent.com/sixertoy/retrobox/master/files/99-retrobox_autotart.sh
+sudo mv 99-retrobox_autotart.sh /etc/profile.d/
 ```
 
 ```bash
