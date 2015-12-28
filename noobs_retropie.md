@@ -126,9 +126,6 @@ quiet logo.nologo fbcon=map:10 fbcon=font:ProFont6x11
 
 #### 1.6. Install Retropie
 
-> **After installing Retropie** you need to upgrade gpu_mem_1024 in /boot/config.txt to 448<br>
-> Retropie has modified it
-
 [source](https://github.com/RetroPie/RetroPie-Setup/wiki/First-Installation)
 
 ###### 1.6.1. Install from Sources
