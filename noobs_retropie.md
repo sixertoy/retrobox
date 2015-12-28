@@ -227,7 +227,7 @@ overscan_right=-30
 overscan_bottom=-30
 ```
 
-###### 1.8.2.
+###### 1.8.2. /boot/cmdline.txt
 
 ```bash
 sudo nano /boot/cmdline.txt
