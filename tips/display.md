@@ -13,6 +13,7 @@
 ```bash
 con2fbmap 1 0 # To HDMI
 # con2fbmap 1 1 # To LCD
+```
 
 > **Permanent Switch on Raspbian Wheezy**
 
