@@ -39,7 +39,25 @@
 #### 1.3. Configure Sytem
 
 > **Before any operations:**<br>
-- Expand filesystem & Update system, see instruction [here](./tips/update_system.md)
+
+> Expand Filesystem
+
+```bash
+cd ~
+sudo raspi-config
+Select Expand Filesystem
+sudo reboot
+```
+
+> Update System
+
+```bash
+cd ~
+sudo apt-get update
+sudo apt-get upgrade
+sudo reboot
+```
+
 
 ###### 1.3.1. Configure Languages & Keyboard
 
