@@ -11,13 +11,13 @@
 > On HDMI
 
 ```bash
-fbconmap 1 0
+con2fbmap 1 0
 ```
 
 > On LCD
 
 ```bash
-fbconmap 1 1
+con2fbmap 1 1
 ```
 
 ## Enable Console on LCD at startup
