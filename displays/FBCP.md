@@ -53,6 +53,8 @@ sudo service fbcp stop
 con2fbmap 1 1
 ```
 
+[source](https://github.com/notro/fbtft/wiki/FBTFT-shield-image#fbcp---framebuffer-copy)
+
 ## 3. Start Service at Startup
 
 #### 3.1. Install Service
