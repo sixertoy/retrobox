@@ -31,6 +31,10 @@ case "$1" in
       # /opt/retropie/supplementary/emulationstation/emulationstation
     fi
     ;;
+  restart|reload|force-reload)
+    echo "Error: argument '$1' not supported" >&2
+    exit 3
+    ;;
   stop)
     if pidof fbcp
     then
@@ -43,7 +47,7 @@ case "$1" in
     ;;
   *)
     echo "Usage: retrobox {start|stop}"
-    exit 1
+    exit 3
     ;;
 esac
 
