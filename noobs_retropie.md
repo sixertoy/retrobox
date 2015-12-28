@@ -189,7 +189,6 @@ cd ~
 wget https://raw.githubusercontent.com/sixertoy/retrobox/master/files/retrobox
 sudo mv retrobox /usr/bin
 sudo chmod 0777 /usr/bin/retrobox
-sudo reboot
 ```
 
 ##### 1.7.2 Update emulationstation script
@@ -199,6 +198,9 @@ cd ~
 wget https://raw.githubusercontent.com/sixertoy/retrobox/master/files/emulationstation
 sudo mv emulationstation /usr/bin
 sudo chmod 0777 /usr/bin/retrobox
+```
+
+```bash
 sudo reboot
 ```
 
