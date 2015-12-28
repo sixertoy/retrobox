@@ -219,6 +219,12 @@ sudo reboot
 ```bash
 cd ~
 sudo nano /boot/config.txt
+gpu_mem_1024=448
+overscan_scale=1
+overscan_top=-30
+overscan_left=-30
+overscan_right=-30
+overscan_bottom=-30
 ```
 
 ###### 1.8.2.
