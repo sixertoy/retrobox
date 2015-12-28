@@ -94,14 +94,13 @@ sudo reboot
 
 ###### 1.6.2. Install Emulators
 
-> **Install all emulators fromm binary**<br>
+> **Install all emulators from binary**<br>
 
 ```bash
 cd ~
 rpies
 ```
 
-```bash
 Select **Install individual emulators** from binary or source (4)
 Select:
   - **Emulationstation** (306)
@@ -115,7 +114,6 @@ Select:
   - lr-nestopia **(NES)** (225)
   - lr-pcsx-rearmed **(PSX)** (228)
   - lr-SNES9x-Next **(SNES)** (234)
-```
 
 ```bash
 sudo reboot
