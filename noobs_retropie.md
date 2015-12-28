@@ -89,11 +89,15 @@ sudo apt-get install -y cmake
 
 ###### 1.4.3. FBCP
 
-#### 1.4. Install LCD Display Drivers
+> FBCP mirroring HDMI stream to a LCD Display<br>
+> See instructions [here](https://github.com/sixertoy/retrobox/blob/master/displays/FBCP.md#1-install) to install it
+> **Do not set it as a service**
+
+#### 1.5. Install LCD Display Drivers
 
 > For Tontec 3.5, see instructions [here](./displays/tontec35.md)
 
-#### 1.5. Install Retropie
+#### 1.6. Install Retropie
 
 > **After installing Retropie** you need to upgrade gpu_mem_1024 in /boot/config.txt
 
@@ -149,9 +153,9 @@ rpies
 sudo reboot
 ```
 
-#### 1.6. Install Retrobox Script
+#### 1.7. Install Retrobox Script
 
-##### 1.6.1. Install from sources
+##### 1.7.1. Install from sources
 
 ```bash
 cd ~
@@ -161,7 +165,7 @@ sudo chmod 0777 /usr/bin/retrobox
 sudo reboot
 ```
 
-##### 1.6.2 Update emulationstation script
+##### 1.7.2 Update emulationstation script
 
 ```bash
 cd ~
