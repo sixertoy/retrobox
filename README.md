@@ -35,7 +35,7 @@
 
 ##### Raspberry
 
-- [Noobs/Noos Lite](https://www.raspberrypi.org/downloads/noobs/)
+- [Noobs](https://www.raspberrypi.org/downloads/noobs/)
 - [Raspbian Wheezy/Jessie](https://www.raspberrypi.org/downloads/raspbian/)
 - [Retropie Setup](https://github.com/RetroPie/RetroPie-Setup/wiki/First-Installation) or [Retropie Disk Image](http://blog.petrockblock.com/retropie/retropie-downloads/)
 - You can also install [Recalbox](http://www.recalbox.com)
