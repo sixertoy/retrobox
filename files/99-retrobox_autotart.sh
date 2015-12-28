@@ -6,4 +6,5 @@
 # mv 99-retrobox_autotart.sh /etc/profile.d/
 # 
 #
+# Autostart only if we are not in a SSH Connection
 [ -n "${SSH_CONNECTION}" ] || retrobox start
