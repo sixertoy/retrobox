@@ -6,18 +6,17 @@
 # wget https://raw.githubusercontent.com/sixertoy/retrobox/master/files/retrobox
 # sudo mv retrobox /usr/bin
 # sudo chmod 0777 /usr/bin/retrobox
-#
-#
+
 ### BEGIN INIT INFO
 # Provides: Retrobox
 # Required-Start:
-# Require-Stop:
+# Required-Stop:
 # Default-Start: 2 3 4 5
 # Default-Stop: 0 1 6
 # Short-Description: Retrogaming LCD
 # Description: Mirroring HDMI to LCD for Retrogaming
 ### END INIT INFO
-#
+
 case "$1" in
   start)
     if pidof fbcp
