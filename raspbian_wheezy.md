@@ -33,7 +33,7 @@
 > **Before any operations:**<br>
 - Expand filesystem & Update system - see instruction [here](./tips/update_system.md)
 
-## 5. Configure Languages & Keyboard
+## 5. Configure Locales
 
 > In qwerty mode, by default<br>
 > type ***rqspi°config*** instead of raspi-config<br>
