@@ -7,6 +7,7 @@
 - [Nano file editor](./cmd.md#edit-a-file-via-nano-editor)
 - [List a directory](./cmd.md#list-a-directory)
 - [List running process](./cmd.md#list-running-process)
+- [Run script startup](./cmd.md#run-script-startup)
 - [Show Raspbian Version](./cmd.md#show-raspbian-version)
 - [Show Disk space](./cmd.md#show-disk-space)
 - [Show USB Devices](./cmd.md#show-usb-devices)
@@ -70,6 +71,17 @@ ps -A
 ```
 
 [source](http://www.cyberciti.biz/faq/show-all-running-processes-in-linux/)
+
+## Run script startup
+
+```bash
+sudo nano /etc/init.d/NameOfYourScript
+# script
+sudo chmod 755 /etc/init.d/NameOfYourScript
+sudo update-rc.d NameOfYourScript defaults
+```
+
+[source](http://www.stuffaboutcode.com/2012/06/raspberry-pi-run-program-at-start-up.html)
 
 ## Show Raspbian version
 
