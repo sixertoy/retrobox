@@ -197,7 +197,14 @@ sudo chmod 0777 /usr/bin/retrobox
 cd ~
 wget https://raw.githubusercontent.com/sixertoy/retrobox/master/files/emulationstation
 sudo mv emulationstation /usr/bin
-sudo chmod 0777 /usr/bin/retrobox
+sudo chmod 0777 /usr/bin/emulationstation
+```
+
+##### 1.7.3 Install autostart script
+
+```bash
+cd ~
+wget 
 ```
 
 ```bash
