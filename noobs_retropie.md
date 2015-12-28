@@ -91,8 +91,8 @@ sudo apt-get install -y cmake
 ###### 1.4.3. FBCP
 
 > FBCP mirroring HDMI stream to a LCD Display<br>
-> See instructions [here](./displays/FBCP.md#1-install) to install it
-> **Do not set it as a service**
+> See instructions [here](./displays/FBCP.md#1-install) to install it<br>
+> **Do not set it to autostart at boot**
 
 #### 1.5. Install LCD Display Drivers
 
