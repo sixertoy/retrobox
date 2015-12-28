@@ -51,6 +51,18 @@
 
 > See instructions [here](./tips/wifi.md#Setup)
 
-## 9. Use LCD Display
+## 9. Install LCD Display Drivers
 
 > For Tontec 3.5, see instructions [here](./displays/tontec35.md)
+
+## 10. Install Retropie
+
+#### 10.4. Install Retrobox Script
+
+```bash
+cd ~
+wget https://raw.githubusercontent.com/sixertoy/retrobox/master/files/retrobox
+sudo mv retrobox /usr/bin
+sudo chmod 0777 /usr/bin/retrobox
+sudo reboot
+```
