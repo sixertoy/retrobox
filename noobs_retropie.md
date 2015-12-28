@@ -30,19 +30,18 @@
 
 #### 1.2. Start your RPi
 
-> Put your sdcard on your RPi<br>
-> Plug power cable to your RPi<br>
+> Put your sdcard in your RPi<br>
+> Plug power cable in your RPi<br>
+> Raspbian starts in qwerty mode, by default<br>
+> type ***rqspi°config*** instead of raspi-config<br>
+> **Default Raspbian user/password:** pi/raspberry
 
 #### 1.3. Configure Sytem
 
 > **Before any operations:**<br>
-- Expand filesystem & Update system - see instruction [here](./tips/update_system.md)
+- Expand filesystem & Update system, see instruction [here](./tips/update_system.md)
 
 ###### 1.3.1. Configure Languages & Keyboard
-
-> In qwerty mode, by default<br>
-> type ***rqspi°config*** instead of raspi-config<br>
-> see instruction [here](./tips/locales.md)
 
 > **Quick setup for keyboard**
 
@@ -56,6 +55,8 @@ XKBOPTIONS=""
 BACKSPACE="guess"
 sudo reboot
 ```
+
+> Full instructions with raspi-config [here](./tips/locales.md)
 
 ###### 1.3.2. Install Autologin
 
@@ -99,7 +100,8 @@ sudo apt-get install -y cmake
 
 #### 1.6. Install Retropie
 
-> **After installing Retropie** you need to upgrade gpu_mem_1024 in /boot/config.txt
+> **After installing Retropie** you need to upgrade gpu_mem_1024 in /boot/config.txt to 448<br>
+> Retropie has modified it
 
 [source](https://github.com/RetroPie/RetroPie-Setup/wiki/First-Installation)
 
@@ -152,6 +154,8 @@ rpies
 ```bash
 sudo reboot
 ```
+
+> Fix /boot/config.txt gpu_mem_1024
 
 #### 1.7. Install Retrobox Script
 
