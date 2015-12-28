@@ -170,7 +170,8 @@ rpies
 
 > Select **Setup/Configuration** (3)<br>
   - Select **Install themes for emulationstation** (307)<br>
-  - Select **clean-look** (12)<br>
+  - Select **clean-look** (12)
+
 > From **Setup/Configuration** menu<br>
   - Select **Configure Samba ROM Share** (318)<br>
   - Select **Install Retropie Samba Shares**
