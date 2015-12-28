@@ -4,6 +4,8 @@
 > **Enter** to validate<br>
 > **Left/Right** arrow to validate/cancel
 
+[source](http://www.tropfacile.net/doku.php/raspberry-pi/comment-passer-votre-raspberry-en-francais)
+
 ## 1. Languages
 
 ```bash
