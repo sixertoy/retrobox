@@ -1,6 +1,12 @@
 #!/bin/bash
 # /usr/bin/retrobox
 #
+### Install
+# cd ~
+# wget 
+# sudo mv retrobox /usr/bin
+# sudo chmod 0777 /usr/bin/retrobox
+#
 #
 ### BEGIN INFO INIT
 # Provides: Retrobox
@@ -17,7 +23,7 @@ case "$1" in
     echo "Starting Retrobox"
     con2fbmap 1 0
     service fbcp start
-    es
+    /usr/bin/emulationstation
     ;;
   stop)
     echo "Stropping Retrobox"
