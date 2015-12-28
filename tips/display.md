@@ -25,6 +25,24 @@ Option "fbdev" "/dev/fb1" # To LCD
 sudo reboot
 ```
 
+## Show only errors on boot
+
+```bash
+sudo nano /boot/cmdline.txt
+# add at the end of the line
+quiet
+sudo reboot
+```
+
+## Remove logo on boot
+
+```bash
+sudo nano /boot/cmdline.txt
+# add at the end of the line
+logo.nologo
+sudo reboot
+```
+
 ## Enable Console on LCD at startup
 
 ```bash
