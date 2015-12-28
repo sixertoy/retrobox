@@ -39,27 +39,35 @@
 #### 1.3. Configure Sytem
 
 > **Before any operations:**<br>
-
 > Expand Filesystem
 
 ```bash
 cd ~
 sudo raspi-config
-Select Expand Filesystem
+» Select Expand Filesystem
 sudo reboot
 ```
+
+###### 1.3.1. Install Packages
 
 > Update System
 
 ```bash
 cd ~
-sudo apt-get update
-sudo apt-get upgrade
+sudo apt-get update -y
+sudo apt-get upgrade -y
 sudo reboot
 ```
 
+> Install additionnals packages
 
-###### 1.3.1. Configure Languages & Keyboard
+```bash
+cd ~
+sudo apt-get install -y git dialog cmake
+sudo reboot
+```
+
+###### 1.3.2. Configure Languages & Keyboard
 
 > **Quick setup for keyboard**
 
@@ -71,42 +79,32 @@ XKBLAYOUT="fr"
 XKBVARIANT=""
 XKBOPTIONS=""
 BACKSPACE="guess"
+```
+
+> Setup Timezone and Language<br>
+> Full instructions with raspi-config [here](./tips/locales.md)
+
+```bash
 sudo reboot
 ```
 
-> Full instructions with raspi-config [here](./tips/locales.md)
-
-###### 1.3.2. Install Autologin
+###### 1.3.3. Install Autologin
 
 > See instructions [here](./tips/autologin.md#rasbian-jessie) for Raspbian Jessie
 
-###### 1.3.3. Install Bash Aliases
+###### 1.3.4. Install Bash Aliases
 
 > See instructions [here](./tips/aliases.md)
 
-###### 1.3.4. Install Welcome Tweaks (Optional)
+###### 1.3.5. Install Welcome Tweaks (Optional)
 
 > See instructions [here](./tips/welcome_tweaks.md)
 
-###### 1.3.5. Configure WIFI (Optional)
+###### 1.3.6. Configure WIFI (Optional)
 
 > See instructions [here](./tips/wifi.md#Setup)
 
-#### 1.4. Install packages
-
-###### 1.4.1. GIT Package
-
-```bash
-sudo apt-get install -y git dialog
-```
-
-###### 1.4.2. CMake Package
-
-```bash
-sudo apt-get install -y cmake
-```
-
-###### 1.4.3. FBCP
+#### 1.4. Install FBCP
 
 > FBCP mirroring HDMI stream to a LCD Display<br>
 > See instructions [here](./displays/FBCP.md#1-install) to install it<br>
