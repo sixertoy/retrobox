@@ -6,6 +6,7 @@
 - Plug HDMI Cable
 - Plug RJ45 Ethernet cable
 - Plug USB/Bluetooth Keyboard/Mouse or set a SSH Connection
+- Plug WIFI & Bluetooth keys (optionnal)
 
 ## 1. Setup Jessie + Retropie Image
 
