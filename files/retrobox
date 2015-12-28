@@ -8,7 +8,7 @@
 # sudo chmod 0777 /usr/bin/retrobox
 #
 #
-### BEGIN INFO INIT
+### BEGIN INIT INFO
 # Provides: Retrobox
 # Required-Start:
 # Require-Stop:
