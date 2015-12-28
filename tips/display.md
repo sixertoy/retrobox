@@ -8,25 +8,19 @@
 
 ## Console on Displays
 
-> On HDMI
+> Switch dynamically 
 
 ```bash
-con2fbmap 1 0
-```
-
-> On LCD
-
-```bash
-con2fbmap 1 1
-```
+con2fbmap 1 0 # To HDMI
+# con2fbmap 1 1 # To LCD
 
 > **Permanent Switch on Raspbian Wheezy**
 
 ```bash
 cd ~
 sudo nano /usr/share/X11/xorg.conf.d/99-fbturbo.conf
-Option "fbdev" "/dev/fb1" # for LCD
-# Option "fbdev" "/dev/fb0" # for HDMI
+Option "fbdev" "/dev/fb1" # To LCD
+# Option "fbdev" "/dev/fb0" # To HDMI
 sudo reboot
 ```
 
