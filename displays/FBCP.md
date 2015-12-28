@@ -4,7 +4,7 @@
 > This program used for copy primary framebuffer to secondary framebuffer (eg. FBTFT)<br>
 > Mirroring HDMI Output to LCD Display
 
-[FBCP](https://github.com/tasanakorn/rpi-fbcp)
+[FBCP Documentation](https://github.com/tasanakorn/rpi-fbcp)
 
 ## 1. Install
 
