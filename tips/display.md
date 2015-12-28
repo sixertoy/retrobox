@@ -31,6 +31,22 @@ sudo reboot
 
 [source](https://github.com/notro/fbtft/wiki/Boot-console)
 
+## Backlight
+
+#### Turn off backlight
+
+```bash
+echo 1 | sudo tee /sys/class/backlight/*/bl_power
+```
+
+#### Turn on backlight
+
+```bash
+echo 0 | sudo tee /sys/class/backlight/*/bl_power
+```
+
+[source](https://github.com/notro/fbtft/wiki/Backlight)
+
 ## X Window on LCD
 
 ```bash
