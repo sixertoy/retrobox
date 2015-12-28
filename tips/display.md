@@ -4,7 +4,7 @@
 > **Display Drivers must be installed first**
 > see [Tontec](./../displays/tontec35.md) or [Waveshare](./../displays/waveshare35a.md)
 
-[FBTFT Package](https://github.com/notro/fbtft/wiki)
+[FBTFT Documentation](https://github.com/notro/fbtft/wiki)
 
 ## Console on Displays
 
