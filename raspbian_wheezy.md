@@ -2,10 +2,11 @@
 
 ## Requirements
 
-- Do not plug power cable
+- **Do not plug** power cable
 - Plug HDMI Cable
 - Plug RJ45 Ethernet cable
-- Plug USB/Bluetooth Keyboard/Mouse
+- Plug USB/Bluetooth Keyboard/Mouse or set a SSH Connection
+- Plug WIFI & Bluetooth keys (optional)
 
 ## 1. Prepare SDCard
 
