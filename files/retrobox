@@ -20,16 +20,26 @@
 #
 case "$1" in
   start)
-    echo "Starting Retrobox"
-    con2fbmap 1 0
-    sudo service fbcp start
-    /usr/bin/emulationstation
-    # /opt/retropie/supplementary/emulationstation/emulationstation
+    if pidof fbcp
+      echo "Retrobox is already started"
+    then
+    else
+      echo "Starting Retrobox"
+      con2fbmap 1 0
+      sudo service fbcp start
+      /usr/bin/emulationstation
+      # /opt/retropie/supplementary/emulationstation/emulationstation
+    fi
     ;;
   stop)
-    echo "Stopping Retrobox"
-    sudo service fbcp stop
-    con2fbmap 1 1
+    if pidof fbcp
+    then
+      echo "Stopping Retrobox"
+      sudo service fbcp stop
+      con2fbmap 1 1
+    else
+      echo "Retrobox is already stpped"
+    fi
     ;;
   *)
     echo "Usage: retrobox {start|stop}"
