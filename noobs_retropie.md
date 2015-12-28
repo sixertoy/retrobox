@@ -91,12 +91,13 @@ sudo apt-get install -y cmake
 ###### 1.4.3. FBCP
 
 > FBCP mirroring HDMI stream to a LCD Display<br>
-> See instructions [here](https://github.com/sixertoy/retrobox/blob/master/displays/FBCP.md#1-install) to install it
+> See instructions [here](./displays/FBCP.md#1-install) to install it
 > **Do not set it as a service**
 
 #### 1.5. Install LCD Display Drivers
 
 > For Tontec 3.5, see instructions [here](./displays/tontec35.md)
+> Add [Boot Console at startup](./displays/tontec35.md#2-console-on-boot)
 
 #### 1.6. Install Retropie
 
