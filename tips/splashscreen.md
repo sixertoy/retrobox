@@ -2,9 +2,9 @@
 
 - cd ~
 - sudo apt-get install fbi
-- wget https://github.com/sixertoy/retrobox/new/master/tips/splash.png
+- wget https://raw.githubusercontent.com/sixertoy/retrobox/master/files/splash.jpg
 - mv splash.png /etc/
-- wget https://github.com/sixertoy/retrobox/new/master/tips/asplashscreen
+- wget https://raw.githubusercontent.com/sixertoy/retrobox/master/files/asplashscreen
 - mv asplashscreen /etc/init.d/
 - chmod a+x /etc/init.d/asplashscreen
 - insserv /etc/init.d/asplashscreen
