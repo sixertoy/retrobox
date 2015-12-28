@@ -1,4 +1,5 @@
-# Languages, Timezone & Keyboard
+# Locales
+##### Languages, Timezone & Keyboard
 
 > In menu **spacebar** for select/unselect<br>
 > **Enter** to validate<br>
