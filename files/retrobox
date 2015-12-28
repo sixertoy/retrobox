@@ -1,0 +1,33 @@
+#!/bin/bash
+# /usr/bin/retrobox
+#
+#
+### BEGIN INFO INIT
+# Provides: Retrobox
+# Required-Start:
+# Require-Stop:
+# Default-Start: 2 3 4 5
+# Default-Stop: 0 1 6
+# Short-Description: Retrogaming LCD
+# Description: Mirroring HDMI to LCD for Retrogaming
+### END INIT INFO
+#
+case "$1" in
+  start)
+    echo "Starting Retrobox"
+    con2fbmap 1 0
+    service fbcp start
+    es
+    ;;
+  stop)
+    echo "Stropping Retrobox"
+    service fbcp stop
+    con2fbmap 1 1
+    ;;
+  *)
+    echo "Usage: retrobox {start|stop}"
+    exit 1
+    ;;
+esac
+
+exit 0
