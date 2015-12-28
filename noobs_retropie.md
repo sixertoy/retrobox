@@ -63,9 +63,33 @@
 
 > For Tontec 3.5, see instructions [here](./displays/tontec35.md)
 
-## 10. Install Retropie
+#### 1.5. Install Retropie
 
-#### 10.4. Install Retrobox Script
+[source](https://github.com/RetroPie/RetroPie-Setup/wiki/First-Installation)
+
+###### 1.6.1. Install from Sources
+
+
+```bash
+cd ~
+
+sudo reboot
+```
+
+###### 1.6.2. Install Emulators
+
+```bash
+cd ~
+rpies
+
+sudo reboot
+```
+
+###### 1.6.3. Install Themes & Drivers
+
+#### 1.6. Install Retrobox Script
+
+##### 1.6.1. Install from sources
 
 ```bash
 cd ~
@@ -74,3 +98,11 @@ sudo mv retrobox /usr/bin
 sudo chmod 0777 /usr/bin/retrobox
 sudo reboot
 ```
+
+##### 1.6.2. Autostart at Boot
+
+## 2. NOOBS
+
+
+
+
