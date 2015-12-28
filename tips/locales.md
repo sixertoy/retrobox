@@ -58,7 +58,7 @@ sudo raspi-config
 sudo reboot
 ```
 
-#### 3.2. Quick setup for keyboard FR
+#### 3.2. or Quick setup for keyboard FR
 
 ```bash
 cd ~
