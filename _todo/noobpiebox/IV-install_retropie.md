@@ -33,14 +33,14 @@ sudo sh ./retropie_setup.sh
   - Emulationstation (306)
   - Retroarch (125)
   - mupen64plus **(N64)** (116)
-  - lr-pcsx-rearmed **(PSX)** (228)
-  - reicast **(Dreamcast)** (124)
-  - lr-SNES9x-Next **(SNES)** (234)
-  - lr-mgba **(GBA)** (223)
-  - lr-genesis-plus-gx **(Sega MS + MD)** (213)
-  - lr-nestopia **(NES)** (225)
   - ppsspp **(PSP)** (122)
-  - lf-fba-next **(Final Burn - Arcade)** (207)
+  - reicast **(Dreamcast)** (124)
+  - lr-fba-next **(Final Burn - Arcade)** (207)
+  - lr-genesis-plus-gx **(Sega MS + MD)** (213)
+  - lr-mgba **(GBA)** (223)
+  - lr-nestopia **(NES)** (225)
+  - lr-pcsx-rearmed **(PSX)** (228)
+  - lr-SNES9x-Next **(SNES)** (234)
 
 ```bash
 sudo reboot
