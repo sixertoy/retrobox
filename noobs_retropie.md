@@ -116,12 +116,6 @@ wget https://raw.githubusercontent.com/sixertoy/retrobox/master/files/.bash_alia
 
 #### 1.5. Install LCD Display Drivers
 
-```bash
-sudo nano /boot/cmdline.txt
-# add at the end of the line
-quiet logo.nologo fbcon=map:10 fbcon=font:ProFont6x11
-```
-
 > Install drivers for Tontec 3.5, see instructions [here](./displays/tontec35.md)<br>
 
 #### 1.6. Install Retropie
@@ -174,6 +168,13 @@ cd ~
 rpies
 ```
 
+> Select **Setup/Configuration** (3)<br>
+> Select **Install themes for emulationstation** (307)<br>
+> Select **clean-look** (12)<br>
+> From **Setup/Configuration** menu<br>
+> Select **Configure Samba ROM Share** (318)<br>
+> Select **Install Retropie Samba Shares**
+
 ```bash
 sudo reboot
 ```
@@ -207,12 +208,17 @@ sudo reboot
 ```bash
 cd ~
 sudo nano /boot/config.txt
-sudo reboot
+```
+
+###### 1.8.2.
+
+```bash
+sudo nano /boot/cmdline.txt
+# add at the end of the line
+quiet logo.nologo fbcon=map:10 fbcon=font:ProFont6x11
 ```
 
 ```bash
-cd ~
-sudo nano /boot/config.txt
 sudo reboot
 ```
 
