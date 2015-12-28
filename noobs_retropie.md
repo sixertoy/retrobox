@@ -64,7 +64,7 @@ sudo reboot
 
 > See instructions [here](./tips/aliases.md)
 
-###### 1.3.4. Install Welcome Tweaks
+###### 1.3.4. Install Welcome Tweaks (Optional)
 
 > See instructions [here](./tips/welcome_tweaks.md)
 
