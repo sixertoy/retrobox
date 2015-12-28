@@ -10,7 +10,7 @@
 
 ```bash
 cd ~
-sudo apt-get install -y cmake
+# need sudo apt-get install -y cmake
 git clone https://github.com/tasanakorn/rpi-fbcp
 mkdir -p rpi-fbcp/build
 cd rpi-fbcp/build
