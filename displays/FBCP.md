@@ -23,9 +23,9 @@ sudo chmod +x /etc/init.d/fbcp
 
 [source](https://github.com/notro/fbtft/wiki/FBTFT-on-Raspian#framebuffer-copy)
 
-## Start/Stop FBCP
+## 2. Start/Stop FBCP
 
-#### Start
+#### 2.1. Start
 
 ```bash
 # Switch the console to fb0 (HDMI)
@@ -33,7 +33,7 @@ con2fbmap 1 0
 sudo service fbcp start
 ```
 
-#### Stop
+#### 2.2. Stop
 
 ```bash
 # Switch back the console to fb1 (LCD)
@@ -41,9 +41,21 @@ sudo service fbcp stop
 con2fbmap 1 1
 ```
 
-## Start Service at Startup
+#### 2.3. Test Video
 
-#### Install
+```bash
+con2fbmap 1 0
+sudo service fbcp start
+wget http://download.blender.org/peach/bigbuckbunny_movies/big_buck_bunny_480p_surround-fix.avi
+omxplayer big_buck_bunny_480p_surround-fix.avi
+# Press CTRL+C to stop video/omxplayer
+sudo service fbcp stop
+con2fbmap 1 1
+```
+
+## 3. Start Service at Startup
+
+#### 3.1. Install Service
 
 ```bash
 cd ~
@@ -54,7 +66,7 @@ sudo update-rc.d fbcp defaults
 sudo reboot
 ```
 
-#### Remove
+#### 3.2. Remove Service
 
 ```bash
 cd ~
@@ -63,16 +75,4 @@ sudo nano /boot/cmdline.txt
 # add fbcon=map:10 at the end of the line
 # exit nano
 sudo reboot
-```
-
-## 0. Test Video
-
-```bash
-con2fbmap 1 0
-sudo service fbcp start
-wget http://download.blender.org/peach/bigbuckbunny_movies/big_buck_bunny_480p_surround-fix.avi
-omxplayer big_buck_bunny_480p_surround-fix.avi
-# Press CTRL+C to stop video/omxplayer
-sudo service fbcp stop
-con2fbmap 1 1
 ```
