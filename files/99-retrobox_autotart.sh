@@ -3,7 +3,7 @@
 ### Install
 # cd ~
 # wget https://raw.githubusercontent.com/sixertoy/retrobox/master/files/99-retrobox_autotart.sh
-# mv 99-retrobox_autotart.sh /etc/profile.d/
+# sudo mv 99-retrobox_autotart.sh /etc/profile.d/
 # 
 #
 # Autostart only if we are not in a SSH Connection
