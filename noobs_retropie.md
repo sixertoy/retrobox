@@ -101,8 +101,8 @@ cd ~
 rpies
 ```
 
-Select **Install individual emulators** from binary or source (4)
-Select:
+> Select **Install individual emulators** from binary or source (4)<br>
+> Select:
   - **Emulationstation** (306)
   - **Retroarch** (125)
   - mupen64plus **(N64)** (116)
