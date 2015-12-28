@@ -73,6 +73,20 @@ sudo reboot
 
 > See instructions [here](./tips/wifi.md#Setup)
 
+#### 1.4. Install packages
+
+###### 1.4.1. GIT Package
+
+```bash
+sudo apt-get -y git dialog
+```
+
+###### 1.4.2. CMaker Package
+
+```bash
+sudo apt-get -y cmake
+```
+
 #### 1.4. Install LCD Display Drivers
 
 > For Tontec 3.5, see instructions [here](./displays/tontec35.md)
