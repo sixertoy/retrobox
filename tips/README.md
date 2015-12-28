@@ -50,7 +50,7 @@ sudo rqspi°config
 
 > Change font size on HDMI/LCD Display
 
-## [Languages, Timezone & Keyboard](./languages.md)
+## [Languages, Timezone & Keyboard](./locales.md)
 
 > Set internationalisation for the system
 
