@@ -2,15 +2,16 @@
 
 > Command lines under an UNI environnement<br>
 
-- [Change Directory to home folder](https://github.com/sixertoy/retrobox/blob/master/tips/cmd.md#change-directory-to-your-home-folder)
-- [Reboot a device](https://github.com/sixertoy/retrobox/blob/master/tips/cmd.md#reboot-a-device)
-- [Nano file editor](https://github.com/sixertoy/retrobox/blob/master/tips/cmd.md#edit-a-file-via-nano-editor)
-- [List a directory](https://github.com/sixertoy/retrobox/blob/master/tips/cmd.md#list-a-directory)
-- [Show Raspbian Version](https://github.com/sixertoy/retrobox/blob/master/tips/cmd.md#show-raspbian-version)
-- [Show Disk space](https://github.com/sixertoy/retrobox/blob/master/tips/cmd.md#show-disk-space)
-- [Show USB Devices](https://github.com/sixertoy/retrobox/blob/master/tips/cmd.md#show-usb-devices)
-- [Show modules installed](https://github.com/sixertoy/retrobox/blob/master/tips/cmd.md#show-installed-modules)
-- [Show logs for boot](https://github.com/sixertoy/retrobox/blob/master/tips/cmd.md#show-logs-for-boot)
+- [Change Directory to home folder](./cmd.md#change-directory-to-your-home-folder)
+- [Reboot a device](./cmd.md#reboot-a-device)
+- [Nano file editor](./cmd.md#edit-a-file-via-nano-editor)
+- [List a directory](./cmd.md#list-a-directory)
+- [List running process](./cmd.md#list-running-process)
+- [Show Raspbian Version](./cmd.md#show-raspbian-version)
+- [Show Disk space](./cmd.md#show-disk-space)
+- [Show USB Devices](./cmd.md#show-usb-devices)
+- [Show modules installed](./cmd.md#show-installed-modules)
+- [Show logs for boot](./cmd.md#show-logs-for-boot)
 
 #### Change directory to your home folder
 
@@ -60,6 +61,12 @@ ls -l
 
 ```bash
 ls -lA
+```
+
+## List running process
+
+```bash
+ps -A
 ```
 
 ## Show Raspbian version
