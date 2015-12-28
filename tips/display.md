@@ -23,9 +23,10 @@ con2fbmap 1 1
 > Permanent Switch on Raspbian Wheezy
 
 ```bash
-cd
+cd ~
 sudo nano /usr/share/X11/xorg.conf.d/99-fbturbo.conf
-fbdev1
+Option "fbdev" "/dev/fb1" # for LCD
+# Option "fbdev" "/dev/fb0" # for HDMI
 sudo reboot
 ```
 
