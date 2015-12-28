@@ -1,6 +1,6 @@
 # Raspbian
 
-## 0. Requirements
+## Requirements
 
 - Do not plug power cable
 - Plug HDMI Cable
@@ -37,7 +37,20 @@
 
 > In qwerty mode, by default<br>
 > type ***rqspi°config*** instead of raspi-config<br>
-> see instruction [here](./tips/languages.md)
+> see instruction [here](./tips/locales.md)
+
+> **Quick setup for keyboard**
+
+```bash
+cd ~
+sudo nano /etc/default/keyboard
+XKBMODEL="pc105"
+XKBLAYOUT="fr"
+XKBVARIANT=""
+XKBOPTIONS=""
+BACKSPACE="guess"
+sudo reboot
+```
 
 ## 6. Enable autologin
 
