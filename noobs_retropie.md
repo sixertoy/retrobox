@@ -232,7 +232,7 @@ overscan_bottom=-30
 ```bash
 sudo nano /boot/cmdline.txt
 # add at the end of the line
-quiet logo.nologo fbcon=map:10 fbcon=font:ProFont6x11
+logo.nologo fbcon=map:10 fbcon=font:ProFont6x11
 ```
 
 ```bash
