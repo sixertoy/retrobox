@@ -255,14 +255,21 @@ sudo xz -9 -e root.tar
 
 ```bash
 cd /boot
-sudo tar -cvpf boot.tar /*
+sudo tar -cvpf boot.tar ./* --exclude=boot.tar
 sudo xz -9 -e boot.tar
 ```
 
 #### 2.2 Download archives
 
 ```bash
+sudo mv /root.tar.xz ~/
+sudo chmod 0777 ~/root.tar.xz
 scp pi@192.168.1.xx:root.tar.xz ~/Downloads
+```
+
+```bash
+sudo mv /boot/boot.tar/xz ~/
+sudo chmod 0777 ~/boot.tar.xz
 scp pi@192.168.1.xx:boot.tar.xz ~/Downloads
 ```
 
