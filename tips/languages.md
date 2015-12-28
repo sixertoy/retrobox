@@ -69,5 +69,6 @@ XKBOPTIONS=""
 BACKSPACE="guess"
 sudo reboot
 ```
-sudo nano /etc/default/keyboard
+
+[source](http://raspberrypi.stackexchange.com/questions/10060/raspbian-keyboard-layout)
 
