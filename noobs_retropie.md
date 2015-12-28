@@ -78,6 +78,8 @@ sudo reboot
 
 #### 1.5. Install Retropie
 
+> **After installing Retropie** you need to upgrade gpu_mem_1024 in /boot/config.txt
+
 [source](https://github.com/RetroPie/RetroPie-Setup/wiki/First-Installation)
 
 ###### 1.6.1. Install from Sources
