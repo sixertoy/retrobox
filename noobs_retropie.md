@@ -101,7 +101,7 @@ cd ~
 rpies
 ```
 
-> Select **Install individual emulators** from binary or source (4)<br>
+> Select **Install individual emulators** (4)<br>
 > Select:
   - **Emulationstation** (306)
   - **Retroarch** (125)
