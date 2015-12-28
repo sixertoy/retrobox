@@ -94,7 +94,10 @@ sudo reboot
 
 ###### 1.3.4. Install Bash Aliases
 
-> See instructions [here](./tips/aliases.md)
+```bash
+cd ~
+wget https://raw.githubusercontent.com/sixertoy/retrobox/master/files/.bash_aliases
+```
 
 ###### 1.3.5. Install Welcome Tweaks (Optional)
 
