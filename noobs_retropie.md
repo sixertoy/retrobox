@@ -119,11 +119,16 @@ rpies
 sudo reboot
 ````
 
+###### 1.6.3. Install Themes & Drivers
+
+```bash
+cd ~
+rpies
+```
+
 ```bash
 sudo reboot
 ```
-
-###### 1.6.3. Install Themes & Drivers
 
 #### 1.6. Install Retrobox Script
 
