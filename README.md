@@ -33,16 +33,9 @@
 - Native OS Terminal for SSH Client
 - Native text editor/[Sublime Text](http://www.sublimetext.com) for editing text files under Windows with Unix line ending
 
-##### Retrobox
+##### Raspberry
 
 - [Noobs/Noos Lite](https://www.raspberrypi.org/downloads/noobs/)
 - [Raspbian Wheezy/Jessie](https://www.raspberrypi.org/downloads/raspbian/)
 - [Retropie Setup](https://github.com/RetroPie/RetroPie-Setup/wiki/First-Installation) or [Retropie Disk Image](http://blog.petrockblock.com/retropie/retropie-downloads/)
 - You can also install [Recalbox](http://www.recalbox.com)
-
-
-## This project Contains:
-
-- [some UNIX/RPi Tips](https://github.com/sixertoy/retrobox/tree/master/tips)
-- [An install of Raspbian + X Window](https://github.com/sixertoy/retrobox/tree/master/softwares/raspbian.md)
-- [An custom install of Retropie/Jessie/Noobs](https://github.com/sixertoy/retrobox/tree/master/noobs)
