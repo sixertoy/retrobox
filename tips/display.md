@@ -20,6 +20,15 @@ con2fbmap 1 0
 con2fbmap 1 1
 ```
 
+> Permanent Switch on Raspbian Wheezy
+
+```bash
+cd
+sudo nano /usr/share/X11/xorg.conf.d/99-fbturbo.conf
+fbdev1
+sudo reboot
+```
+
 ## Enable Console on LCD at startup
 
 ```bash
