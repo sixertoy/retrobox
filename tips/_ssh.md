@@ -25,5 +25,5 @@ ssh user@ip.add.re.ss
 ssh pi@192.168.1.22
 ```
 
-> Raspbian as an user & a password setted by default to:
+> **Raspbian as an user & a password setted by default to**
   - pi/raspberry
