@@ -31,7 +31,7 @@
 ## 4. Udpate Sytem
 
 > **Before any operations:**<br>
-- Expand file system - see instruction [here](./tips/update_system.md)
+- Expand filesystem & Update system - see instruction [here](./tips/update_system.md)
 
 ## 5. Configure Languages & Keyboard
 
