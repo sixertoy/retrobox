@@ -78,13 +78,13 @@ sudo reboot
 ###### 1.4.1. GIT Package
 
 ```bash
-sudo apt-get -y git dialog
+sudo apt-get install -y git dialog
 ```
 
-###### 1.4.2. CMaker Package
+###### 1.4.2. CMake Package
 
 ```bash
-sudo apt-get -y cmake
+sudo apt-get install -y cmake
 ```
 
 #### 1.4. Install LCD Display Drivers
