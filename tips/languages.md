@@ -38,6 +38,8 @@ sudo reboot
 
 ## 3. Keyboard
 
+#### 3.1. With Raspi Config
+
 ```bash
 sudo raspi-config
 ```
@@ -46,7 +48,7 @@ sudo raspi-config
 - » » » Select **Generic 105 Key**
 - » » » » Select **Other**
 - » » » » Select **French**
-- » » » » » Select **French** once more
+- » » » » » Select **French** again
 - » » » » » » Select **The default for keyboard layout**
 - » » » » » » » Select **No Compose Key**
 - » » » » » » » » Select **No** for X Server
@@ -54,3 +56,18 @@ sudo raspi-config
 ```bash
 sudo reboot
 ```
+
+#### 3.2. Via Config Files
+
+```bash
+cd ~
+sudo nano /etc/default/keyboard
+XKBMODEL="pc105"
+XKBLAYOUT="fr"
+XKBVARIANT=""
+XKBOPTIONS=""
+BACKSPACE="guess"
+sudo reboot
+```
+sudo nano /etc/default/keyboard
+
