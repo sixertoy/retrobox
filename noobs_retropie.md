@@ -87,6 +87,8 @@ sudo apt-get install -y git dialog
 sudo apt-get install -y cmake
 ```
 
+###### 1.4.3. FBCP
+
 #### 1.4. Install LCD Display Drivers
 
 > For Tontec 3.5, see instructions [here](./displays/tontec35.md)
