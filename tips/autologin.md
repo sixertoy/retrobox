@@ -24,6 +24,14 @@ sudo reboot
 
 ## Rasbian Jessie
 
+```bash
+cd ~
+wget https://raw.githubusercontent.com/sixertoy/retrobox/master/files/autologin.conf
+sudo mv autologin.conf /etc/systemd/system/getty@tty1.service.d/
+sudo systemctl enable getty@tty1.service
+sudo reboot
+```
+
 > For an autologin under **Raspbian Jessie Version** see file [autologin.conf](./../files/autologin.conf) in files section
 
 [source](http://notes.ponderworthy.com/autologin-to-text-in-debian-jessie)
