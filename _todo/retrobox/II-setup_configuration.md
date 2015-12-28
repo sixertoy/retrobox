@@ -1,5 +1,25 @@
 # II. Setup & Configuration
 
+# IV. Setup Retropie
+
+## 4. Configure PS3 Controller
+
+> Requires a Bluetooth Key<br>
+> Connect PS3 Controller to RPi USB
+
+```bash
+cd
+rpies (launch retropie setup)
+Select setup/configuration
+Select Install/Pair PS3 Controller
+```
+
+> Once installed<br>
+> Disconnect PS3 Controller form USB<br>
+> Press Playstation Key on PS3 Controller<br>
+> Your PS3 Controller is now connected
+
+
 [Raspberry Config file official description](https://www.raspberrypi.org/documentation/configuration/config-txt.md)
 
 ## 1. Update Raspberry OS
