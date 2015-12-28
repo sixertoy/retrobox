@@ -69,6 +69,8 @@ ls -lA
 ps -A
 ```
 
+[source](http://www.cyberciti.biz/faq/show-all-running-processes-in-linux/)
+
 ## Show Raspbian version
 
 > Install package
