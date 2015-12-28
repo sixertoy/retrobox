@@ -56,27 +56,19 @@ rpies
 
 > **From rpies main menu**
 
-> Select
-  - Setup/Configuration ()
-
-> Select
-  - ()
-  
-> Select
-  - clean-look ()
+> Select Setup/Configuration (3)
+> Select Install themes for Emulatiostation (307)
+> Select Install Clean-look (12)
+> Back to Main Menu
 
 #### 1.3.2. Samba shares
 
 > **From rpies main menu**
 
-> Select
-  -
-  
-> Select
-  -
-  
-> Select
-  -
+> Select Setup/Configuration (3)
+> Select Configure Samba Rom Shares (318)
+> Select Install Retropie Samba Shares (1)
+> Back to Main Menu
 
 ```bash
 sudo reboot
