@@ -16,7 +16,7 @@
 cd ~
 sudo nano /boot/config.txt
 dtparam=spi=on
-dtoverlay=mz61582-overlay.dtb
+dtoverlay=mz61581-overlay.dtb
 sudo reboot
 ```
 
