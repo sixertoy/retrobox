@@ -178,8 +178,6 @@ rpies
 sudo reboot
 ```
 
-> Fix /boot/config.txt gpu_mem_1024
-
 #### 1.7. Install Retrobox Script
 
 ##### 1.7.1. Install from sources
@@ -202,7 +200,21 @@ sudo chmod 0777 /usr/bin/retrobox
 sudo reboot
 ```
 
-##### 1.6.2. Autostart at Boot
+#### 1.8 Configure Boot
+
+###### 1.8.1. /boot/config.txt
+
+```bash
+cd ~
+sudo nano /boot/config.txt
+sudo reboot
+```
+
+```bash
+cd ~
+sudo nano /boot/config.txt
+sudo reboot
+```
 
 ## 2. NOOBS
 
