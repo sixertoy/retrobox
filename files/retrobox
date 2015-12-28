@@ -21,8 +21,8 @@
 case "$1" in
   start)
     if pidof fbcp
-      echo "Retrobox is already started"
     then
+      echo "Retrobox is already started"
     else
       echo "Starting Retrobox"
       con2fbmap 1 0
