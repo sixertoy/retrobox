@@ -245,33 +245,39 @@ sudo reboot
 
 ###### 2.1.1 Backup root
 
+> From the device
+
 ```bash
 cd /
-sudo tar -cvpf root.tar /* --exclude=proc/* --exclude=sys/* --exclude = dev/pts/*
+sudo tar -cvpf root.tar /* --exclude=proc/* --exclude=sys/* --exclude=dev/pts/* --exclude=.git/* --exclude=boot/boot.tar --exclude=boot/boot.tar.xz
 sudo xz -9 -e root.tar
+sudo mv /root.tar.xz ~/
+sudo chmod 0777 ~/root.tar.xz
+exit
+```
+
+> From a computer
+
+```bash
+scp pi@192.168.1.xx:root.tar.xz ~/Downloads
 ```
 
 ###### 2.1.2 Backup boot elements
 
+> From the device
+
 ```bash
 cd /boot
-sudo tar -cvpf boot.tar ./* --exclude=boot.tar
+sudo tar -cvpf boot.tar ./* --exclude=boot.tar --exclude=.git/*
 sudo xz -9 -e boot.tar
-```
-
-#### 2.2 Download archives
-
-```bash
-sudo mv /root.tar.xz ~/
-sudo chmod 0777 ~/root.tar.xz
-scp pi@192.168.1.xx:root.tar.xz ~/Downloads
-```
-
-```bash
 sudo mv /boot/boot.tar/xz ~/
 sudo chmod 0777 ~/boot.tar.xz
-scp pi@192.168.1.xx:boot.tar.xz ~/Downloads
+exit
 ```
 
+> From a computer
 
+```bash
+scp pi@192.168.1.xx:boot.tar.xz ~/Downloads
+```
 
