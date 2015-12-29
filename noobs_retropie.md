@@ -245,33 +245,43 @@ sudo reboot
 
 ###### 2.1.1 Backup root
 
-> From the device
+> From the RPi
 
 ```bash
 cd /
 sudo tar -cvpf root.tar /* --exclude=proc/* --exclude=sys/* --exclude=dev/pts/* --exclude=.git/* --exclude=boot/boot.tar --exclude=boot/boot.tar.xz
-sudo xz -9 -e root.tar
-sudo mv /root.tar.xz ~/
-sudo chmod 0777 ~/root.tar.xz
+# we need to download archive
+# raspberry is too week to pack archive
+sudo chmod 0777 root.tar
+sudo mv root.tar ~/
 exit
 ```
 
 > From a computer
 
 ```bash
-scp pi@192.168.1.xx:root.tar.xz ~/Downloads
+scp pi@192.168.1.xx:root.tar ~/Downloads
+sudo xz -9 -e root.tar
+```
+
+> From RPi
+
+```bash
+cd ~
+sudo rm root.tar
 ```
 
 ###### 2.1.2 Backup boot elements
 
-> From the device
+> From the RPi
 
 ```bash
 cd /boot
 sudo tar -cvpf boot.tar ./* --exclude=boot.tar --exclude=.git/*
 sudo xz -9 -e boot.tar
-sudo mv /boot/boot.tar/xz ~/
-sudo chmod 0777 ~/boot.tar.xz
+sudo rm root.tar
+sudo mv boot.tar/xz ~/
+sudo chmod 0777 boot.tar.xz
 exit
 ```
 
