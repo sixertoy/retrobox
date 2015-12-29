@@ -180,6 +180,15 @@ rpies
 sudo reboot
 ```
 
+###### 1.6.4 Change theme font size
+
+```bash
+cd ~
+sudo nano /etc/emulationstation/themes/clean-look/simple.xml
+<textlist name="gamelist">
+  <fontSize>0.05</fontSize>
+```
+
 #### 1.7 Install Retrobox Script
 
 ##### 1.7.1 Install retrobox script
