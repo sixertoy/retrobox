@@ -32,6 +32,7 @@
 - [ApplePI Baker](http://www.tweaking4all.com/hardware/raspberry-pi/macosx-apple-pi-baker/) for installing img on SDCard
 - Native OS Terminal for SSH Client
 - Native text editor/[Sublime Text](http://www.sublimetext.com) for editing text files under Windows with Unix line ending
+- [Mac PKG for XZ Archive](http://sourceforge.net/projects/macpkg/)
 
 ##### Raspberry
 
