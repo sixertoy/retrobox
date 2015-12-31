@@ -300,3 +300,9 @@ exit
 scp pi@192.168.1.xx:boot.tar.xz ~/Downloads
 ```
 
+## Config.txt
+
+```bash
+
+```
+
