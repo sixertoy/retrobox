@@ -1,6 +1,6 @@
 # Recalbox
 
-## Bypass Read-Only file system
+## Bypass Read-Only file system sous Recalbox 4.0.x-beta*
 
 ```bash
 cd /
