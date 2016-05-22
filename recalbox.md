@@ -3,6 +3,15 @@
 - [Memento VI linux](http://free-electrons.com/doc/vi_memento_fr.pdf)
 - [Putty Windows](http://www.putty.org)
 
+## Se connecter en SSH à la Recalbox
+
+**En ligne de commande**
+```bash
+# IP de la recalbox
+# MDP: recalboxroot
+ssh root@192.168.1.xx
+```
+
 ## Bypass Read-Only file system sous Recalbox 4.0.x-beta*
 
 ```bash
