@@ -1,7 +1,7 @@
 # Recalbox
 
 - [Memento VI linux](http://free-electrons.com/doc/vi_memento_fr.pdf)
-- [Putty Windows](
+- [Putty Windows](http://www.putty.org)
 
 ## Bypass Read-Only file system sous Recalbox 4.0.x-beta*
 
